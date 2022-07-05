@@ -1,0 +1,532 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <System name="">
+    <Parameters>
+      <Parameter id="0" name="BPlus_Tree" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="1" name="LFU" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="2" name="famedbms" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="3" name="Put" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="4" name="Memory_Allocation" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="5" name="Static" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="6" name="OS" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="7" name="LRU" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="8" name="Unindexed" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="9" name="Debug_Logging" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="10" name="Storage" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="11" name="Page_Replication" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="12" name="In_Memory" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="13" name="API" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="14" name="Win" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="15" name="Nut_OS" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="16" name="Dynamic" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="17" name="Buffer_Manager" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="18" name="Delete" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="19" name="Get" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="20" name="Persistent" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+    </Parameters>
+    <OutputParameters />
+    <Relations>
+      <Relation Strength="3" Default="false">
+        <Parameter name="BPlus_Tree">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="LFU">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="famedbms">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="Put">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="Memory_Allocation">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="Static">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="OS">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="LRU">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="Unindexed">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="Debug_Logging">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="Storage">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="Page_Replication">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="In_Memory">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="API">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="Win">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="Nut_OS">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="Dynamic">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="Buffer_Manager">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="Delete">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="Get">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="Persistent">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+      </Relation>
+    </Relations>
+    <Constraints>
+      <Constraint text="famedbms">
+        <Parameters>
+          <Parameter name="famedbms" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!OS || famedbms">
+        <Parameters>
+          <Parameter name="OS" />
+          <Parameter name="famedbms" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!famedbms || OS">
+        <Parameters>
+          <Parameter name="famedbms" />
+          <Parameter name="OS" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!Buffer_Manager || famedbms">
+        <Parameters>
+          <Parameter name="Buffer_Manager" />
+          <Parameter name="famedbms" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!famedbms || Buffer_Manager">
+        <Parameters>
+          <Parameter name="famedbms" />
+          <Parameter name="Buffer_Manager" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!Debug_Logging || famedbms">
+        <Parameters>
+          <Parameter name="Debug_Logging" />
+          <Parameter name="famedbms" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!Storage || famedbms">
+        <Parameters>
+          <Parameter name="Storage" />
+          <Parameter name="famedbms" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!famedbms || Storage">
+        <Parameters>
+          <Parameter name="famedbms" />
+          <Parameter name="Storage" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!Nut_OS || OS">
+        <Parameters>
+          <Parameter name="Nut_OS" />
+          <Parameter name="OS" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!Win || OS">
+        <Parameters>
+          <Parameter name="Win" />
+          <Parameter name="OS" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!OS || Nut_OS || Win">
+        <Parameters>
+          <Parameter name="OS" />
+          <Parameter name="Nut_OS" />
+          <Parameter name="Win" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!Nut_OS || !Win">
+        <Parameters>
+          <Parameter name="Nut_OS" />
+          <Parameter name="Win" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!Persistent || Buffer_Manager">
+        <Parameters>
+          <Parameter name="Persistent" />
+          <Parameter name="Buffer_Manager" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!In_Memory || Buffer_Manager">
+        <Parameters>
+          <Parameter name="In_Memory" />
+          <Parameter name="Buffer_Manager" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!Buffer_Manager || Persistent || In_Memory">
+        <Parameters>
+          <Parameter name="Buffer_Manager" />
+          <Parameter name="Persistent" />
+          <Parameter name="In_Memory" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!Persistent || !In_Memory">
+        <Parameters>
+          <Parameter name="Persistent" />
+          <Parameter name="In_Memory" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!API || Storage">
+        <Parameters>
+          <Parameter name="API" />
+          <Parameter name="Storage" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!Storage || API">
+        <Parameters>
+          <Parameter name="Storage" />
+          <Parameter name="API" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!BPlus_Tree || Storage">
+        <Parameters>
+          <Parameter name="BPlus_Tree" />
+          <Parameter name="Storage" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!Unindexed || Storage">
+        <Parameters>
+          <Parameter name="Unindexed" />
+          <Parameter name="Storage" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!Storage || BPlus_Tree || Unindexed">
+        <Parameters>
+          <Parameter name="Storage" />
+          <Parameter name="BPlus_Tree" />
+          <Parameter name="Unindexed" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!BPlus_Tree || !Unindexed">
+        <Parameters>
+          <Parameter name="BPlus_Tree" />
+          <Parameter name="Unindexed" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!Memory_Allocation || Persistent">
+        <Parameters>
+          <Parameter name="Memory_Allocation" />
+          <Parameter name="Persistent" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!Persistent || Memory_Allocation">
+        <Parameters>
+          <Parameter name="Persistent" />
+          <Parameter name="Memory_Allocation" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!Page_Replication || Persistent">
+        <Parameters>
+          <Parameter name="Page_Replication" />
+          <Parameter name="Persistent" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!Persistent || Page_Replication">
+        <Parameters>
+          <Parameter name="Persistent" />
+          <Parameter name="Page_Replication" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!Get || API">
+        <Parameters>
+          <Parameter name="Get" />
+          <Parameter name="API" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!Put || API">
+        <Parameters>
+          <Parameter name="Put" />
+          <Parameter name="API" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!Delete || API">
+        <Parameters>
+          <Parameter name="Delete" />
+          <Parameter name="API" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!Static || Memory_Allocation">
+        <Parameters>
+          <Parameter name="Static" />
+          <Parameter name="Memory_Allocation" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!Dynamic || Memory_Allocation">
+        <Parameters>
+          <Parameter name="Dynamic" />
+          <Parameter name="Memory_Allocation" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!Memory_Allocation || Static || Dynamic">
+        <Parameters>
+          <Parameter name="Memory_Allocation" />
+          <Parameter name="Static" />
+          <Parameter name="Dynamic" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!Static || !Dynamic">
+        <Parameters>
+          <Parameter name="Static" />
+          <Parameter name="Dynamic" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!LRU || Page_Replication">
+        <Parameters>
+          <Parameter name="LRU" />
+          <Parameter name="Page_Replication" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!LFU || Page_Replication">
+        <Parameters>
+          <Parameter name="LFU" />
+          <Parameter name="Page_Replication" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!Page_Replication || LRU || LFU">
+        <Parameters>
+          <Parameter name="Page_Replication" />
+          <Parameter name="LRU" />
+          <Parameter name="LFU" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!LRU || !LFU">
+        <Parameters>
+          <Parameter name="LRU" />
+          <Parameter name="LFU" />
+        </Parameters>
+      </Constraint>
+    </Constraints>
+  </System>

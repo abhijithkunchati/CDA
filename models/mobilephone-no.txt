@@ -1,0 +1,14 @@
+# Taken from IEEE TSE 34(5)
+# uage: java -jar program.jar -i thisfile -lang en
+
+# parameters and values
+Display (16MC 8MC BW)
+Viewer (Graphical Text None)
+Camera (2MP 1MP None)
+VideoCamera (Yes No)
+VideoRingtone  (Yes No)
+
+# constraints
+#1
+(if (== [Viewer] Graphical) (== [Viewer] Graphical))
+

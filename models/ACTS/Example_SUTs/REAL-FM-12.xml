@@ -1,0 +1,717 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<System name="">
+  <Parameters>
+    <Parameter id="0" name="_id_0" type="2">
+      <values>
+        <value>true</value>
+        <value>false</value>
+      </values>
+      <basechoices>
+        <basechoice>true</basechoice>
+        <basechoice>false</basechoice>
+      </basechoices>
+    </Parameter>
+    <Parameter id="1" name="svg" type="2">
+      <values>
+        <value>true</value>
+        <value>false</value>
+      </values>
+      <basechoices>
+        <basechoice>true</basechoice>
+        <basechoice>false</basechoice>
+      </basechoices>
+    </Parameter>
+    <Parameter id="2" name="_id_2" type="2">
+      <values>
+        <value>true</value>
+        <value>false</value>
+      </values>
+      <basechoices>
+        <basechoice>true</basechoice>
+        <basechoice>false</basechoice>
+      </basechoices>
+    </Parameter>
+    <Parameter id="3" name="_id_1" type="2">
+      <values>
+        <value>true</value>
+        <value>false</value>
+      </values>
+      <basechoices>
+        <basechoice>true</basechoice>
+        <basechoice>false</basechoice>
+      </basechoices>
+    </Parameter>
+    <Parameter id="4" name="_id_11" type="2">
+      <values>
+        <value>true</value>
+        <value>false</value>
+      </values>
+      <basechoices>
+        <basechoice>true</basechoice>
+        <basechoice>false</basechoice>
+      </basechoices>
+    </Parameter>
+    <Parameter id="5" name="_id_3" type="2">
+      <values>
+        <value>true</value>
+        <value>false</value>
+      </values>
+      <basechoices>
+        <basechoice>true</basechoice>
+        <basechoice>false</basechoice>
+      </basechoices>
+    </Parameter>
+    <Parameter id="6" name="_id_10" type="2">
+      <values>
+        <value>true</value>
+        <value>false</value>
+      </values>
+      <basechoices>
+        <basechoice>true</basechoice>
+        <basechoice>false</basechoice>
+      </basechoices>
+    </Parameter>
+    <Parameter id="7" name="page_translation" type="2">
+      <values>
+        <value>true</value>
+        <value>false</value>
+      </values>
+      <basechoices>
+        <basechoice>true</basechoice>
+        <basechoice>false</basechoice>
+      </basechoices>
+    </Parameter>
+    <Parameter id="8" name="_id_5" type="2">
+      <values>
+        <value>true</value>
+        <value>false</value>
+      </values>
+      <basechoices>
+        <basechoice>true</basechoice>
+        <basechoice>false</basechoice>
+      </basechoices>
+    </Parameter>
+    <Parameter id="9" name="_id_6" type="2">
+      <values>
+        <value>true</value>
+        <value>false</value>
+      </values>
+      <basechoices>
+        <basechoice>true</basechoice>
+        <basechoice>false</basechoice>
+      </basechoices>
+    </Parameter>
+    <Parameter id="10" name="_id_7" type="2">
+      <values>
+        <value>true</value>
+        <value>false</value>
+      </values>
+      <basechoices>
+        <basechoice>true</basechoice>
+        <basechoice>false</basechoice>
+      </basechoices>
+    </Parameter>
+    <Parameter id="11" name="search_by_language" type="2">
+      <values>
+        <value>true</value>
+        <value>false</value>
+      </values>
+      <basechoices>
+        <basechoice>true</basechoice>
+        <basechoice>false</basechoice>
+      </basechoices>
+    </Parameter>
+    <Parameter id="12" name="page_preview" type="2">
+      <values>
+        <value>true</value>
+        <value>false</value>
+      </values>
+      <basechoices>
+        <basechoice>true</basechoice>
+        <basechoice>false</basechoice>
+      </basechoices>
+    </Parameter>
+    <Parameter id="13" name="_id_9" type="2">
+      <values>
+        <value>true</value>
+        <value>false</value>
+      </values>
+      <basechoices>
+        <basechoice>true</basechoice>
+        <basechoice>false</basechoice>
+      </basechoices>
+    </Parameter>
+  </Parameters>
+  <OutputParameters />
+  <Relations>
+    <Relation Strength="3" Default="false">
+      <Parameter name="_id_0">
+        <value>true</value>
+        <value>false</value>
+      </Parameter>
+      <Parameter name="svg">
+        <value>true</value>
+        <value>false</value>
+      </Parameter>
+      <Parameter name="_id_2">
+        <value>true</value>
+        <value>false</value>
+      </Parameter>
+      <Parameter name="_id_1">
+        <value>true</value>
+        <value>false</value>
+      </Parameter>
+      <Parameter name="_id_11">
+        <value>true</value>
+        <value>false</value>
+      </Parameter>
+      <Parameter name="_id_3">
+        <value>true</value>
+        <value>false</value>
+      </Parameter>
+      <Parameter name="_id_10">
+        <value>true</value>
+        <value>false</value>
+      </Parameter>
+      <Parameter name="page_translation">
+        <value>true</value>
+        <value>false</value>
+      </Parameter>
+      <Parameter name="_id_5">
+        <value>true</value>
+        <value>false</value>
+      </Parameter>
+      <Parameter name="_id_6">
+        <value>true</value>
+        <value>false</value>
+      </Parameter>
+      <Parameter name="_id_7">
+        <value>true</value>
+        <value>false</value>
+      </Parameter>
+      <Parameter name="search_by_language">
+        <value>true</value>
+        <value>false</value>
+      </Parameter>
+      <Parameter name="page_preview">
+        <value>true</value>
+        <value>false</value>
+      </Parameter>
+      <Parameter name="_id_9">
+        <value>true</value>
+        <value>false</value>
+      </Parameter>
+    </Relation>
+  </Relations>
+  <Constraints>
+    <Constraint text="_id_0">
+      <Parameters>
+        <Parameter name="_id_0" />
+      </Parameters>
+    </Constraint>
+    <Constraint text="!page_translation || _id_0">
+      <Parameters>
+        <Parameter name="page_translation" />
+        <Parameter name="_id_0" />
+      </Parameters>
+    </Constraint>
+    <Constraint text="!_id_1 || _id_0">
+      <Parameters>
+        <Parameter name="_id_1" />
+        <Parameter name="_id_0" />
+      </Parameters>
+    </Constraint>
+    <Constraint text="!_id_0 || _id_1">
+      <Parameters>
+        <Parameter name="_id_0" />
+        <Parameter name="_id_1" />
+      </Parameters>
+    </Constraint>
+    <Constraint text="!search_by_language || _id_0">
+      <Parameters>
+        <Parameter name="search_by_language" />
+        <Parameter name="_id_0" />
+      </Parameters>
+    </Constraint>
+    <Constraint text="!page_preview || _id_0">
+      <Parameters>
+        <Parameter name="page_preview" />
+        <Parameter name="_id_0" />
+      </Parameters>
+    </Constraint>
+    <Constraint text="!_id_2 || _id_1">
+      <Parameters>
+        <Parameter name="_id_2" />
+        <Parameter name="_id_1" />
+      </Parameters>
+    </Constraint>
+    <Constraint text="!_id_1 || _id_2">
+      <Parameters>
+        <Parameter name="_id_1" />
+        <Parameter name="_id_2" />
+      </Parameters>
+    </Constraint>
+    <Constraint text="!_id_3 || _id_1">
+      <Parameters>
+        <Parameter name="_id_3" />
+        <Parameter name="_id_1" />
+      </Parameters>
+    </Constraint>
+    <Constraint text="!_id_7 || _id_1">
+      <Parameters>
+        <Parameter name="_id_7" />
+        <Parameter name="_id_1" />
+      </Parameters>
+    </Constraint>
+    <Constraint text="!_id_9 || search_by_language">
+      <Parameters>
+        <Parameter name="_id_9" />
+        <Parameter name="search_by_language" />
+      </Parameters>
+    </Constraint>
+    <Constraint text="!_id_10 || search_by_language">
+      <Parameters>
+        <Parameter name="_id_10" />
+        <Parameter name="search_by_language" />
+      </Parameters>
+    </Constraint>
+    <Constraint text="!_id_11 || search_by_language">
+      <Parameters>
+        <Parameter name="_id_11" />
+        <Parameter name="search_by_language" />
+      </Parameters>
+    </Constraint>
+    <Constraint text="!search_by_language || _id_9 || _id_10 || _id_11">
+      <Parameters>
+        <Parameter name="search_by_language" />
+        <Parameter name="_id_9" />
+        <Parameter name="_id_10" />
+        <Parameter name="_id_11" />
+      </Parameters>
+    </Constraint>
+    <Constraint text="!_id_5 || _id_3">
+      <Parameters>
+        <Parameter name="_id_5" />
+        <Parameter name="_id_3" />
+      </Parameters>
+    </Constraint>
+    <Constraint text="!_id_6 || _id_3">
+      <Parameters>
+        <Parameter name="_id_6" />
+        <Parameter name="_id_3" />
+      </Parameters>
+    </Constraint>
+    <Constraint text="!svg || _id_3">
+      <Parameters>
+        <Parameter name="svg" />
+        <Parameter name="_id_3" />
+      </Parameters>
+    </Constraint>
+    <Constraint text="!_id_3 || _id_5 || _id_6 || svg">
+      <Parameters>
+        <Parameter name="_id_3" />
+        <Parameter name="_id_5" />
+        <Parameter name="_id_6" />
+        <Parameter name="svg" />
+      </Parameters>
+    </Constraint>
+    <Constraint text="!_id_5 || !_id_6">
+      <Parameters>
+        <Parameter name="_id_5" />
+        <Parameter name="_id_6" />
+      </Parameters>
+    </Constraint>
+    <Constraint text="!_id_5 || !svg">
+      <Parameters>
+        <Parameter name="_id_5" />
+        <Parameter name="svg" />
+      </Parameters>
+    </Constraint>
+    <Constraint text="!_id_6 || !svg">
+      <Parameters>
+        <Parameter name="_id_6" />
+        <Parameter name="svg" />
+      </Parameters>
+    </Constraint>
+    <Constraint text="!search_by_language || page_translation">
+      <Parameters>
+        <Parameter name="search_by_language" />
+        <Parameter name="page_translation" />
+      </Parameters>
+    </Constraint>
+    <Constraint text="!page_preview || !svg">
+      <Parameters>
+        <Parameter name="page_preview" />
+        <Parameter name="svg" />
+      </Parameters>
+    </Constraint>
+  </Constraints>
+  <Testset doi="3">
+    <Testcase TCNo="0">
+      <Value>1</Value>
+      <Value>true</Value>
+      <Value>true</Value>
+      <Value>true</Value>
+      <Value>false</Value>
+      <Value>false</Value>
+      <Value>false</Value>
+      <Value>false</Value>
+      <Value>true</Value>
+      <Value>false</Value>
+      <Value>true</Value>
+      <Value>false</Value>
+      <Value>true</Value>
+      <Value>false</Value>
+      <Value>false</Value>
+    </Testcase>
+    <Testcase TCNo="1">
+      <Value>2</Value>
+      <Value>true</Value>
+      <Value>true</Value>
+      <Value>false</Value>
+      <Value>false</Value>
+      <Value>false</Value>
+      <Value>true</Value>
+      <Value>false</Value>
+      <Value>false</Value>
+      <Value>false</Value>
+      <Value>false</Value>
+      <Value>true</Value>
+      <Value>false</Value>
+      <Value>true</Value>
+      <Value>true</Value>
+    </Testcase>
+    <Testcase TCNo="2">
+      <Value>3</Value>
+      <Value>true</Value>
+      <Value>false</Value>
+      <Value>true</Value>
+      <Value>true</Value>
+      <Value>false</Value>
+      <Value>true</Value>
+      <Value>true</Value>
+      <Value>true</Value>
+      <Value>true</Value>
+      <Value>false</Value>
+      <Value>true</Value>
+      <Value>true</Value>
+      <Value>false</Value>
+      <Value>false</Value>
+    </Testcase>
+    <Testcase TCNo="3">
+      <Value>4</Value>
+      <Value>true</Value>
+      <Value>false</Value>
+      <Value>false</Value>
+      <Value>false</Value>
+      <Value>true</Value>
+      <Value>false</Value>
+      <Value>true</Value>
+      <Value>true</Value>
+      <Value>false</Value>
+      <Value>true</Value>
+      <Value>true</Value>
+      <Value>false</Value>
+      <Value>false</Value>
+      <Value>false</Value>
+    </Testcase>
+    <Testcase TCNo="4">
+      <Value>5</Value>
+      <Value>false</Value>
+      <Value>true</Value>
+      <Value>true</Value>
+      <Value>true</Value>
+      <Value>true</Value>
+      <Value>true</Value>
+      <Value>false</Value>
+      <Value>true</Value>
+      <Value>true</Value>
+      <Value>true</Value>
+      <Value>true</Value>
+      <Value>false</Value>
+      <Value>true</Value>
+      <Value>false</Value>
+    </Testcase>
+    <Testcase TCNo="5">
+      <Value>6</Value>
+      <Value>false</Value>
+      <Value>true</Value>
+      <Value>false</Value>
+      <Value>true</Value>
+      <Value>false</Value>
+      <Value>true</Value>
+      <Value>true</Value>
+      <Value>true</Value>
+      <Value>false</Value>
+      <Value>true</Value>
+      <Value>false</Value>
+      <Value>false</Value>
+      <Value>false</Value>
+      <Value>true</Value>
+    </Testcase>
+    <Testcase TCNo="6">
+      <Value>7</Value>
+      <Value>false</Value>
+      <Value>false</Value>
+      <Value>true</Value>
+      <Value>false</Value>
+      <Value>true</Value>
+      <Value>true</Value>
+      <Value>true</Value>
+      <Value>false</Value>
+      <Value>false</Value>
+      <Value>false</Value>
+      <Value>false</Value>
+      <Value>true</Value>
+      <Value>true</Value>
+      <Value>false</Value>
+    </Testcase>
+    <Testcase TCNo="7">
+      <Value>8</Value>
+      <Value>false</Value>
+      <Value>false</Value>
+      <Value>false</Value>
+      <Value>true</Value>
+      <Value>false</Value>
+      <Value>false</Value>
+      <Value>false</Value>
+      <Value>false</Value>
+      <Value>true</Value>
+      <Value>false</Value>
+      <Value>false</Value>
+      <Value>true</Value>
+      <Value>true</Value>
+      <Value>false</Value>
+    </Testcase>
+    <Testcase TCNo="8">
+      <Value>9</Value>
+      <Value>true</Value>
+      <Value>true</Value>
+      <Value>false</Value>
+      <Value>true</Value>
+      <Value>true</Value>
+      <Value>false</Value>
+      <Value>true</Value>
+      <Value>false</Value>
+      <Value>true</Value>
+      <Value>true</Value>
+      <Value>true</Value>
+      <Value>true</Value>
+      <Value>true</Value>
+      <Value>false</Value>
+    </Testcase>
+    <Testcase TCNo="9">
+      <Value>10</Value>
+      <Value>false</Value>
+      <Value>true</Value>
+      <Value>false</Value>
+      <Value>false</Value>
+      <Value>true</Value>
+      <Value>false</Value>
+      <Value>false</Value>
+      <Value>true</Value>
+      <Value>true</Value>
+      <Value>false</Value>
+      <Value>true</Value>
+      <Value>true</Value>
+      <Value>false</Value>
+      <Value>true</Value>
+    </Testcase>
+    <Testcase TCNo="10">
+      <Value>11</Value>
+      <Value>true</Value>
+      <Value>false</Value>
+      <Value>true</Value>
+      <Value>true</Value>
+      <Value>true</Value>
+      <Value>false</Value>
+      <Value>false</Value>
+      <Value>false</Value>
+      <Value>false</Value>
+      <Value>false</Value>
+      <Value>false</Value>
+      <Value>false</Value>
+      <Value>false</Value>
+      <Value>true</Value>
+    </Testcase>
+    <Testcase TCNo="11">
+      <Value>12</Value>
+      <Value>false</Value>
+      <Value>false</Value>
+      <Value>true</Value>
+      <Value>false</Value>
+      <Value>false</Value>
+      <Value>false</Value>
+      <Value>true</Value>
+      <Value>false</Value>
+      <Value>true</Value>
+      <Value>true</Value>
+      <Value>true</Value>
+      <Value>false</Value>
+      <Value>false</Value>
+      <Value>true</Value>
+    </Testcase>
+    <Testcase TCNo="12">
+      <Value>13</Value>
+      <Value>true</Value>
+      <Value>false</Value>
+      <Value>false</Value>
+      <Value>false</Value>
+      <Value>true</Value>
+      <Value>true</Value>
+      <Value>false</Value>
+      <Value>true</Value>
+      <Value>true</Value>
+      <Value>true</Value>
+      <Value>false</Value>
+      <Value>false</Value>
+      <Value>true</Value>
+      <Value>true</Value>
+    </Testcase>
+    <Testcase TCNo="13">
+      <Value>14</Value>
+      <Value>false</Value>
+      <Value>true</Value>
+      <Value>true</Value>
+      <Value>false</Value>
+      <Value>false</Value>
+      <Value>false</Value>
+      <Value>true</Value>
+      <Value>false</Value>
+      <Value>true</Value>
+      <Value>false</Value>
+      <Value>false</Value>
+      <Value>false</Value>
+      <Value>true</Value>
+      <Value>false</Value>
+    </Testcase>
+    <Testcase TCNo="14">
+      <Value>15</Value>
+      <Value>false</Value>
+      <Value>false</Value>
+      <Value>true</Value>
+      <Value>true</Value>
+      <Value>false</Value>
+      <Value>false</Value>
+      <Value>false</Value>
+      <Value>true</Value>
+      <Value>false</Value>
+      <Value>true</Value>
+      <Value>true</Value>
+      <Value>true</Value>
+      <Value>true</Value>
+      <Value>true</Value>
+    </Testcase>
+    <Testcase TCNo="15">
+      <Value>16</Value>
+      <Value>true</Value>
+      <Value>true</Value>
+      <Value>false</Value>
+      <Value>true</Value>
+      <Value>true</Value>
+      <Value>true</Value>
+      <Value>false</Value>
+      <Value>false</Value>
+      <Value>true</Value>
+      <Value>true</Value>
+      <Value>false</Value>
+      <Value>true</Value>
+      <Value>false</Value>
+      <Value>true</Value>
+    </Testcase>
+    <Testcase TCNo="16">
+      <Value>17</Value>
+      <Value>*</Value>
+      <Value>true</Value>
+      <Value>false</Value>
+      <Value>true</Value>
+      <Value>true</Value>
+      <Value>*</Value>
+      <Value>true</Value>
+      <Value>true</Value>
+      <Value>false</Value>
+      <Value>false</Value>
+      <Value>true</Value>
+      <Value>true</Value>
+      <Value>true</Value>
+      <Value>true</Value>
+    </Testcase>
+    <Testcase TCNo="17">
+      <Value>18</Value>
+      <Value>false</Value>
+      <Value>*</Value>
+      <Value>false</Value>
+      <Value>false</Value>
+      <Value>*</Value>
+      <Value>true</Value>
+      <Value>*</Value>
+      <Value>false</Value>
+      <Value>false</Value>
+      <Value>true</Value>
+      <Value>true</Value>
+      <Value>true</Value>
+      <Value>false</Value>
+      <Value>false</Value>
+    </Testcase>
+    <Testcase TCNo="18">
+      <Value>19</Value>
+      <Value>true</Value>
+      <Value>true</Value>
+      <Value>true</Value>
+      <Value>*</Value>
+      <Value>*</Value>
+      <Value>true</Value>
+      <Value>true</Value>
+      <Value>true</Value>
+      <Value>*</Value>
+      <Value>false</Value>
+      <Value>false</Value>
+      <Value>false</Value>
+      <Value>true</Value>
+      <Value>true</Value>
+    </Testcase>
+    <Testcase TCNo="19">
+      <Value>20</Value>
+      <Value>*</Value>
+      <Value>*</Value>
+      <Value>*</Value>
+      <Value>true</Value>
+      <Value>*</Value>
+      <Value>*</Value>
+      <Value>*</Value>
+      <Value>*</Value>
+      <Value>false</Value>
+      <Value>*</Value>
+      <Value>*</Value>
+      <Value>*</Value>
+      <Value>*</Value>
+      <Value>false</Value>
+    </Testcase>
+  </Testset>
+  <Header>
+    <Value />
+    <Value>_ID_0</Value>
+    <Value>SVG</Value>
+    <Value>_ID_2</Value>
+    <Value>_ID_1</Value>
+    <Value>_ID_11</Value>
+    <Value>_ID_3</Value>
+    <Value>_ID_10</Value>
+    <Value>PAGE_TRANSLATION</Value>
+    <Value>_ID_5</Value>
+    <Value>_ID_6</Value>
+    <Value>_ID_7</Value>
+    <Value>SEARCH_BY_LANGUAGE</Value>
+    <Value>PAGE_PREVIEW</Value>
+    <Value>_ID_9</Value>
+  </Header>
+  <Stat-Data>
+    <ExecutionTime>0.0010</ExecutionTime>
+    <MaxDomainSize>2</MaxDomainSize>
+    <MinDomainSize>2</MinDomainSize>
+    <TotalNoOfCombination>2912</TotalNoOfCombination>
+    <TotalNoOfTests>20</TotalNoOfTests>
+    <Algorithm>IPOF2</Algorithm>
+  </Stat-Data>
+</System>
+

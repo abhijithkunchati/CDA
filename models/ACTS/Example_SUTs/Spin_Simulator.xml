@@ -1,0 +1,817 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<System name="Spin_Simulator">
+  <Parameters>
+    <Parameter id="0" name="p0" type="0">
+      <values>
+        <value>0</value>
+        <value>1</value>
+      </values>
+      <basechoices>
+        <basechoice />
+      </basechoices>
+    </Parameter>
+    <Parameter id="1" name="p1" type="0">
+      <values>
+        <value>0</value>
+        <value>1</value>
+      </values>
+      <basechoices>
+        <basechoice />
+      </basechoices>
+    </Parameter>
+    <Parameter id="2" name="p2" type="0">
+      <values>
+        <value>0</value>
+        <value>1</value>
+      </values>
+      <basechoices>
+        <basechoice />
+      </basechoices>
+    </Parameter>
+    <Parameter id="3" name="p3" type="0">
+      <values>
+        <value>0</value>
+        <value>1</value>
+      </values>
+      <basechoices>
+        <basechoice />
+      </basechoices>
+    </Parameter>
+    <Parameter id="4" name="p4" type="0">
+      <values>
+        <value>0</value>
+        <value>1</value>
+      </values>
+      <basechoices>
+        <basechoice />
+      </basechoices>
+    </Parameter>
+    <Parameter id="5" name="p5" type="0">
+      <values>
+        <value>0</value>
+        <value>1</value>
+      </values>
+      <basechoices>
+        <basechoice />
+      </basechoices>
+    </Parameter>
+    <Parameter id="6" name="p6" type="0">
+      <values>
+        <value>0</value>
+        <value>1</value>
+      </values>
+      <basechoices>
+        <basechoice />
+      </basechoices>
+    </Parameter>
+    <Parameter id="7" name="p7" type="0">
+      <values>
+        <value>0</value>
+        <value>1</value>
+      </values>
+      <basechoices>
+        <basechoice />
+      </basechoices>
+    </Parameter>
+    <Parameter id="8" name="p8" type="0">
+      <values>
+        <value>0</value>
+        <value>1</value>
+      </values>
+      <basechoices>
+        <basechoice />
+      </basechoices>
+    </Parameter>
+    <Parameter id="9" name="p9" type="0">
+      <values>
+        <value>0</value>
+        <value>1</value>
+      </values>
+      <basechoices>
+        <basechoice />
+      </basechoices>
+    </Parameter>
+    <Parameter id="10" name="p10" type="0">
+      <values>
+        <value>0</value>
+        <value>1</value>
+      </values>
+      <basechoices>
+        <basechoice />
+      </basechoices>
+    </Parameter>
+    <Parameter id="11" name="p11" type="0">
+      <values>
+        <value>0</value>
+        <value>1</value>
+      </values>
+      <basechoices>
+        <basechoice />
+      </basechoices>
+    </Parameter>
+    <Parameter id="12" name="p12" type="0">
+      <values>
+        <value>0</value>
+        <value>1</value>
+      </values>
+      <basechoices>
+        <basechoice />
+      </basechoices>
+    </Parameter>
+    <Parameter id="13" name="p13" type="0">
+      <values>
+        <value>0</value>
+        <value>1</value>
+        <value>2</value>
+        <value>3</value>
+      </values>
+      <basechoices>
+        <basechoice />
+      </basechoices>
+    </Parameter>
+    <Parameter id="14" name="p14" type="0">
+      <values>
+        <value>0</value>
+        <value>1</value>
+        <value>2</value>
+        <value>3</value>
+      </values>
+      <basechoices>
+        <basechoice />
+      </basechoices>
+    </Parameter>
+    <Parameter id="15" name="p15" type="0">
+      <values>
+        <value>0</value>
+        <value>1</value>
+        <value>2</value>
+        <value>3</value>
+      </values>
+      <basechoices>
+        <basechoice />
+      </basechoices>
+    </Parameter>
+    <Parameter id="16" name="p16" type="0">
+      <values>
+        <value>0</value>
+        <value>1</value>
+        <value>2</value>
+        <value>3</value>
+      </values>
+      <basechoices>
+        <basechoice />
+      </basechoices>
+    </Parameter>
+    <Parameter id="17" name="p17" type="0">
+      <values>
+        <value>0</value>
+        <value>1</value>
+        <value>2</value>
+        <value>3</value>
+      </values>
+      <basechoices>
+        <basechoice />
+      </basechoices>
+    </Parameter>
+  </Parameters>
+  <OutputParameters />
+  <Relations>
+    <Relation Strength="2" Default="true">
+      <Parameter name="p0">
+        <value>0</value>
+        <value>1</value>
+      </Parameter>
+      <Parameter name="p1">
+        <value>0</value>
+        <value>1</value>
+      </Parameter>
+      <Parameter name="p2">
+        <value>0</value>
+        <value>1</value>
+      </Parameter>
+      <Parameter name="p3">
+        <value>0</value>
+        <value>1</value>
+      </Parameter>
+      <Parameter name="p4">
+        <value>0</value>
+        <value>1</value>
+      </Parameter>
+      <Parameter name="p5">
+        <value>0</value>
+        <value>1</value>
+      </Parameter>
+      <Parameter name="p6">
+        <value>0</value>
+        <value>1</value>
+      </Parameter>
+      <Parameter name="p7">
+        <value>0</value>
+        <value>1</value>
+      </Parameter>
+      <Parameter name="p8">
+        <value>0</value>
+        <value>1</value>
+      </Parameter>
+      <Parameter name="p9">
+        <value>0</value>
+        <value>1</value>
+      </Parameter>
+      <Parameter name="p10">
+        <value>0</value>
+        <value>1</value>
+      </Parameter>
+      <Parameter name="p11">
+        <value>0</value>
+        <value>1</value>
+      </Parameter>
+      <Parameter name="p12">
+        <value>0</value>
+        <value>1</value>
+      </Parameter>
+      <Parameter name="p13">
+        <value>0</value>
+        <value>1</value>
+        <value>2</value>
+        <value>3</value>
+      </Parameter>
+      <Parameter name="p14">
+        <value>0</value>
+        <value>1</value>
+        <value>2</value>
+        <value>3</value>
+      </Parameter>
+      <Parameter name="p15">
+        <value>0</value>
+        <value>1</value>
+        <value>2</value>
+        <value>3</value>
+      </Parameter>
+      <Parameter name="p16">
+        <value>0</value>
+        <value>1</value>
+        <value>2</value>
+        <value>3</value>
+      </Parameter>
+      <Parameter name="p17">
+        <value>0</value>
+        <value>1</value>
+        <value>2</value>
+        <value>3</value>
+      </Parameter>
+    </Relation>
+  </Relations>
+  <Constraints>
+    <Constraint text="!(p0 = 1 &amp;&amp; p1 = 1 )">
+      <Parameters>
+        <Parameter name="p0" />
+        <Parameter name="p1" />
+      </Parameters>
+    </Constraint>
+    <Constraint text="!(p0 = 1 &amp;&amp; p2 = 1 )">
+      <Parameters>
+        <Parameter name="p0" />
+        <Parameter name="p2" />
+      </Parameters>
+    </Constraint>
+    <Constraint text="!(p0 = 1 &amp;&amp; p13 = 1 )">
+      <Parameters>
+        <Parameter name="p0" />
+        <Parameter name="p13" />
+      </Parameters>
+    </Constraint>
+    <Constraint text="!(p0 = 1 &amp;&amp; p14 = 1 )">
+      <Parameters>
+        <Parameter name="p0" />
+        <Parameter name="p14" />
+      </Parameters>
+    </Constraint>
+    <Constraint text="!(p0 = 1 &amp;&amp; p14 = 2 )">
+      <Parameters>
+        <Parameter name="p0" />
+        <Parameter name="p14" />
+      </Parameters>
+    </Constraint>
+    <Constraint text="!(p0 = 1 &amp;&amp; p14 = 3 )">
+      <Parameters>
+        <Parameter name="p0" />
+        <Parameter name="p14" />
+      </Parameters>
+    </Constraint>
+    <Constraint text="!(p0 = 1 &amp;&amp; p15 = 1 )">
+      <Parameters>
+        <Parameter name="p0" />
+        <Parameter name="p15" />
+      </Parameters>
+    </Constraint>
+    <Constraint text="!(p0 = 1 &amp;&amp; p15 = 2 )">
+      <Parameters>
+        <Parameter name="p0" />
+        <Parameter name="p15" />
+      </Parameters>
+    </Constraint>
+    <Constraint text="!(p0 = 1 &amp;&amp; p15 = 3 )">
+      <Parameters>
+        <Parameter name="p0" />
+        <Parameter name="p15" />
+      </Parameters>
+    </Constraint>
+    <Constraint text="!(p12 = 1 &amp;&amp; p15 = 1 )">
+      <Parameters>
+        <Parameter name="p12" />
+        <Parameter name="p15" />
+      </Parameters>
+    </Constraint>
+    <Constraint text="!(p12 = 1 &amp;&amp; p15 = 2 )">
+      <Parameters>
+        <Parameter name="p12" />
+        <Parameter name="p15" />
+      </Parameters>
+    </Constraint>
+    <Constraint text="!(p12 = 1 &amp;&amp; p15 = 3 )">
+      <Parameters>
+        <Parameter name="p12" />
+        <Parameter name="p15" />
+      </Parameters>
+    </Constraint>
+    <Constraint text="!(p3 = 1 &amp;&amp; p4 = 0 )">
+      <Parameters>
+        <Parameter name="p3" />
+        <Parameter name="p4" />
+      </Parameters>
+    </Constraint>
+  </Constraints>
+  <Testset doi="2">
+    <Testcase TCNo="0">
+      <Value>1</Value>
+      <Value>1</Value>
+      <Value>0</Value>
+      <Value>1</Value>
+      <Value>*</Value>
+      <Value>*</Value>
+      <Value>*</Value>
+      <Value>*</Value>
+      <Value>*</Value>
+      <Value>*</Value>
+      <Value>*</Value>
+      <Value>1</Value>
+      <Value>*</Value>
+      <Value>*</Value>
+      <Value>0</Value>
+      <Value>0</Value>
+      <Value>3</Value>
+      <Value>0</Value>
+      <Value>2</Value>
+    </Testcase>
+    <Testcase TCNo="1">
+      <Value>2</Value>
+      <Value>0</Value>
+      <Value>0</Value>
+      <Value>1</Value>
+      <Value>*</Value>
+      <Value>1</Value>
+      <Value>0</Value>
+      <Value>0</Value>
+      <Value>1</Value>
+      <Value>*</Value>
+      <Value>*</Value>
+      <Value>*</Value>
+      <Value>1</Value>
+      <Value>*</Value>
+      <Value>0</Value>
+      <Value>1</Value>
+      <Value>2</Value>
+      <Value>1</Value>
+      <Value>3</Value>
+    </Testcase>
+    <Testcase TCNo="2">
+      <Value>3</Value>
+      <Value>1</Value>
+      <Value>*</Value>
+      <Value>0</Value>
+      <Value>1</Value>
+      <Value>*</Value>
+      <Value>*</Value>
+      <Value>*</Value>
+      <Value>*</Value>
+      <Value>*</Value>
+      <Value>1</Value>
+      <Value>1</Value>
+      <Value>1</Value>
+      <Value>*</Value>
+      <Value>0</Value>
+      <Value>2</Value>
+      <Value>2</Value>
+      <Value>2</Value>
+      <Value>1</Value>
+    </Testcase>
+    <Testcase TCNo="3">
+      <Value>4</Value>
+      <Value>1</Value>
+      <Value>1</Value>
+      <Value>1</Value>
+      <Value>1</Value>
+      <Value>0</Value>
+      <Value>1</Value>
+      <Value>*</Value>
+      <Value>0</Value>
+      <Value>0</Value>
+      <Value>0</Value>
+      <Value>1</Value>
+      <Value>0</Value>
+      <Value>1</Value>
+      <Value>0</Value>
+      <Value>3</Value>
+      <Value>1</Value>
+      <Value>3</Value>
+      <Value>3</Value>
+    </Testcase>
+    <Testcase TCNo="4">
+      <Value>5</Value>
+      <Value>*</Value>
+      <Value>*</Value>
+      <Value>*</Value>
+      <Value>*</Value>
+      <Value>*</Value>
+      <Value>*</Value>
+      <Value>*</Value>
+      <Value>*</Value>
+      <Value>1</Value>
+      <Value>0</Value>
+      <Value>*</Value>
+      <Value>0</Value>
+      <Value>*</Value>
+      <Value>1</Value>
+      <Value>0</Value>
+      <Value>2</Value>
+      <Value>0</Value>
+      <Value>0</Value>
+    </Testcase>
+    <Testcase TCNo="5">
+      <Value>6</Value>
+      <Value>0</Value>
+      <Value>0</Value>
+      <Value>0</Value>
+      <Value>0</Value>
+      <Value>0</Value>
+      <Value>1</Value>
+      <Value>0</Value>
+      <Value>1</Value>
+      <Value>1</Value>
+      <Value>1</Value>
+      <Value>1</Value>
+      <Value>0</Value>
+      <Value>0</Value>
+      <Value>1</Value>
+      <Value>1</Value>
+      <Value>3</Value>
+      <Value>3</Value>
+      <Value>1</Value>
+    </Testcase>
+    <Testcase TCNo="6">
+      <Value>7</Value>
+      <Value>1</Value>
+      <Value>1</Value>
+      <Value>1</Value>
+      <Value>1</Value>
+      <Value>1</Value>
+      <Value>0</Value>
+      <Value>0</Value>
+      <Value>0</Value>
+      <Value>0</Value>
+      <Value>1</Value>
+      <Value>1</Value>
+      <Value>0</Value>
+      <Value>0</Value>
+      <Value>1</Value>
+      <Value>2</Value>
+      <Value>1</Value>
+      <Value>1</Value>
+      <Value>2</Value>
+    </Testcase>
+    <Testcase TCNo="7">
+      <Value>8</Value>
+      <Value>*</Value>
+      <Value>0</Value>
+      <Value>0</Value>
+      <Value>1</Value>
+      <Value>*</Value>
+      <Value>1</Value>
+      <Value>0</Value>
+      <Value>1</Value>
+      <Value>1</Value>
+      <Value>*</Value>
+      <Value>*</Value>
+      <Value>1</Value>
+      <Value>1</Value>
+      <Value>1</Value>
+      <Value>3</Value>
+      <Value>0</Value>
+      <Value>2</Value>
+      <Value>2</Value>
+    </Testcase>
+    <Testcase TCNo="8">
+      <Value>9</Value>
+      <Value>0</Value>
+      <Value>*</Value>
+      <Value>*</Value>
+      <Value>*</Value>
+      <Value>0</Value>
+      <Value>0</Value>
+      <Value>*</Value>
+      <Value>*</Value>
+      <Value>*</Value>
+      <Value>*</Value>
+      <Value>0</Value>
+      <Value>1</Value>
+      <Value>*</Value>
+      <Value>2</Value>
+      <Value>0</Value>
+      <Value>2</Value>
+      <Value>3</Value>
+      <Value>2</Value>
+    </Testcase>
+    <Testcase TCNo="9">
+      <Value>10</Value>
+      <Value>*</Value>
+      <Value>*</Value>
+      <Value>*</Value>
+      <Value>1</Value>
+      <Value>*</Value>
+      <Value>*</Value>
+      <Value>0</Value>
+      <Value>1</Value>
+      <Value>1</Value>
+      <Value>*</Value>
+      <Value>0</Value>
+      <Value>*</Value>
+      <Value>1</Value>
+      <Value>2</Value>
+      <Value>1</Value>
+      <Value>1</Value>
+      <Value>0</Value>
+      <Value>1</Value>
+    </Testcase>
+    <Testcase TCNo="10">
+      <Value>11</Value>
+      <Value>*</Value>
+      <Value>0</Value>
+      <Value>*</Value>
+      <Value>1</Value>
+      <Value>*</Value>
+      <Value>1</Value>
+      <Value>1</Value>
+      <Value>0</Value>
+      <Value>*</Value>
+      <Value>0</Value>
+      <Value>0</Value>
+      <Value>0</Value>
+      <Value>0</Value>
+      <Value>2</Value>
+      <Value>2</Value>
+      <Value>3</Value>
+      <Value>2</Value>
+      <Value>3</Value>
+    </Testcase>
+    <Testcase TCNo="11">
+      <Value>12</Value>
+      <Value>0</Value>
+      <Value>1</Value>
+      <Value>0</Value>
+      <Value>0</Value>
+      <Value>1</Value>
+      <Value>1</Value>
+      <Value>1</Value>
+      <Value>0</Value>
+      <Value>0</Value>
+      <Value>1</Value>
+      <Value>1</Value>
+      <Value>1</Value>
+      <Value>0</Value>
+      <Value>2</Value>
+      <Value>3</Value>
+      <Value>2</Value>
+      <Value>0</Value>
+      <Value>0</Value>
+    </Testcase>
+    <Testcase TCNo="12">
+      <Value>13</Value>
+      <Value>0</Value>
+      <Value>0</Value>
+      <Value>0</Value>
+      <Value>1</Value>
+      <Value>1</Value>
+      <Value>1</Value>
+      <Value>0</Value>
+      <Value>1</Value>
+      <Value>0</Value>
+      <Value>0</Value>
+      <Value>0</Value>
+      <Value>0</Value>
+      <Value>1</Value>
+      <Value>3</Value>
+      <Value>0</Value>
+      <Value>1</Value>
+      <Value>2</Value>
+      <Value>0</Value>
+    </Testcase>
+    <Testcase TCNo="13">
+      <Value>14</Value>
+      <Value>1</Value>
+      <Value>1</Value>
+      <Value>1</Value>
+      <Value>0</Value>
+      <Value>0</Value>
+      <Value>0</Value>
+      <Value>1</Value>
+      <Value>1</Value>
+      <Value>1</Value>
+      <Value>0</Value>
+      <Value>0</Value>
+      <Value>1</Value>
+      <Value>1</Value>
+      <Value>3</Value>
+      <Value>1</Value>
+      <Value>2</Value>
+      <Value>2</Value>
+      <Value>2</Value>
+    </Testcase>
+    <Testcase TCNo="14">
+      <Value>15</Value>
+      <Value>0</Value>
+      <Value>*</Value>
+      <Value>0</Value>
+      <Value>0</Value>
+      <Value>0</Value>
+      <Value>0</Value>
+      <Value>*</Value>
+      <Value>1</Value>
+      <Value>1</Value>
+      <Value>1</Value>
+      <Value>*</Value>
+      <Value>0</Value>
+      <Value>1</Value>
+      <Value>3</Value>
+      <Value>2</Value>
+      <Value>0</Value>
+      <Value>0</Value>
+      <Value>3</Value>
+    </Testcase>
+    <Testcase TCNo="15">
+      <Value>16</Value>
+      <Value>*</Value>
+      <Value>*</Value>
+      <Value>1</Value>
+      <Value>*</Value>
+      <Value>1</Value>
+      <Value>0</Value>
+      <Value>*</Value>
+      <Value>0</Value>
+      <Value>0</Value>
+      <Value>*</Value>
+      <Value>0</Value>
+      <Value>1</Value>
+      <Value>1</Value>
+      <Value>3</Value>
+      <Value>3</Value>
+      <Value>3</Value>
+      <Value>1</Value>
+      <Value>1</Value>
+    </Testcase>
+    <Testcase TCNo="16">
+      <Value>17</Value>
+      <Value>*</Value>
+      <Value>1</Value>
+      <Value>0</Value>
+      <Value>0</Value>
+      <Value>1</Value>
+      <Value>1</Value>
+      <Value>1</Value>
+      <Value>0</Value>
+      <Value>1</Value>
+      <Value>0</Value>
+      <Value>0</Value>
+      <Value>*</Value>
+      <Value>0</Value>
+      <Value>0</Value>
+      <Value>0</Value>
+      <Value>0</Value>
+      <Value>1</Value>
+      <Value>1</Value>
+    </Testcase>
+    <Testcase TCNo="17">
+      <Value>18</Value>
+      <Value>1</Value>
+      <Value>*</Value>
+      <Value>1</Value>
+      <Value>0</Value>
+      <Value>0</Value>
+      <Value>0</Value>
+      <Value>*</Value>
+      <Value>0</Value>
+      <Value>0</Value>
+      <Value>*</Value>
+      <Value>*</Value>
+      <Value>*</Value>
+      <Value>*</Value>
+      <Value>2</Value>
+      <Value>1</Value>
+      <Value>0</Value>
+      <Value>1</Value>
+      <Value>0</Value>
+    </Testcase>
+    <Testcase TCNo="18">
+      <Value>19</Value>
+      <Value>*</Value>
+      <Value>*</Value>
+      <Value>*</Value>
+      <Value>*</Value>
+      <Value>1</Value>
+      <Value>*</Value>
+      <Value>1</Value>
+      <Value>*</Value>
+      <Value>*</Value>
+      <Value>*</Value>
+      <Value>1</Value>
+      <Value>*</Value>
+      <Value>0</Value>
+      <Value>3</Value>
+      <Value>2</Value>
+      <Value>0</Value>
+      <Value>3</Value>
+      <Value>0</Value>
+    </Testcase>
+    <Testcase TCNo="19">
+      <Value>20</Value>
+      <Value>*</Value>
+      <Value>1</Value>
+      <Value>*</Value>
+      <Value>*</Value>
+      <Value>*</Value>
+      <Value>*</Value>
+      <Value>*</Value>
+      <Value>*</Value>
+      <Value>*</Value>
+      <Value>*</Value>
+      <Value>*</Value>
+      <Value>*</Value>
+      <Value>*</Value>
+      <Value>0</Value>
+      <Value>*</Value>
+      <Value>3</Value>
+      <Value>*</Value>
+      <Value>0</Value>
+    </Testcase>
+    <Testcase TCNo="20">
+      <Value>21</Value>
+      <Value>*</Value>
+      <Value>*</Value>
+      <Value>*</Value>
+      <Value>0</Value>
+      <Value>*</Value>
+      <Value>*</Value>
+      <Value>1</Value>
+      <Value>*</Value>
+      <Value>*</Value>
+      <Value>1</Value>
+      <Value>0</Value>
+      <Value>1</Value>
+      <Value>*</Value>
+      <Value>1</Value>
+      <Value>0</Value>
+      <Value>1</Value>
+      <Value>*</Value>
+      <Value>3</Value>
+    </Testcase>
+  </Testset>
+  <Header>
+    <Value />
+    <Value>P0</Value>
+    <Value>P1</Value>
+    <Value>P2</Value>
+    <Value>P3</Value>
+    <Value>P4</Value>
+    <Value>P5</Value>
+    <Value>P6</Value>
+    <Value>P7</Value>
+    <Value>P8</Value>
+    <Value>P9</Value>
+    <Value>P10</Value>
+    <Value>P11</Value>
+    <Value>P12</Value>
+    <Value>P13</Value>
+    <Value>P14</Value>
+    <Value>P15</Value>
+    <Value>P16</Value>
+    <Value>P17</Value>
+  </Header>
+  <Stat-Data>
+    <ExecutionTime>0.0040</ExecutionTime>
+    <MaxDomainSize>4</MaxDomainSize>
+    <MinDomainSize>2</MinDomainSize>
+    <TotalNoOfCombination>992</TotalNoOfCombination>
+    <TotalNoOfTests>21</TotalNoOfTests>
+    <Algorithm>IPOF</Algorithm>
+  </Stat-Data>
+</System>
+

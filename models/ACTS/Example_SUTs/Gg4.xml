@@ -1,0 +1,1161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <System name="">
+    <Parameters>
+      <Parameter id="0" name="Base" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="1" name="Connected" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="2" name="HiddenGtp" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="3" name="HiddenWgt" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="4" name="Directed" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="5" name="Src" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="6" name="UndirectedOnlyVertices" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="7" name="DirectedWithEdges" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="8" name="WithEdges" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="9" name="Wgt" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="10" name="MSTPrim" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="11" name="DFS" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="12" name="BFS" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="13" name="MainGpl" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="14" name="WeightOptions" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="15" name="WeightedOnlyVertices" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="16" name="DirectedOnlyVertices" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="17" name="Undirected" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="18" name="DirectedWithNeighbors" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="19" name="Number" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="20" name="Weighted" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="21" name="Transpose" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="22" name="MSTKruskal" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="23" name="UndirectedWithEdges" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="24" name="WeightedWithEdges" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="25" name="WithNeighbors" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="26" name="Implementation" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="27" name="StronglyConnected" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="28" name="Gtp" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="29" name="GPL" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="30" name="StrongC" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="31" name="Alg" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="32" name="Cycle" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="33" name="OnlyVertices" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="34" name="Unweighted" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="35" name="TestProg" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="36" name="WeightedWithNeighbors" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="37" name="UndirectedWithNeighbors" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+    </Parameters>
+    <OutputParameters />
+    <Relations>
+      <Relation Strength="3" Default="false">
+        <Parameter name="Base">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="Connected">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="HiddenGtp">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="HiddenWgt">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="Directed">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="Src">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="UndirectedOnlyVertices">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="DirectedWithEdges">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="WithEdges">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="Wgt">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="MSTPrim">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="DFS">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="BFS">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="MainGpl">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="WeightOptions">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="WeightedOnlyVertices">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="DirectedOnlyVertices">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="Undirected">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="DirectedWithNeighbors">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="Number">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="Weighted">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="Transpose">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="MSTKruskal">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="UndirectedWithEdges">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="WeightedWithEdges">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="WithNeighbors">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="Implementation">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="StronglyConnected">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="Gtp">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="GPL">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="StrongC">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="Alg">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="Cycle">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="OnlyVertices">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="Unweighted">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="TestProg">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="WeightedWithNeighbors">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="UndirectedWithNeighbors">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+      </Relation>
+    </Relations>
+    <Constraints>
+      <Constraint text="GPL">
+        <Parameters>
+          <Parameter name="GPL" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!MainGpl || GPL">
+        <Parameters>
+          <Parameter name="MainGpl" />
+          <Parameter name="GPL" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!GPL || MainGpl">
+        <Parameters>
+          <Parameter name="GPL" />
+          <Parameter name="MainGpl" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!TestProg || MainGpl">
+        <Parameters>
+          <Parameter name="TestProg" />
+          <Parameter name="MainGpl" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!MainGpl || TestProg">
+        <Parameters>
+          <Parameter name="MainGpl" />
+          <Parameter name="TestProg" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!Alg || MainGpl">
+        <Parameters>
+          <Parameter name="Alg" />
+          <Parameter name="MainGpl" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!MainGpl || Alg">
+        <Parameters>
+          <Parameter name="MainGpl" />
+          <Parameter name="Alg" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!Src || MainGpl">
+        <Parameters>
+          <Parameter name="Src" />
+          <Parameter name="MainGpl" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!HiddenWgt || MainGpl">
+        <Parameters>
+          <Parameter name="HiddenWgt" />
+          <Parameter name="MainGpl" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!MainGpl || HiddenWgt">
+        <Parameters>
+          <Parameter name="MainGpl" />
+          <Parameter name="HiddenWgt" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!Wgt || MainGpl">
+        <Parameters>
+          <Parameter name="Wgt" />
+          <Parameter name="MainGpl" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!MainGpl || Wgt">
+        <Parameters>
+          <Parameter name="MainGpl" />
+          <Parameter name="Wgt" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!HiddenGtp || MainGpl">
+        <Parameters>
+          <Parameter name="HiddenGtp" />
+          <Parameter name="MainGpl" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!MainGpl || HiddenGtp">
+        <Parameters>
+          <Parameter name="MainGpl" />
+          <Parameter name="HiddenGtp" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!Gtp || MainGpl">
+        <Parameters>
+          <Parameter name="Gtp" />
+          <Parameter name="MainGpl" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!MainGpl || Gtp">
+        <Parameters>
+          <Parameter name="MainGpl" />
+          <Parameter name="Gtp" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!Implementation || MainGpl">
+        <Parameters>
+          <Parameter name="Implementation" />
+          <Parameter name="MainGpl" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!MainGpl || Implementation">
+        <Parameters>
+          <Parameter name="MainGpl" />
+          <Parameter name="Implementation" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!Base || MainGpl">
+        <Parameters>
+          <Parameter name="Base" />
+          <Parameter name="MainGpl" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!MainGpl || Base">
+        <Parameters>
+          <Parameter name="MainGpl" />
+          <Parameter name="Base" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!Number || Alg">
+        <Parameters>
+          <Parameter name="Number" />
+          <Parameter name="Alg" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!Connected || Alg">
+        <Parameters>
+          <Parameter name="Connected" />
+          <Parameter name="Alg" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!StrongC || Alg">
+        <Parameters>
+          <Parameter name="StrongC" />
+          <Parameter name="Alg" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!Cycle || Alg">
+        <Parameters>
+          <Parameter name="Cycle" />
+          <Parameter name="Alg" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!MSTPrim || Alg">
+        <Parameters>
+          <Parameter name="MSTPrim" />
+          <Parameter name="Alg" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!MSTKruskal || Alg">
+        <Parameters>
+          <Parameter name="MSTKruskal" />
+          <Parameter name="Alg" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!Alg || Number || Connected || StrongC || Cycle || MSTPrim || MSTKruskal">
+        <Parameters>
+          <Parameter name="Alg" />
+          <Parameter name="Number" />
+          <Parameter name="Connected" />
+          <Parameter name="StrongC" />
+          <Parameter name="Cycle" />
+          <Parameter name="MSTPrim" />
+          <Parameter name="MSTKruskal" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!BFS || Src">
+        <Parameters>
+          <Parameter name="BFS" />
+          <Parameter name="Src" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!DFS || Src">
+        <Parameters>
+          <Parameter name="DFS" />
+          <Parameter name="Src" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!Src || BFS || DFS">
+        <Parameters>
+          <Parameter name="Src" />
+          <Parameter name="BFS" />
+          <Parameter name="DFS" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!BFS || !DFS">
+        <Parameters>
+          <Parameter name="BFS" />
+          <Parameter name="DFS" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!WeightOptions || HiddenWgt">
+        <Parameters>
+          <Parameter name="WeightOptions" />
+          <Parameter name="HiddenWgt" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!HiddenWgt || WeightOptions">
+        <Parameters>
+          <Parameter name="HiddenWgt" />
+          <Parameter name="WeightOptions" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!Weighted || Wgt">
+        <Parameters>
+          <Parameter name="Weighted" />
+          <Parameter name="Wgt" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!Unweighted || Wgt">
+        <Parameters>
+          <Parameter name="Unweighted" />
+          <Parameter name="Wgt" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!Wgt || Weighted || Unweighted">
+        <Parameters>
+          <Parameter name="Wgt" />
+          <Parameter name="Weighted" />
+          <Parameter name="Unweighted" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!Weighted || !Unweighted">
+        <Parameters>
+          <Parameter name="Weighted" />
+          <Parameter name="Unweighted" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!DirectedWithEdges || HiddenGtp">
+        <Parameters>
+          <Parameter name="DirectedWithEdges" />
+          <Parameter name="HiddenGtp" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!DirectedWithNeighbors || HiddenGtp">
+        <Parameters>
+          <Parameter name="DirectedWithNeighbors" />
+          <Parameter name="HiddenGtp" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!DirectedOnlyVertices || HiddenGtp">
+        <Parameters>
+          <Parameter name="DirectedOnlyVertices" />
+          <Parameter name="HiddenGtp" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!UndirectedWithEdges || HiddenGtp">
+        <Parameters>
+          <Parameter name="UndirectedWithEdges" />
+          <Parameter name="HiddenGtp" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!UndirectedWithNeighbors || HiddenGtp">
+        <Parameters>
+          <Parameter name="UndirectedWithNeighbors" />
+          <Parameter name="HiddenGtp" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!UndirectedOnlyVertices || HiddenGtp">
+        <Parameters>
+          <Parameter name="UndirectedOnlyVertices" />
+          <Parameter name="HiddenGtp" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!HiddenGtp || DirectedWithEdges || DirectedWithNeighbors || DirectedOnlyVertices || UndirectedWithEdges || UndirectedWithNeighbors || UndirectedOnlyVertices">
+        <Parameters>
+          <Parameter name="HiddenGtp" />
+          <Parameter name="DirectedWithEdges" />
+          <Parameter name="DirectedWithNeighbors" />
+          <Parameter name="DirectedOnlyVertices" />
+          <Parameter name="UndirectedWithEdges" />
+          <Parameter name="UndirectedWithNeighbors" />
+          <Parameter name="UndirectedOnlyVertices" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!DirectedWithEdges || !DirectedWithNeighbors">
+        <Parameters>
+          <Parameter name="DirectedWithEdges" />
+          <Parameter name="DirectedWithNeighbors" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!DirectedWithEdges || !DirectedOnlyVertices">
+        <Parameters>
+          <Parameter name="DirectedWithEdges" />
+          <Parameter name="DirectedOnlyVertices" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!DirectedWithEdges || !UndirectedWithEdges">
+        <Parameters>
+          <Parameter name="DirectedWithEdges" />
+          <Parameter name="UndirectedWithEdges" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!DirectedWithEdges || !UndirectedWithNeighbors">
+        <Parameters>
+          <Parameter name="DirectedWithEdges" />
+          <Parameter name="UndirectedWithNeighbors" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!DirectedWithEdges || !UndirectedOnlyVertices">
+        <Parameters>
+          <Parameter name="DirectedWithEdges" />
+          <Parameter name="UndirectedOnlyVertices" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!DirectedWithNeighbors || !DirectedOnlyVertices">
+        <Parameters>
+          <Parameter name="DirectedWithNeighbors" />
+          <Parameter name="DirectedOnlyVertices" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!DirectedWithNeighbors || !UndirectedWithEdges">
+        <Parameters>
+          <Parameter name="DirectedWithNeighbors" />
+          <Parameter name="UndirectedWithEdges" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!DirectedWithNeighbors || !UndirectedWithNeighbors">
+        <Parameters>
+          <Parameter name="DirectedWithNeighbors" />
+          <Parameter name="UndirectedWithNeighbors" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!DirectedWithNeighbors || !UndirectedOnlyVertices">
+        <Parameters>
+          <Parameter name="DirectedWithNeighbors" />
+          <Parameter name="UndirectedOnlyVertices" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!DirectedOnlyVertices || !UndirectedWithEdges">
+        <Parameters>
+          <Parameter name="DirectedOnlyVertices" />
+          <Parameter name="UndirectedWithEdges" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!DirectedOnlyVertices || !UndirectedWithNeighbors">
+        <Parameters>
+          <Parameter name="DirectedOnlyVertices" />
+          <Parameter name="UndirectedWithNeighbors" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!DirectedOnlyVertices || !UndirectedOnlyVertices">
+        <Parameters>
+          <Parameter name="DirectedOnlyVertices" />
+          <Parameter name="UndirectedOnlyVertices" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!UndirectedWithEdges || !UndirectedWithNeighbors">
+        <Parameters>
+          <Parameter name="UndirectedWithEdges" />
+          <Parameter name="UndirectedWithNeighbors" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!UndirectedWithEdges || !UndirectedOnlyVertices">
+        <Parameters>
+          <Parameter name="UndirectedWithEdges" />
+          <Parameter name="UndirectedOnlyVertices" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!UndirectedWithNeighbors || !UndirectedOnlyVertices">
+        <Parameters>
+          <Parameter name="UndirectedWithNeighbors" />
+          <Parameter name="UndirectedOnlyVertices" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!Directed || Gtp">
+        <Parameters>
+          <Parameter name="Directed" />
+          <Parameter name="Gtp" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!Undirected || Gtp">
+        <Parameters>
+          <Parameter name="Undirected" />
+          <Parameter name="Gtp" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!Gtp || Directed || Undirected">
+        <Parameters>
+          <Parameter name="Gtp" />
+          <Parameter name="Directed" />
+          <Parameter name="Undirected" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!Directed || !Undirected">
+        <Parameters>
+          <Parameter name="Directed" />
+          <Parameter name="Undirected" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!OnlyVertices || Implementation">
+        <Parameters>
+          <Parameter name="OnlyVertices" />
+          <Parameter name="Implementation" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!WithNeighbors || Implementation">
+        <Parameters>
+          <Parameter name="WithNeighbors" />
+          <Parameter name="Implementation" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!WithEdges || Implementation">
+        <Parameters>
+          <Parameter name="WithEdges" />
+          <Parameter name="Implementation" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!Implementation || OnlyVertices || WithNeighbors || WithEdges">
+        <Parameters>
+          <Parameter name="Implementation" />
+          <Parameter name="OnlyVertices" />
+          <Parameter name="WithNeighbors" />
+          <Parameter name="WithEdges" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!OnlyVertices || !WithNeighbors">
+        <Parameters>
+          <Parameter name="OnlyVertices" />
+          <Parameter name="WithNeighbors" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!OnlyVertices || !WithEdges">
+        <Parameters>
+          <Parameter name="OnlyVertices" />
+          <Parameter name="WithEdges" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!WithNeighbors || !WithEdges">
+        <Parameters>
+          <Parameter name="WithNeighbors" />
+          <Parameter name="WithEdges" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!Transpose || StrongC">
+        <Parameters>
+          <Parameter name="Transpose" />
+          <Parameter name="StrongC" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!StrongC || Transpose">
+        <Parameters>
+          <Parameter name="StrongC" />
+          <Parameter name="Transpose" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!StronglyConnected || StrongC">
+        <Parameters>
+          <Parameter name="StronglyConnected" />
+          <Parameter name="StrongC" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!StrongC || StronglyConnected">
+        <Parameters>
+          <Parameter name="StrongC" />
+          <Parameter name="StronglyConnected" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!WeightedWithEdges || WeightOptions">
+        <Parameters>
+          <Parameter name="WeightedWithEdges" />
+          <Parameter name="WeightOptions" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!WeightedWithNeighbors || WeightOptions">
+        <Parameters>
+          <Parameter name="WeightedWithNeighbors" />
+          <Parameter name="WeightOptions" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!WeightedOnlyVertices || WeightOptions">
+        <Parameters>
+          <Parameter name="WeightedOnlyVertices" />
+          <Parameter name="WeightOptions" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!Number || Gtp">
+        <Parameters>
+          <Parameter name="Number" />
+          <Parameter name="Gtp" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!Number || Src">
+        <Parameters>
+          <Parameter name="Number" />
+          <Parameter name="Src" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!Connected || Undirected">
+        <Parameters>
+          <Parameter name="Connected" />
+          <Parameter name="Undirected" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!Connected || Src">
+        <Parameters>
+          <Parameter name="Connected" />
+          <Parameter name="Src" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!StrongC || Directed">
+        <Parameters>
+          <Parameter name="StrongC" />
+          <Parameter name="Directed" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!StrongC || DFS">
+        <Parameters>
+          <Parameter name="StrongC" />
+          <Parameter name="DFS" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!Cycle || Gtp">
+        <Parameters>
+          <Parameter name="Cycle" />
+          <Parameter name="Gtp" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!Cycle || DFS">
+        <Parameters>
+          <Parameter name="Cycle" />
+          <Parameter name="DFS" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!MSTKruskal || Undirected">
+        <Parameters>
+          <Parameter name="MSTKruskal" />
+          <Parameter name="Undirected" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!MSTKruskal || Weighted">
+        <Parameters>
+          <Parameter name="MSTKruskal" />
+          <Parameter name="Weighted" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!MSTPrim || Undirected">
+        <Parameters>
+          <Parameter name="MSTPrim" />
+          <Parameter name="Undirected" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!MSTPrim || Weighted">
+        <Parameters>
+          <Parameter name="MSTPrim" />
+          <Parameter name="Weighted" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!MSTKruskal || !MSTPrim">
+        <Parameters>
+          <Parameter name="MSTKruskal" />
+          <Parameter name="MSTPrim" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!OnlyVertices || !Weighted || WeightedOnlyVertices">
+        <Parameters>
+          <Parameter name="OnlyVertices" />
+          <Parameter name="Weighted" />
+          <Parameter name="WeightedOnlyVertices" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!WithNeighbors || !Weighted || WeightedWithNeighbors">
+        <Parameters>
+          <Parameter name="WithNeighbors" />
+          <Parameter name="Weighted" />
+          <Parameter name="WeightedWithNeighbors" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!WithEdges || !Weighted || WeightedWithEdges">
+        <Parameters>
+          <Parameter name="WithEdges" />
+          <Parameter name="Weighted" />
+          <Parameter name="WeightedWithEdges" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!OnlyVertices || !Directed || DirectedOnlyVertices">
+        <Parameters>
+          <Parameter name="OnlyVertices" />
+          <Parameter name="Directed" />
+          <Parameter name="DirectedOnlyVertices" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!WithNeighbors || !Directed || DirectedWithNeighbors">
+        <Parameters>
+          <Parameter name="WithNeighbors" />
+          <Parameter name="Directed" />
+          <Parameter name="DirectedWithNeighbors" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!WithEdges || !Directed || DirectedWithEdges">
+        <Parameters>
+          <Parameter name="WithEdges" />
+          <Parameter name="Directed" />
+          <Parameter name="DirectedWithEdges" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!OnlyVertices || !Undirected || UndirectedOnlyVertices">
+        <Parameters>
+          <Parameter name="OnlyVertices" />
+          <Parameter name="Undirected" />
+          <Parameter name="UndirectedOnlyVertices" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!WithNeighbors || !Undirected || UndirectedWithNeighbors">
+        <Parameters>
+          <Parameter name="WithNeighbors" />
+          <Parameter name="Undirected" />
+          <Parameter name="UndirectedWithNeighbors" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!WithEdges || !Undirected || UndirectedWithEdges">
+        <Parameters>
+          <Parameter name="WithEdges" />
+          <Parameter name="Undirected" />
+          <Parameter name="UndirectedWithEdges" />
+        </Parameters>
+      </Constraint>
+    </Constraints>
+  </System>

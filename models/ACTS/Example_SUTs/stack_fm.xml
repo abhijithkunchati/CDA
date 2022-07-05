@@ -1,0 +1,423 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <System name="">
+    <Parameters>
+      <Parameter id="0" name="Stack" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="1" name="Float" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="2" name="Element_Type" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="3" name="Memory_Usage" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="4" name="Value" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="5" name="Additional_Features" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="6" name="Type_Check" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="7" name="Counter" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="8" name="Bounds_Check" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="9" name="Speed" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="10" name="String" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="11" name="Dynamic" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="12" name="Integer" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="13" name="Thread_Safety" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="14" name="Optimization" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="15" name="Fixed" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="16" name="Size" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+    </Parameters>
+    <OutputParameters />
+    <Relations>
+      <Relation Strength="3" Default="false">
+        <Parameter name="Stack">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="Float">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="Element_Type">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="Memory_Usage">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="Value">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="Additional_Features">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="Type_Check">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="Counter">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="Bounds_Check">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="Speed">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="String">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="Dynamic">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="Integer">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="Thread_Safety">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="Optimization">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="Fixed">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="Size">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+      </Relation>
+    </Relations>
+    <Constraints>
+      <Constraint text="Stack">
+        <Parameters>
+          <Parameter name="Stack" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!Size || Stack">
+        <Parameters>
+          <Parameter name="Size" />
+          <Parameter name="Stack" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!Element_Type || Stack">
+        <Parameters>
+          <Parameter name="Element_Type" />
+          <Parameter name="Stack" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!Stack || Element_Type">
+        <Parameters>
+          <Parameter name="Stack" />
+          <Parameter name="Element_Type" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!Optimization || Stack">
+        <Parameters>
+          <Parameter name="Optimization" />
+          <Parameter name="Stack" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!Counter || Stack">
+        <Parameters>
+          <Parameter name="Counter" />
+          <Parameter name="Stack" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!Additional_Features || Stack">
+        <Parameters>
+          <Parameter name="Additional_Features" />
+          <Parameter name="Stack" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!Fixed || Size">
+        <Parameters>
+          <Parameter name="Fixed" />
+          <Parameter name="Size" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!Dynamic || Size">
+        <Parameters>
+          <Parameter name="Dynamic" />
+          <Parameter name="Size" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!Size || Fixed || Dynamic">
+        <Parameters>
+          <Parameter name="Size" />
+          <Parameter name="Fixed" />
+          <Parameter name="Dynamic" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!Fixed || !Dynamic">
+        <Parameters>
+          <Parameter name="Fixed" />
+          <Parameter name="Dynamic" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!Integer || Element_Type">
+        <Parameters>
+          <Parameter name="Integer" />
+          <Parameter name="Element_Type" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!Float || Element_Type">
+        <Parameters>
+          <Parameter name="Float" />
+          <Parameter name="Element_Type" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!String || Element_Type">
+        <Parameters>
+          <Parameter name="String" />
+          <Parameter name="Element_Type" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!Element_Type || Integer || Float || String">
+        <Parameters>
+          <Parameter name="Element_Type" />
+          <Parameter name="Integer" />
+          <Parameter name="Float" />
+          <Parameter name="String" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!Integer || !Float">
+        <Parameters>
+          <Parameter name="Integer" />
+          <Parameter name="Float" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!Integer || !String">
+        <Parameters>
+          <Parameter name="Integer" />
+          <Parameter name="String" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!Float || !String">
+        <Parameters>
+          <Parameter name="Float" />
+          <Parameter name="String" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!Speed || Optimization">
+        <Parameters>
+          <Parameter name="Speed" />
+          <Parameter name="Optimization" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!Memory_Usage || Optimization">
+        <Parameters>
+          <Parameter name="Memory_Usage" />
+          <Parameter name="Optimization" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!Optimization || Speed || Memory_Usage">
+        <Parameters>
+          <Parameter name="Optimization" />
+          <Parameter name="Speed" />
+          <Parameter name="Memory_Usage" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!Speed || !Memory_Usage">
+        <Parameters>
+          <Parameter name="Speed" />
+          <Parameter name="Memory_Usage" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!Thread_Safety || Additional_Features">
+        <Parameters>
+          <Parameter name="Thread_Safety" />
+          <Parameter name="Additional_Features" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!Bounds_Check || Additional_Features">
+        <Parameters>
+          <Parameter name="Bounds_Check" />
+          <Parameter name="Additional_Features" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!Type_Check || Additional_Features">
+        <Parameters>
+          <Parameter name="Type_Check" />
+          <Parameter name="Additional_Features" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!Additional_Features || Thread_Safety || Bounds_Check || Type_Check">
+        <Parameters>
+          <Parameter name="Additional_Features" />
+          <Parameter name="Thread_Safety" />
+          <Parameter name="Bounds_Check" />
+          <Parameter name="Type_Check" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!Value || Fixed">
+        <Parameters>
+          <Parameter name="Value" />
+          <Parameter name="Fixed" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!Fixed || Value">
+        <Parameters>
+          <Parameter name="Fixed" />
+          <Parameter name="Value" />
+        </Parameters>
+      </Constraint>
+    </Constraints>
+  </System>

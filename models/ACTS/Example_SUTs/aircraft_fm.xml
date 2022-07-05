@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <System name="">
+    <Parameters>
+      <Parameter id="0" name="Low" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="1" name="Materials" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="2" name="Piston" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="3" name="Jet" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="4" name="Wood" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="5" name="Plastic" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="6" name="Engine" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="7" name="Cloth" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="8" name="Aircraft" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="9" name="Metal" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="10" name="Shoulder" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="11" name="High" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="12" name="Wing" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+    </Parameters>
+    <OutputParameters />
+    <Relations>
+      <Relation Strength="3" Default="false">
+        <Parameter name="Low">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="Materials">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="Piston">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="Jet">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="Wood">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="Plastic">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="Engine">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="Cloth">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="Aircraft">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="Metal">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="Shoulder">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="High">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="Wing">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+      </Relation>
+    </Relations>
+    <Constraints>
+      <Constraint text="Aircraft">
+        <Parameters>
+          <Parameter name="Aircraft" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!Wing || Aircraft">
+        <Parameters>
+          <Parameter name="Wing" />
+          <Parameter name="Aircraft" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!Aircraft || Wing">
+        <Parameters>
+          <Parameter name="Aircraft" />
+          <Parameter name="Wing" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!Engine || Aircraft">
+        <Parameters>
+          <Parameter name="Engine" />
+          <Parameter name="Aircraft" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!Materials || Aircraft">
+        <Parameters>
+          <Parameter name="Materials" />
+          <Parameter name="Aircraft" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!Aircraft || Materials">
+        <Parameters>
+          <Parameter name="Aircraft" />
+          <Parameter name="Materials" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!High || Wing">
+        <Parameters>
+          <Parameter name="High" />
+          <Parameter name="Wing" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!Shoulder || Wing">
+        <Parameters>
+          <Parameter name="Shoulder" />
+          <Parameter name="Wing" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!Low || Wing">
+        <Parameters>
+          <Parameter name="Low" />
+          <Parameter name="Wing" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!Wing || High || Shoulder || Low">
+        <Parameters>
+          <Parameter name="Wing" />
+          <Parameter name="High" />
+          <Parameter name="Shoulder" />
+          <Parameter name="Low" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!Jet || Engine">
+        <Parameters>
+          <Parameter name="Jet" />
+          <Parameter name="Engine" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!Piston || Engine">
+        <Parameters>
+          <Parameter name="Piston" />
+          <Parameter name="Engine" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!Engine || Jet || Piston">
+        <Parameters>
+          <Parameter name="Engine" />
+          <Parameter name="Jet" />
+          <Parameter name="Piston" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!Jet || !Piston">
+        <Parameters>
+          <Parameter name="Jet" />
+          <Parameter name="Piston" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!Metal || Materials">
+        <Parameters>
+          <Parameter name="Metal" />
+          <Parameter name="Materials" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!Wood || Materials">
+        <Parameters>
+          <Parameter name="Wood" />
+          <Parameter name="Materials" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!Cloth || Materials">
+        <Parameters>
+          <Parameter name="Cloth" />
+          <Parameter name="Materials" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!Plastic || Materials">
+        <Parameters>
+          <Parameter name="Plastic" />
+          <Parameter name="Materials" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!Materials || Metal || Wood || Cloth || Plastic">
+        <Parameters>
+          <Parameter name="Materials" />
+          <Parameter name="Metal" />
+          <Parameter name="Wood" />
+          <Parameter name="Cloth" />
+          <Parameter name="Plastic" />
+        </Parameters>
+      </Constraint>
+    </Constraints>
+  </System>

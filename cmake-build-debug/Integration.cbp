@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Integration"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/haojin/Workspace/Documents/IntegrationForGithub/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/haojin/Workspace/Documents/IntegrationForGithub/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/haojin/Workspace/Documents/IntegrationForGithub/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/haojin/Workspace/Documents/IntegrationForGithub/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/haojin/Workspace/Documents/IntegrationForGithub/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/haojin/Workspace/Documents/IntegrationForGithub/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/haojin/Workspace/Documents/IntegrationForGithub/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/haojin/Workspace/Documents/IntegrationForGithub/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/haojin/Workspace/Documents/IntegrationForGithub/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/haojin/Workspace/Documents/IntegrationForGithub/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Integration">
+				<Option output="/home/haojin/Workspace/Documents/IntegrationForGithub/cmake-build-debug/Integration" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/haojin/Workspace/Documents/IntegrationForGithub/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/haojin/Workspace/Documents/IntegrationForGithub/cmake-build-debug/Makefile&quot;  VERBOSE=1 Integration"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/haojin/Workspace/Documents/IntegrationForGithub/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/haojin/Workspace/Documents/IntegrationForGithub/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/haojin/Workspace/Documents/IntegrationForGithub/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Integration/fast">
+				<Option output="/home/haojin/Workspace/Documents/IntegrationForGithub/cmake-build-debug/Integration" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/haojin/Workspace/Documents/IntegrationForGithub/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/haojin/Workspace/Documents/IntegrationForGithub/cmake-build-debug/Makefile&quot;  VERBOSE=1 Integration/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/haojin/Workspace/Documents/IntegrationForGithub/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/haojin/Workspace/Documents/IntegrationForGithub/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/haojin/Workspace/Documents/IntegrationForGithub/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/haojin/Workspace/Documents/IntegrationForGithub/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/haojin/Workspace/Documents/IntegrationForGithub/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/haojin/Workspace/Documents/IntegrationForGithub/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/haojin/Workspace/Documents/IntegrationForGithub/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/haojin/Workspace/Documents/IntegrationForGithub/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/haojin/Workspace/Documents/IntegrationForGithub/da/CDAGenerator.cpp">
+			<Option target="Integration"/>
+		</Unit>
+		<Unit filename="/home/haojin/Workspace/Documents/IntegrationForGithub/da/CDAGenerator.h">
+			<Option target="Integration"/>
+		</Unit>
+		<Unit filename="/home/haojin/Workspace/Documents/IntegrationForGithub/include/Constraint.h">
+			<Option target="Integration"/>
+		</Unit>
+		<Unit filename="/home/haojin/Workspace/Documents/IntegrationForGithub/include/FileParser.cpp">
+			<Option target="Integration"/>
+		</Unit>
+		<Unit filename="/home/haojin/Workspace/Documents/IntegrationForGithub/include/FileParser.h">
+			<Option target="Integration"/>
+		</Unit>
+		<Unit filename="/home/haojin/Workspace/Documents/IntegrationForGithub/include/Interaction.h">
+			<Option target="Integration"/>
+		</Unit>
+		<Unit filename="/home/haojin/Workspace/Documents/IntegrationForGithub/include/OptionHandler.cpp">
+			<Option target="Integration"/>
+		</Unit>
+		<Unit filename="/home/haojin/Workspace/Documents/IntegrationForGithub/include/OptionHandler.h">
+			<Option target="Integration"/>
+		</Unit>
+		<Unit filename="/home/haojin/Workspace/Documents/IntegrationForGithub/include/Parameter.h">
+			<Option target="Integration"/>
+		</Unit>
+		<Unit filename="/home/haojin/Workspace/Documents/IntegrationForGithub/include/Printer.cpp">
+			<Option target="Integration"/>
+		</Unit>
+		<Unit filename="/home/haojin/Workspace/Documents/IntegrationForGithub/include/Printer.h">
+			<Option target="Integration"/>
+		</Unit>
+		<Unit filename="/home/haojin/Workspace/Documents/IntegrationForGithub/include/SMTUtil.h">
+			<Option target="Integration"/>
+		</Unit>
+		<Unit filename="/home/haojin/Workspace/Documents/IntegrationForGithub/include/Sut.cpp">
+			<Option target="Integration"/>
+		</Unit>
+		<Unit filename="/home/haojin/Workspace/Documents/IntegrationForGithub/include/Sut.h">
+			<Option target="Integration"/>
+		</Unit>
+		<Unit filename="/home/haojin/Workspace/Documents/IntegrationForGithub/include/TestCase.h">
+			<Option target="Integration"/>
+		</Unit>
+		<Unit filename="/home/haojin/Workspace/Documents/IntegrationForGithub/include/Util.h">
+			<Option target="Integration"/>
+		</Unit>
+		<Unit filename="/home/haojin/Workspace/Documents/IntegrationForGithub/include/Value.h">
+			<Option target="Integration"/>
+		</Unit>
+		<Unit filename="/home/haojin/Workspace/Documents/IntegrationForGithub/src/FunctionSwitcher.cpp">
+			<Option target="Integration"/>
+		</Unit>
+		<Unit filename="/home/haojin/Workspace/Documents/IntegrationForGithub/src/FunctionSwitcher.h">
+			<Option target="Integration"/>
+		</Unit>
+		<Unit filename="/home/haojin/Workspace/Documents/IntegrationForGithub/src/Integration.cpp">
+			<Option target="Integration"/>
+		</Unit>
+		<Unit filename="/home/haojin/Workspace/Documents/IntegrationForGithub/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

@@ -1,0 +1,10 @@
+#SUCCESS,50973,i,../models/segal/concurrency.txt,s,,o,../inputs/concurrency-3.cca,c,3,random,50973,repeat,1
+p1,p2,p3,p4,p5
+v1,v1,v1,false,true
+v1,v2,v1,false,false
+v2,v1,v1,false,false
+v1,v2,v2,true,false
+v2,v2,v2,false,false
+v1,v1,v2,true,true
+v2,v1,v2,false,false
+v2,v2,v1,false,false

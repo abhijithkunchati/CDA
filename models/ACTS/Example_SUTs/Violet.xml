@@ -1,0 +1,2701 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <System name="">
+    <Parameters>
+      <Parameter id="0" name="VioletDef" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="1" name="SequenceDiagram" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="2" name="StateTransitionEdge" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="3" name="ClassInterfaceEdge" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="4" name="InitialStateNode" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="5" name="ExtensionFilter" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="6" name="SequenceD" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="7" name="DiagramSupport" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="8" name="ObjectFieldNode" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="9" name="SelectNext" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="10" name="NewFile" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="11" name="Window" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="12" name="CloseWindow" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="13" name="ClipDrawingArea" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="14" name="SetTitle" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="15" name="ExtendRelationshipEdge" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="16" name="EditProperties" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="17" name="LookAndFeel" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="18" name="StateDiagram" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="19" name="ObjectD" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="20" name="ClassAssociationEdge" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="21" name="InterfaceNode" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="22" name="UseCaseAssociationEdge" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="23" name="ObjectNoteEdge" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="24" name="MenuResources" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="25" name="RecentFile" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="26" name="ObjectDiagram" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="27" name="ObjectNode" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="28" name="StateD" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="29" name="StateNode" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="30" name="VioletFilter" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="31" name="NextWindow" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="32" name="SmallerGrid" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="33" name="HideGrid" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="34" name="SequenceParameterNode" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="35" name="WindowMenu" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="36" name="UseCaseNoteEdge" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="37" name="ZoomOut" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="38" name="GraphUtility" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="39" name="ClassDependencyEdge" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="40" name="EditMenu" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="41" name="SequenceCallEdge" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="42" name="SaveAs" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="43" name="ImageFilter" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="44" name="License" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="45" name="base" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="46" name="Additional" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="47" name="UseCaseDiagram" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="48" name="StateNoteEdge" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="49" name="Exit" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="50" name="StateNoteNode" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="51" name="ClassAggregationEdge" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="52" name="GrowDrawingArea" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="53" name="FileMenu" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="54" name="InternalFrame" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="55" name="UseCaseD" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="56" name="Actor" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="57" name="FinalStateNode" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="58" name="VersionChecker" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="59" name="UseCaseNode" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="60" name="About" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="61" name="ClassDiagram" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="62" name="SequenceCallNode" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="63" name="ObjectNoteNode" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="64" name="ObjectReferenceEdge" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="65" name="RestoreWindow" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="66" name="CommandLine" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="67" name="SequenceNoteEdge" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="68" name="Print" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="69" name="ZoomIn" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="70" name="Read" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="71" name="MaximizeWindow" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="72" name="SequenceNoteNode" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="73" name="SequenceReturnEdge" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="74" name="ClassNoteNode" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="75" name="IncludeRelationshipEdge" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="76" name="ClassNoteEdge" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="77" name="View" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="78" name="Help" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="79" name="HelpMenu" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="80" name="SaveFile" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="81" name="Preferences" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="82" name="ExportImage" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="83" name="OpenFile" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="84" name="DeleteItem" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="85" name="PackageNode" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="86" name="ClassD" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="87" name="PreviousWindow" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="88" name="ClassCompositionEdge" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="89" name="Edit" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="90" name="SelectPrevious" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="91" name="File" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="92" name="ClassInheritanceEdge" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="93" name="ViewMenu" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="94" name="UseCaseNoteNode" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="95" name="ClassNode" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="96" name="Violet" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="97" name="UseCaseGeneralizationEdge" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="98" name="ObjectAssociationEdge" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="99" name="LargerGrid" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="100" name="FileUtility" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+    </Parameters>
+    <OutputParameters />
+    <Relations>
+      <Relation Strength="3" Default="false">
+        <Parameter name="VioletDef">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="SequenceDiagram">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="StateTransitionEdge">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="ClassInterfaceEdge">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="InitialStateNode">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="ExtensionFilter">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="SequenceD">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="DiagramSupport">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="ObjectFieldNode">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="SelectNext">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="NewFile">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="Window">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="CloseWindow">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="ClipDrawingArea">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="SetTitle">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="ExtendRelationshipEdge">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="EditProperties">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="LookAndFeel">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="StateDiagram">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="ObjectD">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="ClassAssociationEdge">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="InterfaceNode">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="UseCaseAssociationEdge">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="ObjectNoteEdge">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="MenuResources">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="RecentFile">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="ObjectDiagram">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="ObjectNode">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="StateD">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="StateNode">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="VioletFilter">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="NextWindow">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="SmallerGrid">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="HideGrid">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="SequenceParameterNode">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="WindowMenu">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="UseCaseNoteEdge">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="ZoomOut">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="GraphUtility">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="ClassDependencyEdge">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="EditMenu">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="SequenceCallEdge">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="SaveAs">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="ImageFilter">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="License">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="base">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="Additional">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="UseCaseDiagram">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="StateNoteEdge">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="Exit">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="StateNoteNode">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="ClassAggregationEdge">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="GrowDrawingArea">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="FileMenu">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="InternalFrame">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="UseCaseD">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="Actor">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="FinalStateNode">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="VersionChecker">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="UseCaseNode">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="About">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="ClassDiagram">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="SequenceCallNode">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="ObjectNoteNode">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="ObjectReferenceEdge">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="RestoreWindow">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="CommandLine">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="SequenceNoteEdge">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="Print">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="ZoomIn">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="Read">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="MaximizeWindow">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="SequenceNoteNode">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="SequenceReturnEdge">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="ClassNoteNode">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="IncludeRelationshipEdge">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="ClassNoteEdge">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="View">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="Help">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="HelpMenu">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="SaveFile">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="Preferences">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="ExportImage">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="OpenFile">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="DeleteItem">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="PackageNode">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="ClassD">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="PreviousWindow">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="ClassCompositionEdge">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="Edit">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="SelectPrevious">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="File">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="ClassInheritanceEdge">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="ViewMenu">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="UseCaseNoteNode">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="ClassNode">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="Violet">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="UseCaseGeneralizationEdge">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="ObjectAssociationEdge">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="LargerGrid">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="FileUtility">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+      </Relation>
+    </Relations>
+    <Constraints>
+      <Constraint text="Violet">
+        <Parameters>
+          <Parameter name="Violet" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!VioletDef || Violet">
+        <Parameters>
+          <Parameter name="VioletDef" />
+          <Parameter name="Violet" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!Violet || VioletDef">
+        <Parameters>
+          <Parameter name="Violet" />
+          <Parameter name="VioletDef" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!Additional || VioletDef">
+        <Parameters>
+          <Parameter name="Additional" />
+          <Parameter name="VioletDef" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!Help || VioletDef">
+        <Parameters>
+          <Parameter name="Help" />
+          <Parameter name="VioletDef" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!HelpMenu || VioletDef">
+        <Parameters>
+          <Parameter name="HelpMenu" />
+          <Parameter name="VioletDef" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!Window || VioletDef">
+        <Parameters>
+          <Parameter name="Window" />
+          <Parameter name="VioletDef" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!WindowMenu || VioletDef">
+        <Parameters>
+          <Parameter name="WindowMenu" />
+          <Parameter name="VioletDef" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!View || VioletDef">
+        <Parameters>
+          <Parameter name="View" />
+          <Parameter name="VioletDef" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!ViewMenu || VioletDef">
+        <Parameters>
+          <Parameter name="ViewMenu" />
+          <Parameter name="VioletDef" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!Edit || VioletDef">
+        <Parameters>
+          <Parameter name="Edit" />
+          <Parameter name="VioletDef" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!EditMenu || VioletDef">
+        <Parameters>
+          <Parameter name="EditMenu" />
+          <Parameter name="VioletDef" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!ClassDiagram || VioletDef">
+        <Parameters>
+          <Parameter name="ClassDiagram" />
+          <Parameter name="VioletDef" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!ClassD || VioletDef">
+        <Parameters>
+          <Parameter name="ClassD" />
+          <Parameter name="VioletDef" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!SequenceDiagram || VioletDef">
+        <Parameters>
+          <Parameter name="SequenceDiagram" />
+          <Parameter name="VioletDef" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!SequenceD || VioletDef">
+        <Parameters>
+          <Parameter name="SequenceD" />
+          <Parameter name="VioletDef" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!StateDiagram || VioletDef">
+        <Parameters>
+          <Parameter name="StateDiagram" />
+          <Parameter name="VioletDef" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!StateD || VioletDef">
+        <Parameters>
+          <Parameter name="StateD" />
+          <Parameter name="VioletDef" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!ObjectDiagram || VioletDef">
+        <Parameters>
+          <Parameter name="ObjectDiagram" />
+          <Parameter name="VioletDef" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!ObjectD || VioletDef">
+        <Parameters>
+          <Parameter name="ObjectD" />
+          <Parameter name="VioletDef" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!UseCaseDiagram || VioletDef">
+        <Parameters>
+          <Parameter name="UseCaseDiagram" />
+          <Parameter name="VioletDef" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!UseCaseD || VioletDef">
+        <Parameters>
+          <Parameter name="UseCaseD" />
+          <Parameter name="VioletDef" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!DiagramSupport || VioletDef">
+        <Parameters>
+          <Parameter name="DiagramSupport" />
+          <Parameter name="VioletDef" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!File || VioletDef">
+        <Parameters>
+          <Parameter name="File" />
+          <Parameter name="VioletDef" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!NewFile || VioletDef">
+        <Parameters>
+          <Parameter name="NewFile" />
+          <Parameter name="VioletDef" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!FileMenu || VioletDef">
+        <Parameters>
+          <Parameter name="FileMenu" />
+          <Parameter name="VioletDef" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!Read || VioletDef">
+        <Parameters>
+          <Parameter name="Read" />
+          <Parameter name="VioletDef" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!InternalFrame || VioletDef">
+        <Parameters>
+          <Parameter name="InternalFrame" />
+          <Parameter name="VioletDef" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!FileUtility || VioletDef">
+        <Parameters>
+          <Parameter name="FileUtility" />
+          <Parameter name="VioletDef" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!ExtensionFilter || VioletDef">
+        <Parameters>
+          <Parameter name="ExtensionFilter" />
+          <Parameter name="VioletDef" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!GraphUtility || VioletDef">
+        <Parameters>
+          <Parameter name="GraphUtility" />
+          <Parameter name="VioletDef" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!MenuResources || VioletDef">
+        <Parameters>
+          <Parameter name="MenuResources" />
+          <Parameter name="VioletDef" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!base || VioletDef">
+        <Parameters>
+          <Parameter name="base" />
+          <Parameter name="VioletDef" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!VioletDef || base">
+        <Parameters>
+          <Parameter name="VioletDef" />
+          <Parameter name="base" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!CommandLine || Additional">
+        <Parameters>
+          <Parameter name="CommandLine" />
+          <Parameter name="Additional" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!VersionChecker || Additional">
+        <Parameters>
+          <Parameter name="VersionChecker" />
+          <Parameter name="Additional" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!VioletFilter || Additional">
+        <Parameters>
+          <Parameter name="VioletFilter" />
+          <Parameter name="Additional" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!ImageFilter || Additional">
+        <Parameters>
+          <Parameter name="ImageFilter" />
+          <Parameter name="Additional" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!SetTitle || Additional">
+        <Parameters>
+          <Parameter name="SetTitle" />
+          <Parameter name="Additional" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!Preferences || Additional">
+        <Parameters>
+          <Parameter name="Preferences" />
+          <Parameter name="Additional" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!Additional || CommandLine || VersionChecker || VioletFilter || ImageFilter || SetTitle || Preferences">
+        <Parameters>
+          <Parameter name="Additional" />
+          <Parameter name="CommandLine" />
+          <Parameter name="VersionChecker" />
+          <Parameter name="VioletFilter" />
+          <Parameter name="ImageFilter" />
+          <Parameter name="SetTitle" />
+          <Parameter name="Preferences" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!About || Help">
+        <Parameters>
+          <Parameter name="About" />
+          <Parameter name="Help" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!License || Help">
+        <Parameters>
+          <Parameter name="License" />
+          <Parameter name="Help" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!Help || About || License">
+        <Parameters>
+          <Parameter name="Help" />
+          <Parameter name="About" />
+          <Parameter name="License" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!CloseWindow || Window">
+        <Parameters>
+          <Parameter name="CloseWindow" />
+          <Parameter name="Window" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!RestoreWindow || Window">
+        <Parameters>
+          <Parameter name="RestoreWindow" />
+          <Parameter name="Window" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!MaximizeWindow || Window">
+        <Parameters>
+          <Parameter name="MaximizeWindow" />
+          <Parameter name="Window" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!PreviousWindow || Window">
+        <Parameters>
+          <Parameter name="PreviousWindow" />
+          <Parameter name="Window" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!NextWindow || Window">
+        <Parameters>
+          <Parameter name="NextWindow" />
+          <Parameter name="Window" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!Window || CloseWindow || RestoreWindow || MaximizeWindow || PreviousWindow || NextWindow">
+        <Parameters>
+          <Parameter name="Window" />
+          <Parameter name="CloseWindow" />
+          <Parameter name="RestoreWindow" />
+          <Parameter name="MaximizeWindow" />
+          <Parameter name="PreviousWindow" />
+          <Parameter name="NextWindow" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!LookAndFeel || View">
+        <Parameters>
+          <Parameter name="LookAndFeel" />
+          <Parameter name="View" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!ZoomOut || View">
+        <Parameters>
+          <Parameter name="ZoomOut" />
+          <Parameter name="View" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!ZoomIn || View">
+        <Parameters>
+          <Parameter name="ZoomIn" />
+          <Parameter name="View" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!GrowDrawingArea || View">
+        <Parameters>
+          <Parameter name="GrowDrawingArea" />
+          <Parameter name="View" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!ClipDrawingArea || View">
+        <Parameters>
+          <Parameter name="ClipDrawingArea" />
+          <Parameter name="View" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!SmallerGrid || View">
+        <Parameters>
+          <Parameter name="SmallerGrid" />
+          <Parameter name="View" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!LargerGrid || View">
+        <Parameters>
+          <Parameter name="LargerGrid" />
+          <Parameter name="View" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!HideGrid || View">
+        <Parameters>
+          <Parameter name="HideGrid" />
+          <Parameter name="View" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!View || LookAndFeel || ZoomOut || ZoomIn || GrowDrawingArea || ClipDrawingArea || SmallerGrid || LargerGrid || HideGrid">
+        <Parameters>
+          <Parameter name="View" />
+          <Parameter name="LookAndFeel" />
+          <Parameter name="ZoomOut" />
+          <Parameter name="ZoomIn" />
+          <Parameter name="GrowDrawingArea" />
+          <Parameter name="ClipDrawingArea" />
+          <Parameter name="SmallerGrid" />
+          <Parameter name="LargerGrid" />
+          <Parameter name="HideGrid" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!EditProperties || Edit">
+        <Parameters>
+          <Parameter name="EditProperties" />
+          <Parameter name="Edit" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!DeleteItem || Edit">
+        <Parameters>
+          <Parameter name="DeleteItem" />
+          <Parameter name="Edit" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!SelectNext || Edit">
+        <Parameters>
+          <Parameter name="SelectNext" />
+          <Parameter name="Edit" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!SelectPrevious || Edit">
+        <Parameters>
+          <Parameter name="SelectPrevious" />
+          <Parameter name="Edit" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!Edit || EditProperties || DeleteItem || SelectNext || SelectPrevious">
+        <Parameters>
+          <Parameter name="Edit" />
+          <Parameter name="EditProperties" />
+          <Parameter name="DeleteItem" />
+          <Parameter name="SelectNext" />
+          <Parameter name="SelectPrevious" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!ClassNode || ClassDiagram">
+        <Parameters>
+          <Parameter name="ClassNode" />
+          <Parameter name="ClassDiagram" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!InterfaceNode || ClassDiagram">
+        <Parameters>
+          <Parameter name="InterfaceNode" />
+          <Parameter name="ClassDiagram" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!PackageNode || ClassDiagram">
+        <Parameters>
+          <Parameter name="PackageNode" />
+          <Parameter name="ClassDiagram" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!ClassNoteNode || ClassDiagram">
+        <Parameters>
+          <Parameter name="ClassNoteNode" />
+          <Parameter name="ClassDiagram" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!ClassDependencyEdge || ClassDiagram">
+        <Parameters>
+          <Parameter name="ClassDependencyEdge" />
+          <Parameter name="ClassDiagram" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!ClassInheritanceEdge || ClassDiagram">
+        <Parameters>
+          <Parameter name="ClassInheritanceEdge" />
+          <Parameter name="ClassDiagram" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!ClassAggregationEdge || ClassDiagram">
+        <Parameters>
+          <Parameter name="ClassAggregationEdge" />
+          <Parameter name="ClassDiagram" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!ClassAssociationEdge || ClassDiagram">
+        <Parameters>
+          <Parameter name="ClassAssociationEdge" />
+          <Parameter name="ClassDiagram" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!ClassCompositionEdge || ClassDiagram">
+        <Parameters>
+          <Parameter name="ClassCompositionEdge" />
+          <Parameter name="ClassDiagram" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!ClassInterfaceEdge || ClassDiagram">
+        <Parameters>
+          <Parameter name="ClassInterfaceEdge" />
+          <Parameter name="ClassDiagram" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!ClassNoteEdge || ClassDiagram">
+        <Parameters>
+          <Parameter name="ClassNoteEdge" />
+          <Parameter name="ClassDiagram" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!ClassDiagram || ClassNode || InterfaceNode || PackageNode || ClassNoteNode || ClassDependencyEdge || ClassInheritanceEdge || ClassAggregationEdge || ClassAssociationEdge || ClassCompositionEdge || ClassInterfaceEdge || ClassNoteEdge">
+        <Parameters>
+          <Parameter name="ClassDiagram" />
+          <Parameter name="ClassNode" />
+          <Parameter name="InterfaceNode" />
+          <Parameter name="PackageNode" />
+          <Parameter name="ClassNoteNode" />
+          <Parameter name="ClassDependencyEdge" />
+          <Parameter name="ClassInheritanceEdge" />
+          <Parameter name="ClassAggregationEdge" />
+          <Parameter name="ClassAssociationEdge" />
+          <Parameter name="ClassCompositionEdge" />
+          <Parameter name="ClassInterfaceEdge" />
+          <Parameter name="ClassNoteEdge" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!SequenceParameterNode || SequenceDiagram">
+        <Parameters>
+          <Parameter name="SequenceParameterNode" />
+          <Parameter name="SequenceDiagram" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!SequenceCallNode || SequenceDiagram">
+        <Parameters>
+          <Parameter name="SequenceCallNode" />
+          <Parameter name="SequenceDiagram" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!SequenceNoteNode || SequenceDiagram">
+        <Parameters>
+          <Parameter name="SequenceNoteNode" />
+          <Parameter name="SequenceDiagram" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!SequenceCallEdge || SequenceDiagram">
+        <Parameters>
+          <Parameter name="SequenceCallEdge" />
+          <Parameter name="SequenceDiagram" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!SequenceReturnEdge || SequenceDiagram">
+        <Parameters>
+          <Parameter name="SequenceReturnEdge" />
+          <Parameter name="SequenceDiagram" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!SequenceNoteEdge || SequenceDiagram">
+        <Parameters>
+          <Parameter name="SequenceNoteEdge" />
+          <Parameter name="SequenceDiagram" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!SequenceDiagram || SequenceParameterNode || SequenceCallNode || SequenceNoteNode || SequenceCallEdge || SequenceReturnEdge || SequenceNoteEdge">
+        <Parameters>
+          <Parameter name="SequenceDiagram" />
+          <Parameter name="SequenceParameterNode" />
+          <Parameter name="SequenceCallNode" />
+          <Parameter name="SequenceNoteNode" />
+          <Parameter name="SequenceCallEdge" />
+          <Parameter name="SequenceReturnEdge" />
+          <Parameter name="SequenceNoteEdge" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!StateNode || StateDiagram">
+        <Parameters>
+          <Parameter name="StateNode" />
+          <Parameter name="StateDiagram" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!InitialStateNode || StateDiagram">
+        <Parameters>
+          <Parameter name="InitialStateNode" />
+          <Parameter name="StateDiagram" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!FinalStateNode || StateDiagram">
+        <Parameters>
+          <Parameter name="FinalStateNode" />
+          <Parameter name="StateDiagram" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!StateNoteNode || StateDiagram">
+        <Parameters>
+          <Parameter name="StateNoteNode" />
+          <Parameter name="StateDiagram" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!StateTransitionEdge || StateDiagram">
+        <Parameters>
+          <Parameter name="StateTransitionEdge" />
+          <Parameter name="StateDiagram" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!StateNoteEdge || StateDiagram">
+        <Parameters>
+          <Parameter name="StateNoteEdge" />
+          <Parameter name="StateDiagram" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!StateDiagram || StateNode || InitialStateNode || FinalStateNode || StateNoteNode || StateTransitionEdge || StateNoteEdge">
+        <Parameters>
+          <Parameter name="StateDiagram" />
+          <Parameter name="StateNode" />
+          <Parameter name="InitialStateNode" />
+          <Parameter name="FinalStateNode" />
+          <Parameter name="StateNoteNode" />
+          <Parameter name="StateTransitionEdge" />
+          <Parameter name="StateNoteEdge" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!ObjectNode || ObjectDiagram">
+        <Parameters>
+          <Parameter name="ObjectNode" />
+          <Parameter name="ObjectDiagram" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!ObjectFieldNode || ObjectDiagram">
+        <Parameters>
+          <Parameter name="ObjectFieldNode" />
+          <Parameter name="ObjectDiagram" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!ObjectNoteNode || ObjectDiagram">
+        <Parameters>
+          <Parameter name="ObjectNoteNode" />
+          <Parameter name="ObjectDiagram" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!ObjectReferenceEdge || ObjectDiagram">
+        <Parameters>
+          <Parameter name="ObjectReferenceEdge" />
+          <Parameter name="ObjectDiagram" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!ObjectAssociationEdge || ObjectDiagram">
+        <Parameters>
+          <Parameter name="ObjectAssociationEdge" />
+          <Parameter name="ObjectDiagram" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!ObjectNoteEdge || ObjectDiagram">
+        <Parameters>
+          <Parameter name="ObjectNoteEdge" />
+          <Parameter name="ObjectDiagram" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!ObjectDiagram || ObjectNode || ObjectFieldNode || ObjectNoteNode || ObjectReferenceEdge || ObjectAssociationEdge || ObjectNoteEdge">
+        <Parameters>
+          <Parameter name="ObjectDiagram" />
+          <Parameter name="ObjectNode" />
+          <Parameter name="ObjectFieldNode" />
+          <Parameter name="ObjectNoteNode" />
+          <Parameter name="ObjectReferenceEdge" />
+          <Parameter name="ObjectAssociationEdge" />
+          <Parameter name="ObjectNoteEdge" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!Actor || UseCaseDiagram">
+        <Parameters>
+          <Parameter name="Actor" />
+          <Parameter name="UseCaseDiagram" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!UseCaseNode || UseCaseDiagram">
+        <Parameters>
+          <Parameter name="UseCaseNode" />
+          <Parameter name="UseCaseDiagram" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!UseCaseNoteNode || UseCaseDiagram">
+        <Parameters>
+          <Parameter name="UseCaseNoteNode" />
+          <Parameter name="UseCaseDiagram" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!UseCaseAssociationEdge || UseCaseDiagram">
+        <Parameters>
+          <Parameter name="UseCaseAssociationEdge" />
+          <Parameter name="UseCaseDiagram" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!ExtendRelationshipEdge || UseCaseDiagram">
+        <Parameters>
+          <Parameter name="ExtendRelationshipEdge" />
+          <Parameter name="UseCaseDiagram" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!IncludeRelationshipEdge || UseCaseDiagram">
+        <Parameters>
+          <Parameter name="IncludeRelationshipEdge" />
+          <Parameter name="UseCaseDiagram" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!UseCaseGeneralizationEdge || UseCaseDiagram">
+        <Parameters>
+          <Parameter name="UseCaseGeneralizationEdge" />
+          <Parameter name="UseCaseDiagram" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!UseCaseNoteEdge || UseCaseDiagram">
+        <Parameters>
+          <Parameter name="UseCaseNoteEdge" />
+          <Parameter name="UseCaseDiagram" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!UseCaseDiagram || Actor || UseCaseNode || UseCaseNoteNode || UseCaseAssociationEdge || ExtendRelationshipEdge || IncludeRelationshipEdge || UseCaseGeneralizationEdge || UseCaseNoteEdge">
+        <Parameters>
+          <Parameter name="UseCaseDiagram" />
+          <Parameter name="Actor" />
+          <Parameter name="UseCaseNode" />
+          <Parameter name="UseCaseNoteNode" />
+          <Parameter name="UseCaseAssociationEdge" />
+          <Parameter name="ExtendRelationshipEdge" />
+          <Parameter name="IncludeRelationshipEdge" />
+          <Parameter name="UseCaseGeneralizationEdge" />
+          <Parameter name="UseCaseNoteEdge" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!Exit || File">
+        <Parameters>
+          <Parameter name="Exit" />
+          <Parameter name="File" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!Print || File">
+        <Parameters>
+          <Parameter name="Print" />
+          <Parameter name="File" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!ExportImage || File">
+        <Parameters>
+          <Parameter name="ExportImage" />
+          <Parameter name="File" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!SaveFile || File">
+        <Parameters>
+          <Parameter name="SaveFile" />
+          <Parameter name="File" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!SaveAs || File">
+        <Parameters>
+          <Parameter name="SaveAs" />
+          <Parameter name="File" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!RecentFile || File">
+        <Parameters>
+          <Parameter name="RecentFile" />
+          <Parameter name="File" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!OpenFile || File">
+        <Parameters>
+          <Parameter name="OpenFile" />
+          <Parameter name="File" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!File || Exit || Print || ExportImage || SaveFile || SaveAs || RecentFile || OpenFile">
+        <Parameters>
+          <Parameter name="File" />
+          <Parameter name="Exit" />
+          <Parameter name="Print" />
+          <Parameter name="ExportImage" />
+          <Parameter name="SaveFile" />
+          <Parameter name="SaveAs" />
+          <Parameter name="RecentFile" />
+          <Parameter name="OpenFile" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!File || MenuResources">
+        <Parameters>
+          <Parameter name="File" />
+          <Parameter name="MenuResources" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!File || GraphUtility">
+        <Parameters>
+          <Parameter name="File" />
+          <Parameter name="GraphUtility" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!File || ExtensionFilter">
+        <Parameters>
+          <Parameter name="File" />
+          <Parameter name="ExtensionFilter" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!File || FileUtility">
+        <Parameters>
+          <Parameter name="File" />
+          <Parameter name="FileUtility" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!File || InternalFrame">
+        <Parameters>
+          <Parameter name="File" />
+          <Parameter name="InternalFrame" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!File || Read">
+        <Parameters>
+          <Parameter name="File" />
+          <Parameter name="Read" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!NewFile || MenuResources">
+        <Parameters>
+          <Parameter name="NewFile" />
+          <Parameter name="MenuResources" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!NewFile || GraphUtility">
+        <Parameters>
+          <Parameter name="NewFile" />
+          <Parameter name="GraphUtility" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!NewFile || ExtensionFilter">
+        <Parameters>
+          <Parameter name="NewFile" />
+          <Parameter name="ExtensionFilter" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!NewFile || FileUtility">
+        <Parameters>
+          <Parameter name="NewFile" />
+          <Parameter name="FileUtility" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!NewFile || InternalFrame">
+        <Parameters>
+          <Parameter name="NewFile" />
+          <Parameter name="InternalFrame" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!NewFile || Read">
+        <Parameters>
+          <Parameter name="NewFile" />
+          <Parameter name="Read" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!Edit || MenuResources">
+        <Parameters>
+          <Parameter name="Edit" />
+          <Parameter name="MenuResources" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!Edit || GraphUtility">
+        <Parameters>
+          <Parameter name="Edit" />
+          <Parameter name="GraphUtility" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!Edit || ExtensionFilter">
+        <Parameters>
+          <Parameter name="Edit" />
+          <Parameter name="ExtensionFilter" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!Edit || FileUtility">
+        <Parameters>
+          <Parameter name="Edit" />
+          <Parameter name="FileUtility" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!Edit || InternalFrame">
+        <Parameters>
+          <Parameter name="Edit" />
+          <Parameter name="InternalFrame" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!Edit || Read">
+        <Parameters>
+          <Parameter name="Edit" />
+          <Parameter name="Read" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!View || MenuResources">
+        <Parameters>
+          <Parameter name="View" />
+          <Parameter name="MenuResources" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!View || GraphUtility">
+        <Parameters>
+          <Parameter name="View" />
+          <Parameter name="GraphUtility" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!View || ExtensionFilter">
+        <Parameters>
+          <Parameter name="View" />
+          <Parameter name="ExtensionFilter" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!View || FileUtility">
+        <Parameters>
+          <Parameter name="View" />
+          <Parameter name="FileUtility" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!View || InternalFrame">
+        <Parameters>
+          <Parameter name="View" />
+          <Parameter name="InternalFrame" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!View || Read">
+        <Parameters>
+          <Parameter name="View" />
+          <Parameter name="Read" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!Window || MenuResources">
+        <Parameters>
+          <Parameter name="Window" />
+          <Parameter name="MenuResources" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!Window || GraphUtility">
+        <Parameters>
+          <Parameter name="Window" />
+          <Parameter name="GraphUtility" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!Window || ExtensionFilter">
+        <Parameters>
+          <Parameter name="Window" />
+          <Parameter name="ExtensionFilter" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!Window || FileUtility">
+        <Parameters>
+          <Parameter name="Window" />
+          <Parameter name="FileUtility" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!Window || InternalFrame">
+        <Parameters>
+          <Parameter name="Window" />
+          <Parameter name="InternalFrame" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!Window || Read">
+        <Parameters>
+          <Parameter name="Window" />
+          <Parameter name="Read" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!Help || MenuResources">
+        <Parameters>
+          <Parameter name="Help" />
+          <Parameter name="MenuResources" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!Help || GraphUtility">
+        <Parameters>
+          <Parameter name="Help" />
+          <Parameter name="GraphUtility" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!Help || ExtensionFilter">
+        <Parameters>
+          <Parameter name="Help" />
+          <Parameter name="ExtensionFilter" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!Help || FileUtility">
+        <Parameters>
+          <Parameter name="Help" />
+          <Parameter name="FileUtility" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!Help || InternalFrame">
+        <Parameters>
+          <Parameter name="Help" />
+          <Parameter name="InternalFrame" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!Help || Read">
+        <Parameters>
+          <Parameter name="Help" />
+          <Parameter name="Read" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!Additional || MenuResources">
+        <Parameters>
+          <Parameter name="Additional" />
+          <Parameter name="MenuResources" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!Additional || GraphUtility">
+        <Parameters>
+          <Parameter name="Additional" />
+          <Parameter name="GraphUtility" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!Additional || ExtensionFilter">
+        <Parameters>
+          <Parameter name="Additional" />
+          <Parameter name="ExtensionFilter" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!Additional || FileUtility">
+        <Parameters>
+          <Parameter name="Additional" />
+          <Parameter name="FileUtility" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!Additional || InternalFrame">
+        <Parameters>
+          <Parameter name="Additional" />
+          <Parameter name="InternalFrame" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!Additional || Read">
+        <Parameters>
+          <Parameter name="Additional" />
+          <Parameter name="Read" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!File || FileMenu">
+        <Parameters>
+          <Parameter name="File" />
+          <Parameter name="FileMenu" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!NewFile || FileMenu">
+        <Parameters>
+          <Parameter name="NewFile" />
+          <Parameter name="FileMenu" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!Edit || EditMenu">
+        <Parameters>
+          <Parameter name="Edit" />
+          <Parameter name="EditMenu" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!View || ViewMenu">
+        <Parameters>
+          <Parameter name="View" />
+          <Parameter name="ViewMenu" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!Window || WindowMenu">
+        <Parameters>
+          <Parameter name="Window" />
+          <Parameter name="WindowMenu" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!Help || HelpMenu">
+        <Parameters>
+          <Parameter name="Help" />
+          <Parameter name="HelpMenu" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!ClassDiagram || DiagramSupport">
+        <Parameters>
+          <Parameter name="ClassDiagram" />
+          <Parameter name="DiagramSupport" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!ClassDiagram || NewFile">
+        <Parameters>
+          <Parameter name="ClassDiagram" />
+          <Parameter name="NewFile" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!SequenceDiagram || DiagramSupport">
+        <Parameters>
+          <Parameter name="SequenceDiagram" />
+          <Parameter name="DiagramSupport" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!SequenceDiagram || NewFile">
+        <Parameters>
+          <Parameter name="SequenceDiagram" />
+          <Parameter name="NewFile" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!StateDiagram || DiagramSupport">
+        <Parameters>
+          <Parameter name="StateDiagram" />
+          <Parameter name="DiagramSupport" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!StateDiagram || NewFile">
+        <Parameters>
+          <Parameter name="StateDiagram" />
+          <Parameter name="NewFile" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!ObjectDiagram || DiagramSupport">
+        <Parameters>
+          <Parameter name="ObjectDiagram" />
+          <Parameter name="DiagramSupport" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!ObjectDiagram || NewFile">
+        <Parameters>
+          <Parameter name="ObjectDiagram" />
+          <Parameter name="NewFile" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!UseCaseDiagram || DiagramSupport">
+        <Parameters>
+          <Parameter name="UseCaseDiagram" />
+          <Parameter name="DiagramSupport" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!UseCaseDiagram || NewFile">
+        <Parameters>
+          <Parameter name="UseCaseDiagram" />
+          <Parameter name="NewFile" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!ClassDiagram || ClassD">
+        <Parameters>
+          <Parameter name="ClassDiagram" />
+          <Parameter name="ClassD" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!SequenceDiagram || SequenceD">
+        <Parameters>
+          <Parameter name="SequenceDiagram" />
+          <Parameter name="SequenceD" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!StateDiagram || StateD">
+        <Parameters>
+          <Parameter name="StateDiagram" />
+          <Parameter name="StateD" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!ObjectDiagram || ObjectD">
+        <Parameters>
+          <Parameter name="ObjectDiagram" />
+          <Parameter name="ObjectD" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!UseCaseDiagram || UseCaseD">
+        <Parameters>
+          <Parameter name="UseCaseDiagram" />
+          <Parameter name="UseCaseD" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!RecentFile || OpenFile">
+        <Parameters>
+          <Parameter name="RecentFile" />
+          <Parameter name="OpenFile" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!SaveFile || SaveAs">
+        <Parameters>
+          <Parameter name="SaveFile" />
+          <Parameter name="SaveAs" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!ImageFilter || ExtensionFilter">
+        <Parameters>
+          <Parameter name="ImageFilter" />
+          <Parameter name="ExtensionFilter" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!ImageFilter || ExportImage">
+        <Parameters>
+          <Parameter name="ImageFilter" />
+          <Parameter name="ExportImage" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!VioletFilter || ExtensionFilter">
+        <Parameters>
+          <Parameter name="VioletFilter" />
+          <Parameter name="ExtensionFilter" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!CommandLine || OpenFile">
+        <Parameters>
+          <Parameter name="CommandLine" />
+          <Parameter name="OpenFile" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!ClassDependencyEdge || ClassNode">
+        <Parameters>
+          <Parameter name="ClassDependencyEdge" />
+          <Parameter name="ClassNode" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!ClassInheritanceEdge || ClassNode">
+        <Parameters>
+          <Parameter name="ClassInheritanceEdge" />
+          <Parameter name="ClassNode" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!ClassAggregationEdge || ClassNode">
+        <Parameters>
+          <Parameter name="ClassAggregationEdge" />
+          <Parameter name="ClassNode" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!ClassAssociationEdge || ClassNode">
+        <Parameters>
+          <Parameter name="ClassAssociationEdge" />
+          <Parameter name="ClassNode" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!ClassCompositionEdge || ClassNode">
+        <Parameters>
+          <Parameter name="ClassCompositionEdge" />
+          <Parameter name="ClassNode" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!ClassInterfaceEdge || ClassNode">
+        <Parameters>
+          <Parameter name="ClassInterfaceEdge" />
+          <Parameter name="ClassNode" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!ClassNoteEdge || ClassNoteNode">
+        <Parameters>
+          <Parameter name="ClassNoteEdge" />
+          <Parameter name="ClassNoteNode" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!SequenceCallEdge || SequenceCallNode">
+        <Parameters>
+          <Parameter name="SequenceCallEdge" />
+          <Parameter name="SequenceCallNode" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!SequenceReturnEdge || SequenceCallNode">
+        <Parameters>
+          <Parameter name="SequenceReturnEdge" />
+          <Parameter name="SequenceCallNode" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!SequenceNoteEdge || SequenceNoteNode">
+        <Parameters>
+          <Parameter name="SequenceNoteEdge" />
+          <Parameter name="SequenceNoteNode" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!StateTransitionEdge || StateNode">
+        <Parameters>
+          <Parameter name="StateTransitionEdge" />
+          <Parameter name="StateNode" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!StateNoteEdge || StateNoteNode">
+        <Parameters>
+          <Parameter name="StateNoteEdge" />
+          <Parameter name="StateNoteNode" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!ObjectReferenceEdge || ObjectNode">
+        <Parameters>
+          <Parameter name="ObjectReferenceEdge" />
+          <Parameter name="ObjectNode" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!ObjectAssociationEdge || ObjectNode">
+        <Parameters>
+          <Parameter name="ObjectAssociationEdge" />
+          <Parameter name="ObjectNode" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!ObjectNoteEdge || ObjectNoteNode">
+        <Parameters>
+          <Parameter name="ObjectNoteEdge" />
+          <Parameter name="ObjectNoteNode" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!UseCaseAssociationEdge || Actor">
+        <Parameters>
+          <Parameter name="UseCaseAssociationEdge" />
+          <Parameter name="Actor" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!ExtendRelationshipEdge || Actor">
+        <Parameters>
+          <Parameter name="ExtendRelationshipEdge" />
+          <Parameter name="Actor" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!IncludeRelationshipEdge || Actor">
+        <Parameters>
+          <Parameter name="IncludeRelationshipEdge" />
+          <Parameter name="Actor" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!UseCaseGeneralizationEdge || Actor">
+        <Parameters>
+          <Parameter name="UseCaseGeneralizationEdge" />
+          <Parameter name="Actor" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!UseCaseNoteEdge || UseCaseNoteNode">
+        <Parameters>
+          <Parameter name="UseCaseNoteEdge" />
+          <Parameter name="UseCaseNoteNode" />
+        </Parameters>
+      </Constraint>
+    </Constraints>
+  </System>

@@ -1,0 +1,584 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <System name="">
+    <Parameters>
+      <Parameter id="0" name="mainBc" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="1" name="xak" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="2" name="mainGUI" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="3" name="Java" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="4" name="mmatrix" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="5" name="reform" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="6" name="bcjak2java" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="7" name="jak2aj" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="8" name="APL" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="9" name="jak2java" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="10" name="xc" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="11" name="mainAj" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="12" name="mainJava" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="13" name="me" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="14" name="bc" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="15" name="drc" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="16" name="bali" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="17" name="cpp" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="18" name="Gui" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="19" name="web" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="20" name="jedi" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="21" name="aj" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="22" name="Xml" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="23" name="guidsl" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="24" name="mainAPL" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+    </Parameters>
+    <OutputParameters />
+    <Relations>
+      <Relation Strength="3" Default="false">
+        <Parameter name="mainBc">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="xak">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="mainGUI">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="Java">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="mmatrix">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="reform">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="bcjak2java">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="jak2aj">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="APL">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="jak2java">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="xc">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="mainAj">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="mainJava">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="me">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="bc">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="drc">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="bali">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="cpp">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="Gui">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="web">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="jedi">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="aj">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="Xml">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="guidsl">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="mainAPL">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+      </Relation>
+    </Relations>
+    <Constraints>
+      <Constraint text="APL">
+        <Parameters>
+          <Parameter name="APL" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!mainAPL || APL">
+        <Parameters>
+          <Parameter name="mainAPL" />
+          <Parameter name="APL" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!APL || mainAPL">
+        <Parameters>
+          <Parameter name="APL" />
+          <Parameter name="mainAPL" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!Java || mainAPL">
+        <Parameters>
+          <Parameter name="Java" />
+          <Parameter name="mainAPL" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!mainAPL || Java">
+        <Parameters>
+          <Parameter name="mainAPL" />
+          <Parameter name="Java" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!Xml || mainAPL">
+        <Parameters>
+          <Parameter name="Xml" />
+          <Parameter name="mainAPL" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!cpp || mainAPL">
+        <Parameters>
+          <Parameter name="cpp" />
+          <Parameter name="mainAPL" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!Gui || mainAPL">
+        <Parameters>
+          <Parameter name="Gui" />
+          <Parameter name="mainAPL" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!drc || mainAPL">
+        <Parameters>
+          <Parameter name="drc" />
+          <Parameter name="mainAPL" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!bc || mainAPL">
+        <Parameters>
+          <Parameter name="bc" />
+          <Parameter name="mainAPL" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!aj || mainAPL">
+        <Parameters>
+          <Parameter name="aj" />
+          <Parameter name="mainAPL" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!mainJava || Java">
+        <Parameters>
+          <Parameter name="mainJava" />
+          <Parameter name="Java" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!Java || mainJava">
+        <Parameters>
+          <Parameter name="Java" />
+          <Parameter name="mainJava" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!xc || Xml">
+        <Parameters>
+          <Parameter name="xc" />
+          <Parameter name="Xml" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!xak || Xml">
+        <Parameters>
+          <Parameter name="xak" />
+          <Parameter name="Xml" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!Xml || xc || xak">
+        <Parameters>
+          <Parameter name="Xml" />
+          <Parameter name="xc" />
+          <Parameter name="xak" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!xc || !xak">
+        <Parameters>
+          <Parameter name="xc" />
+          <Parameter name="xak" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!mainGUI || Gui">
+        <Parameters>
+          <Parameter name="mainGUI" />
+          <Parameter name="Gui" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!Gui || mainGUI">
+        <Parameters>
+          <Parameter name="Gui" />
+          <Parameter name="mainGUI" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!mainBc || bc">
+        <Parameters>
+          <Parameter name="mainBc" />
+          <Parameter name="bc" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!bc || mainBc">
+        <Parameters>
+          <Parameter name="bc" />
+          <Parameter name="mainBc" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!mainAj || aj">
+        <Parameters>
+          <Parameter name="mainAj" />
+          <Parameter name="aj" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!aj || mainAj">
+        <Parameters>
+          <Parameter name="aj" />
+          <Parameter name="mainAj" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!reform || mainJava">
+        <Parameters>
+          <Parameter name="reform" />
+          <Parameter name="mainJava" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!jedi || mainJava">
+        <Parameters>
+          <Parameter name="jedi" />
+          <Parameter name="mainJava" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!jak2java || mainJava">
+        <Parameters>
+          <Parameter name="jak2java" />
+          <Parameter name="mainJava" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!mainJava || jak2java">
+        <Parameters>
+          <Parameter name="mainJava" />
+          <Parameter name="jak2java" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!bali || mainJava">
+        <Parameters>
+          <Parameter name="bali" />
+          <Parameter name="mainJava" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!mainJava || bali">
+        <Parameters>
+          <Parameter name="mainJava" />
+          <Parameter name="bali" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!me || mainGUI">
+        <Parameters>
+          <Parameter name="me" />
+          <Parameter name="mainGUI" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!mmatrix || mainGUI">
+        <Parameters>
+          <Parameter name="mmatrix" />
+          <Parameter name="mainGUI" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!guidsl || mainGUI">
+        <Parameters>
+          <Parameter name="guidsl" />
+          <Parameter name="mainGUI" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!web || mainGUI">
+        <Parameters>
+          <Parameter name="web" />
+          <Parameter name="mainGUI" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!bcjak2java || mainBc">
+        <Parameters>
+          <Parameter name="bcjak2java" />
+          <Parameter name="mainBc" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!jak2aj || mainAj">
+        <Parameters>
+          <Parameter name="jak2aj" />
+          <Parameter name="mainAj" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!bc || mmatrix">
+        <Parameters>
+          <Parameter name="bc" />
+          <Parameter name="mmatrix" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!me || mmatrix">
+        <Parameters>
+          <Parameter name="me" />
+          <Parameter name="mmatrix" />
+        </Parameters>
+      </Constraint>
+    </Constraints>
+  </System>

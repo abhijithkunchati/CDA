@@ -1,0 +1,7 @@
+CPU(0 1 2)
+OS(0 1 2)
+Browser(0 1 2)
+
+
+
+(if (== [Browser] 0) (== [Browser] 0))

@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <System name="">
+    <Parameters>
+      <Parameter id="0" name="Local" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="1" name="Bluetooth" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="2" name="Rich" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="3" name="DB" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="4" name="Thin" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="5" name="Built_In" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="6" name="Movies_App" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="7" name="GUI" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="8" name="Network" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="9" name="Remote" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="10" name="Cache_Policy" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="11" name="GPS" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="12" name="Wifi" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+    </Parameters>
+    <OutputParameters />
+    <Relations>
+      <Relation Strength="3" Default="false">
+        <Parameter name="Local">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="Bluetooth">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="Rich">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="DB">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="Thin">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="Built_In">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="Movies_App">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="GUI">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="Network">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="Remote">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="Cache_Policy">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="GPS">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="Wifi">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+      </Relation>
+    </Relations>
+    <Constraints>
+      <Constraint text="Movies_App">
+        <Parameters>
+          <Parameter name="Movies_App" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!GUI || Movies_App">
+        <Parameters>
+          <Parameter name="GUI" />
+          <Parameter name="Movies_App" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!Movies_App || GUI">
+        <Parameters>
+          <Parameter name="Movies_App" />
+          <Parameter name="GUI" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!DB || Movies_App">
+        <Parameters>
+          <Parameter name="DB" />
+          <Parameter name="Movies_App" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!Movies_App || DB">
+        <Parameters>
+          <Parameter name="Movies_App" />
+          <Parameter name="DB" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!Network || Movies_App">
+        <Parameters>
+          <Parameter name="Network" />
+          <Parameter name="Movies_App" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!Movies_App || Network">
+        <Parameters>
+          <Parameter name="Movies_App" />
+          <Parameter name="Network" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!GPS || Movies_App">
+        <Parameters>
+          <Parameter name="GPS" />
+          <Parameter name="Movies_App" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!Thin || GUI">
+        <Parameters>
+          <Parameter name="Thin" />
+          <Parameter name="GUI" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!Rich || GUI">
+        <Parameters>
+          <Parameter name="Rich" />
+          <Parameter name="GUI" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!GUI || Thin || Rich">
+        <Parameters>
+          <Parameter name="GUI" />
+          <Parameter name="Thin" />
+          <Parameter name="Rich" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!Thin || !Rich">
+        <Parameters>
+          <Parameter name="Thin" />
+          <Parameter name="Rich" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!Local || DB">
+        <Parameters>
+          <Parameter name="Local" />
+          <Parameter name="DB" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!Remote || DB">
+        <Parameters>
+          <Parameter name="Remote" />
+          <Parameter name="DB" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!DB || Local || Remote">
+        <Parameters>
+          <Parameter name="DB" />
+          <Parameter name="Local" />
+          <Parameter name="Remote" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!Local || !Remote">
+        <Parameters>
+          <Parameter name="Local" />
+          <Parameter name="Remote" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!Wifi || Network">
+        <Parameters>
+          <Parameter name="Wifi" />
+          <Parameter name="Network" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!Bluetooth || Network">
+        <Parameters>
+          <Parameter name="Bluetooth" />
+          <Parameter name="Network" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!Network || Wifi || Bluetooth">
+        <Parameters>
+          <Parameter name="Network" />
+          <Parameter name="Wifi" />
+          <Parameter name="Bluetooth" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!Wifi || !Bluetooth">
+        <Parameters>
+          <Parameter name="Wifi" />
+          <Parameter name="Bluetooth" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!Built_In || GPS">
+        <Parameters>
+          <Parameter name="Built_In" />
+          <Parameter name="GPS" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!Cache_Policy || Remote">
+        <Parameters>
+          <Parameter name="Cache_Policy" />
+          <Parameter name="Remote" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!Remote || Cache_Policy">
+        <Parameters>
+          <Parameter name="Remote" />
+          <Parameter name="Cache_Policy" />
+        </Parameters>
+      </Constraint>
+    </Constraints>
+  </System>

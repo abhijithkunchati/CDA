@@ -1,0 +1,13 @@
+p1 (v1 v2)
+p2 (v1 v2)
+p3 (v1 v2)
+p4 (true false)
+p5 (true false)
+
+(if (and (== [p3] v1) (== [p2] v1) (== [p5] false) (== [p4] false) (== [p1] v1)) (and (== [p1] v1) (not (== [p1] v1))))
+(if (and (== [p1] v2) (== [p5] true)) (and (== [p1] v1) (not (== [p1] v1))))
+(if (and (== [p2] v1) (== [p5] false) (== [p4] true) (== [p3] v2) (== [p1] v1)) (and (== [p1] v1) (not (== [p1] v1))))
+(if (and (== [p5] true) (== [p2] v2)) (and (== [p1] v1) (not (== [p1] v1))))
+(if (and (== [p4] false) (== [p3] v2) (== [p1] v1)) (and (== [p1] v1) (not (== [p1] v1))))
+(if (and (== [p4] true) (== [p1] v2)) (and (== [p1] v1) (not (== [p1] v1))))
+(if (and (== [p3] v1) (== [p4] true)) (and (== [p1] v1) (not (== [p1] v1))))

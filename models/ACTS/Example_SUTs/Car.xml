@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <System name="">
+    <Parameters>
+      <Parameter id="0" name="parallel_parking" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="1" name="Automated_Driving_Controller" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="2" name="Car" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="3" name="enhanced_avoidance" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="4" name="Sensors" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="5" name="Standard_Avoidance" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="6" name="Collision_Avoidance_Braking" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="7" name="lateral_range_finder" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="8" name="forward_range_finder" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+    </Parameters>
+    <OutputParameters />
+    <Relations>
+      <Relation Strength="3" Default="false">
+        <Parameter name="parallel_parking">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="Automated_Driving_Controller">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="Car">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="enhanced_avoidance">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="Sensors">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="Standard_Avoidance">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="Collision_Avoidance_Braking">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="lateral_range_finder">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="forward_range_finder">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+      </Relation>
+    </Relations>
+    <Constraints>
+      <Constraint text="Car">
+        <Parameters>
+          <Parameter name="Car" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!Automated_Driving_Controller || Car">
+        <Parameters>
+          <Parameter name="Automated_Driving_Controller" />
+          <Parameter name="Car" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!Sensors || Car">
+        <Parameters>
+          <Parameter name="Sensors" />
+          <Parameter name="Car" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!Car || Sensors">
+        <Parameters>
+          <Parameter name="Car" />
+          <Parameter name="Sensors" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!Collision_Avoidance_Braking || Automated_Driving_Controller">
+        <Parameters>
+          <Parameter name="Collision_Avoidance_Braking" />
+          <Parameter name="Automated_Driving_Controller" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!Automated_Driving_Controller || Collision_Avoidance_Braking">
+        <Parameters>
+          <Parameter name="Automated_Driving_Controller" />
+          <Parameter name="Collision_Avoidance_Braking" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!parallel_parking || Automated_Driving_Controller">
+        <Parameters>
+          <Parameter name="parallel_parking" />
+          <Parameter name="Automated_Driving_Controller" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!lateral_range_finder || Sensors">
+        <Parameters>
+          <Parameter name="lateral_range_finder" />
+          <Parameter name="Sensors" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!forward_range_finder || Sensors">
+        <Parameters>
+          <Parameter name="forward_range_finder" />
+          <Parameter name="Sensors" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!Standard_Avoidance || Collision_Avoidance_Braking">
+        <Parameters>
+          <Parameter name="Standard_Avoidance" />
+          <Parameter name="Collision_Avoidance_Braking" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!enhanced_avoidance || Collision_Avoidance_Braking">
+        <Parameters>
+          <Parameter name="enhanced_avoidance" />
+          <Parameter name="Collision_Avoidance_Braking" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!Collision_Avoidance_Braking || Standard_Avoidance || enhanced_avoidance">
+        <Parameters>
+          <Parameter name="Collision_Avoidance_Braking" />
+          <Parameter name="Standard_Avoidance" />
+          <Parameter name="enhanced_avoidance" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!Standard_Avoidance || !enhanced_avoidance">
+        <Parameters>
+          <Parameter name="Standard_Avoidance" />
+          <Parameter name="enhanced_avoidance" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!enhanced_avoidance || forward_range_finder">
+        <Parameters>
+          <Parameter name="enhanced_avoidance" />
+          <Parameter name="forward_range_finder" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!parallel_parking || lateral_range_finder">
+        <Parameters>
+          <Parameter name="parallel_parking" />
+          <Parameter name="lateral_range_finder" />
+        </Parameters>
+      </Constraint>
+    </Constraints>
+  </System>

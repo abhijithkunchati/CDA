@@ -1,0 +1,570 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <System name="">
+    <Parameters>
+      <Parameter id="0" name="cycle" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="1" name="shortest" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="2" name="weight" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="3" name="dfs" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="4" name="connected" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="5" name="stronglyc" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="6" name="number" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="7" name="bfs" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="8" name="mstprim" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="9" name="gtp" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="10" name="mstkruskal" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="11" name="gpl" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="12" name="undirected" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="13" name="weighted" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="14" name="benchmark" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="15" name="search" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="16" name="directed" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="17" name="unweighted" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="18" name="driver" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="19" name="algorithms" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+    </Parameters>
+    <OutputParameters />
+    <Relations>
+      <Relation Strength="3" Default="false">
+        <Parameter name="cycle">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="shortest">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="weight">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="dfs">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="connected">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="stronglyc">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="number">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="bfs">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="mstprim">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="gtp">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="mstkruskal">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="gpl">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="undirected">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="weighted">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="benchmark">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="search">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="directed">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="unweighted">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="driver">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="algorithms">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+      </Relation>
+    </Relations>
+    <Constraints>
+      <Constraint text="gpl">
+        <Parameters>
+          <Parameter name="gpl" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!driver || gpl">
+        <Parameters>
+          <Parameter name="driver" />
+          <Parameter name="gpl" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!gpl || driver">
+        <Parameters>
+          <Parameter name="gpl" />
+          <Parameter name="driver" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!gtp || gpl">
+        <Parameters>
+          <Parameter name="gtp" />
+          <Parameter name="gpl" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!gpl || gtp">
+        <Parameters>
+          <Parameter name="gpl" />
+          <Parameter name="gtp" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!weight || gpl">
+        <Parameters>
+          <Parameter name="weight" />
+          <Parameter name="gpl" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!search || gpl">
+        <Parameters>
+          <Parameter name="search" />
+          <Parameter name="gpl" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!algorithms || gpl">
+        <Parameters>
+          <Parameter name="algorithms" />
+          <Parameter name="gpl" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!gpl || algorithms">
+        <Parameters>
+          <Parameter name="gpl" />
+          <Parameter name="algorithms" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!benchmark || driver">
+        <Parameters>
+          <Parameter name="benchmark" />
+          <Parameter name="driver" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!driver || benchmark">
+        <Parameters>
+          <Parameter name="driver" />
+          <Parameter name="benchmark" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!directed || gtp">
+        <Parameters>
+          <Parameter name="directed" />
+          <Parameter name="gtp" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!undirected || gtp">
+        <Parameters>
+          <Parameter name="undirected" />
+          <Parameter name="gtp" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!gtp || directed || undirected">
+        <Parameters>
+          <Parameter name="gtp" />
+          <Parameter name="directed" />
+          <Parameter name="undirected" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!directed || !undirected">
+        <Parameters>
+          <Parameter name="directed" />
+          <Parameter name="undirected" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!weighted || weight">
+        <Parameters>
+          <Parameter name="weighted" />
+          <Parameter name="weight" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!unweighted || weight">
+        <Parameters>
+          <Parameter name="unweighted" />
+          <Parameter name="weight" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!weight || weighted || unweighted">
+        <Parameters>
+          <Parameter name="weight" />
+          <Parameter name="weighted" />
+          <Parameter name="unweighted" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!weighted || !unweighted">
+        <Parameters>
+          <Parameter name="weighted" />
+          <Parameter name="unweighted" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!bfs || search">
+        <Parameters>
+          <Parameter name="bfs" />
+          <Parameter name="search" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!dfs || search">
+        <Parameters>
+          <Parameter name="dfs" />
+          <Parameter name="search" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!search || bfs || dfs">
+        <Parameters>
+          <Parameter name="search" />
+          <Parameter name="bfs" />
+          <Parameter name="dfs" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!bfs || !dfs">
+        <Parameters>
+          <Parameter name="bfs" />
+          <Parameter name="dfs" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!number || algorithms">
+        <Parameters>
+          <Parameter name="number" />
+          <Parameter name="algorithms" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!connected || algorithms">
+        <Parameters>
+          <Parameter name="connected" />
+          <Parameter name="algorithms" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!stronglyc || algorithms">
+        <Parameters>
+          <Parameter name="stronglyc" />
+          <Parameter name="algorithms" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!cycle || algorithms">
+        <Parameters>
+          <Parameter name="cycle" />
+          <Parameter name="algorithms" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!mstprim || algorithms">
+        <Parameters>
+          <Parameter name="mstprim" />
+          <Parameter name="algorithms" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!mstkruskal || algorithms">
+        <Parameters>
+          <Parameter name="mstkruskal" />
+          <Parameter name="algorithms" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!shortest || algorithms">
+        <Parameters>
+          <Parameter name="shortest" />
+          <Parameter name="algorithms" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!algorithms || number || connected || stronglyc || cycle || mstprim || mstkruskal || shortest">
+        <Parameters>
+          <Parameter name="algorithms" />
+          <Parameter name="number" />
+          <Parameter name="connected" />
+          <Parameter name="stronglyc" />
+          <Parameter name="cycle" />
+          <Parameter name="mstprim" />
+          <Parameter name="mstkruskal" />
+          <Parameter name="shortest" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!number || bfs">
+        <Parameters>
+          <Parameter name="number" />
+          <Parameter name="bfs" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!number || dfs">
+        <Parameters>
+          <Parameter name="number" />
+          <Parameter name="dfs" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!connected || undirected">
+        <Parameters>
+          <Parameter name="connected" />
+          <Parameter name="undirected" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!connected || weighted">
+        <Parameters>
+          <Parameter name="connected" />
+          <Parameter name="weighted" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!stronglyc || directed">
+        <Parameters>
+          <Parameter name="stronglyc" />
+          <Parameter name="directed" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!stronglyc || dfs">
+        <Parameters>
+          <Parameter name="stronglyc" />
+          <Parameter name="dfs" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!cycle || dfs">
+        <Parameters>
+          <Parameter name="cycle" />
+          <Parameter name="dfs" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!mstkruskal || undirected">
+        <Parameters>
+          <Parameter name="mstkruskal" />
+          <Parameter name="undirected" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!mstkruskal || unweighted">
+        <Parameters>
+          <Parameter name="mstkruskal" />
+          <Parameter name="unweighted" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!mstprim || undirected">
+        <Parameters>
+          <Parameter name="mstprim" />
+          <Parameter name="undirected" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!mstprim || unweighted">
+        <Parameters>
+          <Parameter name="mstprim" />
+          <Parameter name="unweighted" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!mstkruskal || !mstprim">
+        <Parameters>
+          <Parameter name="mstkruskal" />
+          <Parameter name="mstprim" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!shortest || directed">
+        <Parameters>
+          <Parameter name="shortest" />
+          <Parameter name="directed" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!shortest || unweighted">
+        <Parameters>
+          <Parameter name="shortest" />
+          <Parameter name="unweighted" />
+        </Parameters>
+      </Constraint>
+    </Constraints>
+  </System>

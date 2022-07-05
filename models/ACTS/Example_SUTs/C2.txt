@@ -1,0 +1,17 @@
+[System]
+Name: C2
+
+[Parameter]
+p1(int): 0,1,2,3
+p2(int): 0,1,2,3
+p3(int): 0,1,2,3
+p4(int): 0,1,2,3
+p5(int): 0,1,2,3
+p6(int): 0,1,2,3
+p7(int): 0,1,2,3
+p8(int): 0,1,2,3
+p9(int): 0,1,2,3
+p10(int): 0,1,2,3
+
+[Constraint]
+p1>p2 || p3>p4

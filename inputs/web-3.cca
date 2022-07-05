@@ -1,0 +1,15 @@
+#SUCCESS,39386,i,../models/web.a,s,,o,../inputs/web-3.cca,c,3,random,39386,repeat,1
+CPU,OS,Browser
+Intel,Linux,Chrome
+Intel,Linux,Firefox
+Intel,Windows,Chrome
+AMD,Linux,Firefox
+Intel,Windows,Firefox
+AMD,Linux,Chrome
+Intel,Mac,Chrome
+Intel,Mac,Firefox
+AMD,Windows,Chrome
+ARM,Linux,Firefox
+Intel,Mac,Safari
+AMD,Windows,Firefox
+ARM,Linux,Chrome

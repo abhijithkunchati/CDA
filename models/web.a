@@ -1,0 +1,9 @@
+CPU(Intel AMD ARM)
+OS(Windows Linux Mac)
+Browser(Chrome Firefox Safari)
+
+
+
+(if (== [Browser] Safari) (== [OS] Mac))
+(if (== [OS] Mac) (== [CPU] Intel))
+(if (== [CPU] ARM) (== [OS] Linux))

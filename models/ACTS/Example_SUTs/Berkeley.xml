@@ -1,0 +1,2026 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <System name="">
+    <Parameters>
+      <Parameter id="0" name="BerkeleyDb" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="1" name="Statistics" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="2" name="featureINCompressor" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="3" name="featureDirectNIO" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="4" name="FConcurrency" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="5" name="featureChunkedNIO" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="6" name="featureLatch" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="7" name="featureStatisticsTransaction" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="8" name="BTree" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="9" name="featureStatisticsEnvCaching" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="10" name="FLogging" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="11" name="featureTransaction" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="12" name="featureStatisticsEnvINCompressor" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="13" name="Evictor" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="14" name="FPersistency" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="15" name="featureStatisticsEnvFSync" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="16" name="featureIO" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="17" name="featureStatisticsBase" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="18" name="featureCriticalEviction" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="19" name="featureStatisticsEnvCleaner" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="20" name="FBtree" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="21" name="featureStatisticsEnvBase" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="22" name="featureLoggingBase" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="23" name="featureLoggingFiner" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="24" name="FPersistencyFeatures" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="25" name="featureStatisticsPreload" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="26" name="IO" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="27" name="featureStatisticsEnvCheckpointer" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="28" name="featureStatisticsEnvEvictor" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="29" name="featureLoggingDbLog" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="30" name="featureCustomizableCheckpointerBytes" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="31" name="featureSynchronizedIO" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="32" name="BASE" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="33" name="featureLoggingFinest" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="34" name="FIOFeature" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="35" name="featureLoggingFile" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="36" name="NotChunked" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="37" name="FDbOperation" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="38" name="featureHandleFullDiscError" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="39" name="FEvictor" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="40" name="featureLoggingConsole" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="41" name="featureLoggingConfig" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="42" name="featureCheckLeaks" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="43" name="Logging" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="44" name="featureStatisticsLock" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="45" name="featureStatisticsDatabase" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="46" name="dummyFeatureLocking" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="47" name="featureLoggingSevere" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="48" name="featureCheckpointerDaemon" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="49" name="featureCustomizableCheckpointerTime" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="50" name="FStatistics" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="51" name="featureChecksum" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="52" name="featureEvictorDaemon" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="53" name="featureEvictor" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="54" name="featureFSync" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="55" name="featureEnvironmentLock" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="56" name="featureLoggingInfo" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="57" name="Checkpointer" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="58" name="NIO" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="59" name="BerkeleyDB" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="60" name="Chunked" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="61" name="featureDeleteDb" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="62" name="Persistency" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="63" name="featureStatisticsEnvLog" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="64" name="featureVerifier" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="65" name="EnvStats" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="66" name="FStatisticsFeatures" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="67" name="featureLookAheadCache" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="68" name="featureLoggingFine" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="69" name="featureTreeVisitor" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="70" name="Cleaner" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="71" name="FNIOType" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="72" name="featureStatisticsSequence" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="73" name="featureTruncateDb" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="74" name="featureNIO" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="75" name="featureMemoryBudget" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="76" name="featureCleanerDaemon" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="77" name="featureFileHandleCache" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+    </Parameters>
+    <OutputParameters />
+    <Relations>
+      <Relation Strength="3" Default="false">
+        <Parameter name="BerkeleyDb">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="Statistics">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="featureINCompressor">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="featureDirectNIO">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="FConcurrency">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="featureChunkedNIO">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="featureLatch">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="featureStatisticsTransaction">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="BTree">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="featureStatisticsEnvCaching">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="FLogging">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="featureTransaction">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="featureStatisticsEnvINCompressor">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="Evictor">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="FPersistency">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="featureStatisticsEnvFSync">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="featureIO">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="featureStatisticsBase">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="featureCriticalEviction">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="featureStatisticsEnvCleaner">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="FBtree">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="featureStatisticsEnvBase">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="featureLoggingBase">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="featureLoggingFiner">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="FPersistencyFeatures">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="featureStatisticsPreload">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="IO">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="featureStatisticsEnvCheckpointer">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="featureStatisticsEnvEvictor">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="featureLoggingDbLog">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="featureCustomizableCheckpointerBytes">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="featureSynchronizedIO">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="BASE">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="featureLoggingFinest">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="FIOFeature">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="featureLoggingFile">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="NotChunked">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="FDbOperation">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="featureHandleFullDiscError">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="FEvictor">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="featureLoggingConsole">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="featureLoggingConfig">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="featureCheckLeaks">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="Logging">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="featureStatisticsLock">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="featureStatisticsDatabase">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="dummyFeatureLocking">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="featureLoggingSevere">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="featureCheckpointerDaemon">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="featureCustomizableCheckpointerTime">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="FStatistics">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="featureChecksum">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="featureEvictorDaemon">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="featureEvictor">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="featureFSync">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="featureEnvironmentLock">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="featureLoggingInfo">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="Checkpointer">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="NIO">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="BerkeleyDB">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="Chunked">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="featureDeleteDb">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="Persistency">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="featureStatisticsEnvLog">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="featureVerifier">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="EnvStats">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="FStatisticsFeatures">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="featureLookAheadCache">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="featureLoggingFine">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="featureTreeVisitor">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="Cleaner">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="FNIOType">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="featureStatisticsSequence">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="featureTruncateDb">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="featureNIO">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="featureMemoryBudget">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="featureCleanerDaemon">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="featureFileHandleCache">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+      </Relation>
+    </Relations>
+    <Constraints>
+      <Constraint text="BerkeleyDb">
+        <Parameters>
+          <Parameter name="BerkeleyDb" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!BerkeleyDB || BerkeleyDb">
+        <Parameters>
+          <Parameter name="BerkeleyDB" />
+          <Parameter name="BerkeleyDb" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!BerkeleyDb || BerkeleyDB">
+        <Parameters>
+          <Parameter name="BerkeleyDb" />
+          <Parameter name="BerkeleyDB" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!FLogging || BerkeleyDB">
+        <Parameters>
+          <Parameter name="FLogging" />
+          <Parameter name="BerkeleyDB" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!FPersistency || BerkeleyDB">
+        <Parameters>
+          <Parameter name="FPersistency" />
+          <Parameter name="BerkeleyDB" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!BerkeleyDB || FPersistency">
+        <Parameters>
+          <Parameter name="BerkeleyDB" />
+          <Parameter name="FPersistency" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!FStatistics || BerkeleyDB">
+        <Parameters>
+          <Parameter name="FStatistics" />
+          <Parameter name="BerkeleyDB" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!featureMemoryBudget || BerkeleyDB">
+        <Parameters>
+          <Parameter name="featureMemoryBudget" />
+          <Parameter name="BerkeleyDB" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!FConcurrency || BerkeleyDB">
+        <Parameters>
+          <Parameter name="FConcurrency" />
+          <Parameter name="BerkeleyDB" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!FDbOperation || BerkeleyDB">
+        <Parameters>
+          <Parameter name="FDbOperation" />
+          <Parameter name="BerkeleyDB" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!FBtree || BerkeleyDB">
+        <Parameters>
+          <Parameter name="FBtree" />
+          <Parameter name="BerkeleyDB" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!BerkeleyDB || FBtree">
+        <Parameters>
+          <Parameter name="BerkeleyDB" />
+          <Parameter name="FBtree" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!BASE || BerkeleyDB">
+        <Parameters>
+          <Parameter name="BASE" />
+          <Parameter name="BerkeleyDB" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!BerkeleyDB || BASE">
+        <Parameters>
+          <Parameter name="BerkeleyDB" />
+          <Parameter name="BASE" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!Logging || FLogging">
+        <Parameters>
+          <Parameter name="Logging" />
+          <Parameter name="FLogging" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!FLogging || Logging">
+        <Parameters>
+          <Parameter name="FLogging" />
+          <Parameter name="Logging" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!Persistency || FPersistency">
+        <Parameters>
+          <Parameter name="Persistency" />
+          <Parameter name="FPersistency" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!FPersistency || Persistency">
+        <Parameters>
+          <Parameter name="FPersistency" />
+          <Parameter name="Persistency" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!Statistics || FStatistics">
+        <Parameters>
+          <Parameter name="Statistics" />
+          <Parameter name="FStatistics" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!FStatistics || Statistics">
+        <Parameters>
+          <Parameter name="FStatistics" />
+          <Parameter name="Statistics" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!featureLatch || FConcurrency">
+        <Parameters>
+          <Parameter name="featureLatch" />
+          <Parameter name="FConcurrency" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!featureFSync || FConcurrency">
+        <Parameters>
+          <Parameter name="featureFSync" />
+          <Parameter name="FConcurrency" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!featureTransaction || FConcurrency">
+        <Parameters>
+          <Parameter name="featureTransaction" />
+          <Parameter name="FConcurrency" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!dummyFeatureLocking || FConcurrency">
+        <Parameters>
+          <Parameter name="dummyFeatureLocking" />
+          <Parameter name="FConcurrency" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!featureCheckLeaks || FConcurrency">
+        <Parameters>
+          <Parameter name="featureCheckLeaks" />
+          <Parameter name="FConcurrency" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!FConcurrency || featureLatch || featureFSync || featureTransaction || dummyFeatureLocking || featureCheckLeaks">
+        <Parameters>
+          <Parameter name="FConcurrency" />
+          <Parameter name="featureLatch" />
+          <Parameter name="featureFSync" />
+          <Parameter name="featureTransaction" />
+          <Parameter name="dummyFeatureLocking" />
+          <Parameter name="featureCheckLeaks" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!featureDeleteDb || FDbOperation">
+        <Parameters>
+          <Parameter name="featureDeleteDb" />
+          <Parameter name="FDbOperation" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!featureTruncateDb || FDbOperation">
+        <Parameters>
+          <Parameter name="featureTruncateDb" />
+          <Parameter name="FDbOperation" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!FDbOperation || featureDeleteDb || featureTruncateDb">
+        <Parameters>
+          <Parameter name="FDbOperation" />
+          <Parameter name="featureDeleteDb" />
+          <Parameter name="featureTruncateDb" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!BTree || FBtree">
+        <Parameters>
+          <Parameter name="BTree" />
+          <Parameter name="FBtree" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!FBtree || BTree">
+        <Parameters>
+          <Parameter name="FBtree" />
+          <Parameter name="BTree" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!featureLoggingFile || Logging">
+        <Parameters>
+          <Parameter name="featureLoggingFile" />
+          <Parameter name="Logging" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!featureLoggingConsole || Logging">
+        <Parameters>
+          <Parameter name="featureLoggingConsole" />
+          <Parameter name="Logging" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!featureLoggingDbLog || Logging">
+        <Parameters>
+          <Parameter name="featureLoggingDbLog" />
+          <Parameter name="Logging" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!featureLoggingFinest || Logging">
+        <Parameters>
+          <Parameter name="featureLoggingFinest" />
+          <Parameter name="Logging" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!featureLoggingFiner || Logging">
+        <Parameters>
+          <Parameter name="featureLoggingFiner" />
+          <Parameter name="Logging" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!featureLoggingFine || Logging">
+        <Parameters>
+          <Parameter name="featureLoggingFine" />
+          <Parameter name="Logging" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!featureLoggingInfo || Logging">
+        <Parameters>
+          <Parameter name="featureLoggingInfo" />
+          <Parameter name="Logging" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!featureLoggingConfig || Logging">
+        <Parameters>
+          <Parameter name="featureLoggingConfig" />
+          <Parameter name="Logging" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!featureLoggingSevere || Logging">
+        <Parameters>
+          <Parameter name="featureLoggingSevere" />
+          <Parameter name="Logging" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!featureLoggingBase || Logging">
+        <Parameters>
+          <Parameter name="featureLoggingBase" />
+          <Parameter name="Logging" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!Logging || featureLoggingBase">
+        <Parameters>
+          <Parameter name="Logging" />
+          <Parameter name="featureLoggingBase" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!FPersistencyFeatures || Persistency">
+        <Parameters>
+          <Parameter name="FPersistencyFeatures" />
+          <Parameter name="Persistency" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!FIOFeature || Persistency">
+        <Parameters>
+          <Parameter name="FIOFeature" />
+          <Parameter name="Persistency" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!Persistency || FIOFeature">
+        <Parameters>
+          <Parameter name="Persistency" />
+          <Parameter name="FIOFeature" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!FStatisticsFeatures || Statistics">
+        <Parameters>
+          <Parameter name="FStatisticsFeatures" />
+          <Parameter name="Statistics" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!Statistics || FStatisticsFeatures">
+        <Parameters>
+          <Parameter name="Statistics" />
+          <Parameter name="FStatisticsFeatures" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!featureStatisticsBase || Statistics">
+        <Parameters>
+          <Parameter name="featureStatisticsBase" />
+          <Parameter name="Statistics" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!Statistics || featureStatisticsBase">
+        <Parameters>
+          <Parameter name="Statistics" />
+          <Parameter name="featureStatisticsBase" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!featureVerifier || BTree">
+        <Parameters>
+          <Parameter name="featureVerifier" />
+          <Parameter name="BTree" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!featureTreeVisitor || BTree">
+        <Parameters>
+          <Parameter name="featureTreeVisitor" />
+          <Parameter name="BTree" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!featureINCompressor || BTree">
+        <Parameters>
+          <Parameter name="featureINCompressor" />
+          <Parameter name="BTree" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!FEvictor || BTree">
+        <Parameters>
+          <Parameter name="FEvictor" />
+          <Parameter name="BTree" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!featureChecksum || FPersistencyFeatures">
+        <Parameters>
+          <Parameter name="featureChecksum" />
+          <Parameter name="FPersistencyFeatures" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!featureFileHandleCache || FPersistencyFeatures">
+        <Parameters>
+          <Parameter name="featureFileHandleCache" />
+          <Parameter name="FPersistencyFeatures" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!featureHandleFullDiscError || FPersistencyFeatures">
+        <Parameters>
+          <Parameter name="featureHandleFullDiscError" />
+          <Parameter name="FPersistencyFeatures" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!featureEnvironmentLock || FPersistencyFeatures">
+        <Parameters>
+          <Parameter name="featureEnvironmentLock" />
+          <Parameter name="FPersistencyFeatures" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!Checkpointer || FPersistencyFeatures">
+        <Parameters>
+          <Parameter name="Checkpointer" />
+          <Parameter name="FPersistencyFeatures" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!Cleaner || FPersistencyFeatures">
+        <Parameters>
+          <Parameter name="Cleaner" />
+          <Parameter name="FPersistencyFeatures" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!FPersistencyFeatures || featureChecksum || featureFileHandleCache || featureHandleFullDiscError || featureEnvironmentLock || Checkpointer || Cleaner">
+        <Parameters>
+          <Parameter name="FPersistencyFeatures" />
+          <Parameter name="featureChecksum" />
+          <Parameter name="featureFileHandleCache" />
+          <Parameter name="featureHandleFullDiscError" />
+          <Parameter name="featureEnvironmentLock" />
+          <Parameter name="Checkpointer" />
+          <Parameter name="Cleaner" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!NIO || FIOFeature">
+        <Parameters>
+          <Parameter name="NIO" />
+          <Parameter name="FIOFeature" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!IO || FIOFeature">
+        <Parameters>
+          <Parameter name="IO" />
+          <Parameter name="FIOFeature" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!FIOFeature || NIO || IO">
+        <Parameters>
+          <Parameter name="FIOFeature" />
+          <Parameter name="NIO" />
+          <Parameter name="IO" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!NIO || !IO">
+        <Parameters>
+          <Parameter name="NIO" />
+          <Parameter name="IO" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!EnvStats || FStatisticsFeatures">
+        <Parameters>
+          <Parameter name="EnvStats" />
+          <Parameter name="FStatisticsFeatures" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!featureStatisticsDatabase || FStatisticsFeatures">
+        <Parameters>
+          <Parameter name="featureStatisticsDatabase" />
+          <Parameter name="FStatisticsFeatures" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!featureStatisticsLock || FStatisticsFeatures">
+        <Parameters>
+          <Parameter name="featureStatisticsLock" />
+          <Parameter name="FStatisticsFeatures" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!featureStatisticsPreload || FStatisticsFeatures">
+        <Parameters>
+          <Parameter name="featureStatisticsPreload" />
+          <Parameter name="FStatisticsFeatures" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!featureStatisticsSequence || FStatisticsFeatures">
+        <Parameters>
+          <Parameter name="featureStatisticsSequence" />
+          <Parameter name="FStatisticsFeatures" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!featureStatisticsTransaction || FStatisticsFeatures">
+        <Parameters>
+          <Parameter name="featureStatisticsTransaction" />
+          <Parameter name="FStatisticsFeatures" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!FStatisticsFeatures || EnvStats || featureStatisticsDatabase || featureStatisticsLock || featureStatisticsPreload || featureStatisticsSequence || featureStatisticsTransaction">
+        <Parameters>
+          <Parameter name="FStatisticsFeatures" />
+          <Parameter name="EnvStats" />
+          <Parameter name="featureStatisticsDatabase" />
+          <Parameter name="featureStatisticsLock" />
+          <Parameter name="featureStatisticsPreload" />
+          <Parameter name="featureStatisticsSequence" />
+          <Parameter name="featureStatisticsTransaction" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!Evictor || FEvictor">
+        <Parameters>
+          <Parameter name="Evictor" />
+          <Parameter name="FEvictor" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!FEvictor || Evictor">
+        <Parameters>
+          <Parameter name="FEvictor" />
+          <Parameter name="Evictor" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!featureCustomizableCheckpointerTime || Checkpointer">
+        <Parameters>
+          <Parameter name="featureCustomizableCheckpointerTime" />
+          <Parameter name="Checkpointer" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!featureCustomizableCheckpointerBytes || Checkpointer">
+        <Parameters>
+          <Parameter name="featureCustomizableCheckpointerBytes" />
+          <Parameter name="Checkpointer" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!featureCheckpointerDaemon || Checkpointer">
+        <Parameters>
+          <Parameter name="featureCheckpointerDaemon" />
+          <Parameter name="Checkpointer" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!featureLookAheadCache || Cleaner">
+        <Parameters>
+          <Parameter name="featureLookAheadCache" />
+          <Parameter name="Cleaner" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!featureCleanerDaemon || Cleaner">
+        <Parameters>
+          <Parameter name="featureCleanerDaemon" />
+          <Parameter name="Cleaner" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!featureDirectNIO || NIO">
+        <Parameters>
+          <Parameter name="featureDirectNIO" />
+          <Parameter name="NIO" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!FNIOType || NIO">
+        <Parameters>
+          <Parameter name="FNIOType" />
+          <Parameter name="NIO" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!NIO || FNIOType">
+        <Parameters>
+          <Parameter name="NIO" />
+          <Parameter name="FNIOType" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!featureSynchronizedIO || IO">
+        <Parameters>
+          <Parameter name="featureSynchronizedIO" />
+          <Parameter name="IO" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!featureIO || IO">
+        <Parameters>
+          <Parameter name="featureIO" />
+          <Parameter name="IO" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!IO || featureIO">
+        <Parameters>
+          <Parameter name="IO" />
+          <Parameter name="featureIO" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!featureStatisticsEnvLog || EnvStats">
+        <Parameters>
+          <Parameter name="featureStatisticsEnvLog" />
+          <Parameter name="EnvStats" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!featureStatisticsEnvINCompressor || EnvStats">
+        <Parameters>
+          <Parameter name="featureStatisticsEnvINCompressor" />
+          <Parameter name="EnvStats" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!featureStatisticsEnvFSync || EnvStats">
+        <Parameters>
+          <Parameter name="featureStatisticsEnvFSync" />
+          <Parameter name="EnvStats" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!featureStatisticsEnvEvictor || EnvStats">
+        <Parameters>
+          <Parameter name="featureStatisticsEnvEvictor" />
+          <Parameter name="EnvStats" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!featureStatisticsEnvCleaner || EnvStats">
+        <Parameters>
+          <Parameter name="featureStatisticsEnvCleaner" />
+          <Parameter name="EnvStats" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!featureStatisticsEnvCheckpointer || EnvStats">
+        <Parameters>
+          <Parameter name="featureStatisticsEnvCheckpointer" />
+          <Parameter name="EnvStats" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!featureStatisticsEnvCaching || EnvStats">
+        <Parameters>
+          <Parameter name="featureStatisticsEnvCaching" />
+          <Parameter name="EnvStats" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!featureStatisticsEnvBase || EnvStats">
+        <Parameters>
+          <Parameter name="featureStatisticsEnvBase" />
+          <Parameter name="EnvStats" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!EnvStats || featureStatisticsEnvBase">
+        <Parameters>
+          <Parameter name="EnvStats" />
+          <Parameter name="featureStatisticsEnvBase" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!featureCriticalEviction || Evictor">
+        <Parameters>
+          <Parameter name="featureCriticalEviction" />
+          <Parameter name="Evictor" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!featureEvictorDaemon || Evictor">
+        <Parameters>
+          <Parameter name="featureEvictorDaemon" />
+          <Parameter name="Evictor" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!featureEvictor || Evictor">
+        <Parameters>
+          <Parameter name="featureEvictor" />
+          <Parameter name="Evictor" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!Evictor || featureEvictor">
+        <Parameters>
+          <Parameter name="Evictor" />
+          <Parameter name="featureEvictor" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!NotChunked || FNIOType">
+        <Parameters>
+          <Parameter name="NotChunked" />
+          <Parameter name="FNIOType" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!Chunked || FNIOType">
+        <Parameters>
+          <Parameter name="Chunked" />
+          <Parameter name="FNIOType" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!FNIOType || NotChunked || Chunked">
+        <Parameters>
+          <Parameter name="FNIOType" />
+          <Parameter name="NotChunked" />
+          <Parameter name="Chunked" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!NotChunked || !Chunked">
+        <Parameters>
+          <Parameter name="NotChunked" />
+          <Parameter name="Chunked" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!featureNIO || NotChunked">
+        <Parameters>
+          <Parameter name="featureNIO" />
+          <Parameter name="NotChunked" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!NotChunked || featureNIO">
+        <Parameters>
+          <Parameter name="NotChunked" />
+          <Parameter name="featureNIO" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!featureChunkedNIO || Chunked">
+        <Parameters>
+          <Parameter name="featureChunkedNIO" />
+          <Parameter name="Chunked" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!Chunked || featureChunkedNIO">
+        <Parameters>
+          <Parameter name="Chunked" />
+          <Parameter name="featureChunkedNIO" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!featureEvictor || featureMemoryBudget">
+        <Parameters>
+          <Parameter name="featureEvictor" />
+          <Parameter name="featureMemoryBudget" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!featureEvictorDaemon || featureMemoryBudget">
+        <Parameters>
+          <Parameter name="featureEvictorDaemon" />
+          <Parameter name="featureMemoryBudget" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!featureLookAheadCache || featureMemoryBudget">
+        <Parameters>
+          <Parameter name="featureLookAheadCache" />
+          <Parameter name="featureMemoryBudget" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!featureStatisticsEnvCaching || featureMemoryBudget">
+        <Parameters>
+          <Parameter name="featureStatisticsEnvCaching" />
+          <Parameter name="featureMemoryBudget" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!featureCheckLeaks || featureStatisticsLock">
+        <Parameters>
+          <Parameter name="featureCheckLeaks" />
+          <Parameter name="featureStatisticsLock" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!featureCriticalEviction || featureINCompressor">
+        <Parameters>
+          <Parameter name="featureCriticalEviction" />
+          <Parameter name="featureINCompressor" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!featureCustomizableCheckpointerBytes || featureCustomizableCheckpointerTime">
+        <Parameters>
+          <Parameter name="featureCustomizableCheckpointerBytes" />
+          <Parameter name="featureCustomizableCheckpointerTime" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!featureDeleteDb || dummyFeatureLocking">
+        <Parameters>
+          <Parameter name="featureDeleteDb" />
+          <Parameter name="dummyFeatureLocking" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!featureDeleteDb || featureEvictor">
+        <Parameters>
+          <Parameter name="featureDeleteDb" />
+          <Parameter name="featureEvictor" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!featureDeleteDb || featureINCompressor">
+        <Parameters>
+          <Parameter name="featureDeleteDb" />
+          <Parameter name="featureINCompressor" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!featureDeleteDb || featureMemoryBudget">
+        <Parameters>
+          <Parameter name="featureDeleteDb" />
+          <Parameter name="featureMemoryBudget" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!featureLatch || dummyFeatureLocking">
+        <Parameters>
+          <Parameter name="featureLatch" />
+          <Parameter name="dummyFeatureLocking" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!featureLatch || featureCheckLeaks">
+        <Parameters>
+          <Parameter name="featureLatch" />
+          <Parameter name="featureCheckLeaks" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!featureLatch || featureDeleteDb">
+        <Parameters>
+          <Parameter name="featureLatch" />
+          <Parameter name="featureDeleteDb" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!featureLatch || featureEvictor">
+        <Parameters>
+          <Parameter name="featureLatch" />
+          <Parameter name="featureEvictor" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!featureLatch || featureFileHandleCache">
+        <Parameters>
+          <Parameter name="featureLatch" />
+          <Parameter name="featureFileHandleCache" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!featureLatch || featureFSync">
+        <Parameters>
+          <Parameter name="featureLatch" />
+          <Parameter name="featureFSync" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!featureLatch || featureINCompressor">
+        <Parameters>
+          <Parameter name="featureLatch" />
+          <Parameter name="featureINCompressor" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!featureLatch || featureMemoryBudget">
+        <Parameters>
+          <Parameter name="featureLatch" />
+          <Parameter name="featureMemoryBudget" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!featureLatch || featureStatisticsLock">
+        <Parameters>
+          <Parameter name="featureLatch" />
+          <Parameter name="featureStatisticsLock" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!featureLatch || featureTreeVisitor">
+        <Parameters>
+          <Parameter name="featureLatch" />
+          <Parameter name="featureTreeVisitor" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!featureLatch || featureTruncateDb">
+        <Parameters>
+          <Parameter name="featureLatch" />
+          <Parameter name="featureTruncateDb" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!featureLatch || featureVerifier">
+        <Parameters>
+          <Parameter name="featureLatch" />
+          <Parameter name="featureVerifier" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!featureLoggingSevere || featureEnvironmentLock">
+        <Parameters>
+          <Parameter name="featureLoggingSevere" />
+          <Parameter name="featureEnvironmentLock" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!featureLoggingFine || dummyFeatureLocking">
+        <Parameters>
+          <Parameter name="featureLoggingFine" />
+          <Parameter name="dummyFeatureLocking" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!featureLoggingFine || featureEvictor">
+        <Parameters>
+          <Parameter name="featureLoggingFine" />
+          <Parameter name="featureEvictor" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!featureLoggingFine || featureINCompressor">
+        <Parameters>
+          <Parameter name="featureLoggingFine" />
+          <Parameter name="featureINCompressor" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!featureLoggingInfo || featureChecksum">
+        <Parameters>
+          <Parameter name="featureLoggingInfo" />
+          <Parameter name="featureChecksum" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!featureLoggingInfo || featureMemoryBudget">
+        <Parameters>
+          <Parameter name="featureLoggingInfo" />
+          <Parameter name="featureMemoryBudget" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!featureLoggingBase || featureTransaction">
+        <Parameters>
+          <Parameter name="featureLoggingBase" />
+          <Parameter name="featureTransaction" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!featureLoggingFinest || featureTransaction">
+        <Parameters>
+          <Parameter name="featureLoggingFinest" />
+          <Parameter name="featureTransaction" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!featureMemoryBudget || featureEvictor">
+        <Parameters>
+          <Parameter name="featureMemoryBudget" />
+          <Parameter name="featureEvictor" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!featureMemoryBudget || featureLatch">
+        <Parameters>
+          <Parameter name="featureMemoryBudget" />
+          <Parameter name="featureLatch" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!featureStatisticsLock || dummyFeatureLocking">
+        <Parameters>
+          <Parameter name="featureStatisticsLock" />
+          <Parameter name="dummyFeatureLocking" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!featureStatisticsTransaction || dummyFeatureLocking">
+        <Parameters>
+          <Parameter name="featureStatisticsTransaction" />
+          <Parameter name="dummyFeatureLocking" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!featureStatisticsEnvEvictor || featureEvictor">
+        <Parameters>
+          <Parameter name="featureStatisticsEnvEvictor" />
+          <Parameter name="featureEvictor" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!featureStatisticsEnvFSync || featureFSync">
+        <Parameters>
+          <Parameter name="featureStatisticsEnvFSync" />
+          <Parameter name="featureFSync" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!featureStatisticsEnvINCompressor || featureINCompressor">
+        <Parameters>
+          <Parameter name="featureStatisticsEnvINCompressor" />
+          <Parameter name="featureINCompressor" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!featureStatisticsTransaction || featureTransaction">
+        <Parameters>
+          <Parameter name="featureStatisticsTransaction" />
+          <Parameter name="featureTransaction" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!featureStatisticsDatabase || featureTreeVisitor">
+        <Parameters>
+          <Parameter name="featureStatisticsDatabase" />
+          <Parameter name="featureTreeVisitor" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!featureTransaction || dummyFeatureLocking">
+        <Parameters>
+          <Parameter name="featureTransaction" />
+          <Parameter name="dummyFeatureLocking" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!featureTransaction || featureDeleteDb">
+        <Parameters>
+          <Parameter name="featureTransaction" />
+          <Parameter name="featureDeleteDb" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!featureTransaction || featureTruncateDb">
+        <Parameters>
+          <Parameter name="featureTransaction" />
+          <Parameter name="featureTruncateDb" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!featureTruncateDb || featureDeleteDb">
+        <Parameters>
+          <Parameter name="featureTruncateDb" />
+          <Parameter name="featureDeleteDb" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!featureVerifier || featureINCompressor">
+        <Parameters>
+          <Parameter name="featureVerifier" />
+          <Parameter name="featureINCompressor" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!featureVerifier || featureTreeVisitor">
+        <Parameters>
+          <Parameter name="featureVerifier" />
+          <Parameter name="featureTreeVisitor" />
+        </Parameters>
+      </Constraint>
+    </Constraints>
+  </System>

@@ -1,0 +1,16 @@
+#SUCCESS,38727,i,../models/ACTS/transformed/movies_app_fm.txt,s,,o,../inputs/movies_app_fm-3.cca,c,3,random,38727,repeat,1
+Local,Bluetooth,Rich,DB,Thin,Built_In,Movies_App,GUI,Network,Remote,Cache_Policy,GPS,Wifi
+false,true,false,true,true,false,true,true,true,true,true,true,false
+true,false,true,true,false,true,true,true,true,false,false,true,true
+true,true,false,true,true,true,true,true,true,false,false,true,false
+false,false,true,true,false,true,true,true,true,true,true,true,true
+true,true,true,true,false,false,true,true,true,false,false,false,false
+false,false,false,true,true,false,true,true,true,true,true,false,true
+false,true,true,true,false,false,true,true,true,true,true,false,false
+true,false,false,true,true,false,true,true,true,false,false,false,true
+false,false,false,true,true,true,true,true,true,true,true,true,true
+false,true,true,true,false,true,true,true,true,true,true,true,false
+true,false,true,true,false,false,true,true,true,false,false,false,true
+true,true,false,true,true,false,true,true,true,false,false,true,false
+false,true,false,true,true,false,true,true,true,true,true,false,false
+false,false,true,true,false,false,true,true,true,true,true,true,true

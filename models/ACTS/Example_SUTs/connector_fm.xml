@@ -1,0 +1,520 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <System name="">
+    <Parameters>
+      <Parameter id="0" name="Non_Queued" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="1" name="Non_blocking" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="2" name="Message_Based" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="3" name="Queued" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="4" name="Timeout" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="5" name="Local" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="6" name="Pull" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="7" name="Connector" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="8" name="Paradigm" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="9" name="Push" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="10" name="Synchronous" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="11" name="Sender" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="12" name="Blocking" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="13" name="Polling" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="14" name="Client_Server" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="15" name="Receiver" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="16" name="Asynchronous" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="17" name="Callback" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="18" name="CAN" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="19" name="Technology" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+    </Parameters>
+    <OutputParameters />
+    <Relations>
+      <Relation Strength="3" Default="false">
+        <Parameter name="Non_Queued">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="Non_blocking">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="Message_Based">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="Queued">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="Timeout">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="Local">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="Pull">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="Connector">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="Paradigm">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="Push">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="Synchronous">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="Sender">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="Blocking">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="Polling">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="Client_Server">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="Receiver">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="Asynchronous">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="Callback">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="CAN">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="Technology">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+      </Relation>
+    </Relations>
+    <Constraints>
+      <Constraint text="Connector">
+        <Parameters>
+          <Parameter name="Connector" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!Paradigm || Connector">
+        <Parameters>
+          <Parameter name="Paradigm" />
+          <Parameter name="Connector" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!Connector || Paradigm">
+        <Parameters>
+          <Parameter name="Connector" />
+          <Parameter name="Paradigm" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!Technology || Connector">
+        <Parameters>
+          <Parameter name="Technology" />
+          <Parameter name="Connector" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!Connector || Technology">
+        <Parameters>
+          <Parameter name="Connector" />
+          <Parameter name="Technology" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!Client_Server || Paradigm">
+        <Parameters>
+          <Parameter name="Client_Server" />
+          <Parameter name="Paradigm" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!Message_Based || Paradigm">
+        <Parameters>
+          <Parameter name="Message_Based" />
+          <Parameter name="Paradigm" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!Paradigm || Client_Server || Message_Based">
+        <Parameters>
+          <Parameter name="Paradigm" />
+          <Parameter name="Client_Server" />
+          <Parameter name="Message_Based" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!Client_Server || !Message_Based">
+        <Parameters>
+          <Parameter name="Client_Server" />
+          <Parameter name="Message_Based" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!CAN || Technology">
+        <Parameters>
+          <Parameter name="CAN" />
+          <Parameter name="Technology" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!Local || Technology">
+        <Parameters>
+          <Parameter name="Local" />
+          <Parameter name="Technology" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!Technology || CAN || Local">
+        <Parameters>
+          <Parameter name="Technology" />
+          <Parameter name="CAN" />
+          <Parameter name="Local" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!CAN || !Local">
+        <Parameters>
+          <Parameter name="CAN" />
+          <Parameter name="Local" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!Synchronous || Client_Server">
+        <Parameters>
+          <Parameter name="Synchronous" />
+          <Parameter name="Client_Server" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!Asynchronous || Client_Server">
+        <Parameters>
+          <Parameter name="Asynchronous" />
+          <Parameter name="Client_Server" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!Client_Server || Synchronous || Asynchronous">
+        <Parameters>
+          <Parameter name="Client_Server" />
+          <Parameter name="Synchronous" />
+          <Parameter name="Asynchronous" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!Synchronous || !Asynchronous">
+        <Parameters>
+          <Parameter name="Synchronous" />
+          <Parameter name="Asynchronous" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!Sender || Message_Based">
+        <Parameters>
+          <Parameter name="Sender" />
+          <Parameter name="Message_Based" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!Message_Based || Sender">
+        <Parameters>
+          <Parameter name="Message_Based" />
+          <Parameter name="Sender" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!Receiver || Message_Based">
+        <Parameters>
+          <Parameter name="Receiver" />
+          <Parameter name="Message_Based" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!Message_Based || Receiver">
+        <Parameters>
+          <Parameter name="Message_Based" />
+          <Parameter name="Receiver" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!Timeout || Synchronous">
+        <Parameters>
+          <Parameter name="Timeout" />
+          <Parameter name="Synchronous" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!Polling || Asynchronous">
+        <Parameters>
+          <Parameter name="Polling" />
+          <Parameter name="Asynchronous" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!Callback || Asynchronous">
+        <Parameters>
+          <Parameter name="Callback" />
+          <Parameter name="Asynchronous" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!Asynchronous || Polling || Callback">
+        <Parameters>
+          <Parameter name="Asynchronous" />
+          <Parameter name="Polling" />
+          <Parameter name="Callback" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!Polling || !Callback">
+        <Parameters>
+          <Parameter name="Polling" />
+          <Parameter name="Callback" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!Pull || Receiver">
+        <Parameters>
+          <Parameter name="Pull" />
+          <Parameter name="Receiver" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!Push || Receiver">
+        <Parameters>
+          <Parameter name="Push" />
+          <Parameter name="Receiver" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!Receiver || Pull || Push">
+        <Parameters>
+          <Parameter name="Receiver" />
+          <Parameter name="Pull" />
+          <Parameter name="Push" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!Pull || !Push">
+        <Parameters>
+          <Parameter name="Pull" />
+          <Parameter name="Push" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!Blocking || Polling">
+        <Parameters>
+          <Parameter name="Blocking" />
+          <Parameter name="Polling" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!Non_blocking || Polling">
+        <Parameters>
+          <Parameter name="Non_blocking" />
+          <Parameter name="Polling" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!Polling || Blocking || Non_blocking">
+        <Parameters>
+          <Parameter name="Polling" />
+          <Parameter name="Blocking" />
+          <Parameter name="Non_blocking" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!Blocking || !Non_blocking">
+        <Parameters>
+          <Parameter name="Blocking" />
+          <Parameter name="Non_blocking" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!Queued || Pull">
+        <Parameters>
+          <Parameter name="Queued" />
+          <Parameter name="Pull" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!Non_Queued || Pull">
+        <Parameters>
+          <Parameter name="Non_Queued" />
+          <Parameter name="Pull" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!Pull || Queued || Non_Queued">
+        <Parameters>
+          <Parameter name="Pull" />
+          <Parameter name="Queued" />
+          <Parameter name="Non_Queued" />
+        </Parameters>
+      </Constraint>
+    </Constraints>
+  </System>

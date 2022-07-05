@@ -1,0 +1,6 @@
+mintries (1 5 10 15 30)
+maxtries (5 10 20 30 50)
+bettertries (5 10 20)
+
+(>= [maxtries] [mintries])
+(< [bettertries] [maxtries])

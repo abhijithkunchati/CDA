@@ -1,0 +1,695 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <System name="">
+    <Parameters>
+      <Parameter id="0" name="VncViewer" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="1" name="Base" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="2" name="Opt" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="3" name="Type" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="4" name="OptionsButtonFeat" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="5" name="OpShareFeat" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="6" name="OpMouse23Feat" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="7" name="OpCopyRectFeat" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="8" name="OpCursorShapeFeat" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="9" name="RefreshButtonFeat" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="10" name="AboutButtonFeat" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="11" name="RecordingFeat" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="12" name="OpRestrictedColorsFeat" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="13" name="OptionsFeat" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="14" name="MOpt" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="15" name="BOpt" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="16" name="DisconnectButtonFeat" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="17" name="ButtonFeature" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="18" name="OpEncodingFeat" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="19" name="OpViewFeat" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="20" name="OptionsMenuFeatures" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="21" name="VncViewerMain" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="22" name="RecordButtonFeat" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="23" name="OpJPEGqualityFeat" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="24" name="CtrlAltDelButtonFeat" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="25" name="VncViewerType" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="26" name="AltTabButtonFeat" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="27" name="OpCompressionFeat" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="28" name="ClipboardFeat" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="29" name="ClipboardButtonFeat" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+    </Parameters>
+    <OutputParameters />
+    <Relations>
+      <Relation Strength="3" Default="false">
+        <Parameter name="VncViewer">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="Base">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="Opt">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="Type">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="OptionsButtonFeat">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="OpShareFeat">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="OpMouse23Feat">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="OpCopyRectFeat">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="OpCursorShapeFeat">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="RefreshButtonFeat">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="AboutButtonFeat">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="RecordingFeat">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="OpRestrictedColorsFeat">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="OptionsFeat">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="MOpt">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="BOpt">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="DisconnectButtonFeat">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="ButtonFeature">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="OpEncodingFeat">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="OpViewFeat">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="OptionsMenuFeatures">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="VncViewerMain">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="RecordButtonFeat">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="OpJPEGqualityFeat">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="CtrlAltDelButtonFeat">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="VncViewerType">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="AltTabButtonFeat">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="OpCompressionFeat">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="ClipboardFeat">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="ClipboardButtonFeat">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+      </Relation>
+    </Relations>
+    <Constraints>
+      <Constraint text="VncViewer">
+        <Parameters>
+          <Parameter name="VncViewer" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!VncViewerMain || VncViewer">
+        <Parameters>
+          <Parameter name="VncViewerMain" />
+          <Parameter name="VncViewer" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!VncViewer || VncViewerMain">
+        <Parameters>
+          <Parameter name="VncViewer" />
+          <Parameter name="VncViewerMain" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!Type || VncViewerMain">
+        <Parameters>
+          <Parameter name="Type" />
+          <Parameter name="VncViewerMain" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!VncViewerMain || Type">
+        <Parameters>
+          <Parameter name="VncViewerMain" />
+          <Parameter name="Type" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!Base || VncViewerMain">
+        <Parameters>
+          <Parameter name="Base" />
+          <Parameter name="VncViewerMain" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!VncViewerMain || Base">
+        <Parameters>
+          <Parameter name="VncViewerMain" />
+          <Parameter name="Base" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!VncViewerType || Type">
+        <Parameters>
+          <Parameter name="VncViewerType" />
+          <Parameter name="Type" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!Type || VncViewerType">
+        <Parameters>
+          <Parameter name="Type" />
+          <Parameter name="VncViewerType" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!Opt || VncViewerType">
+        <Parameters>
+          <Parameter name="Opt" />
+          <Parameter name="VncViewerType" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!OptionsMenuFeatures || Opt">
+        <Parameters>
+          <Parameter name="OptionsMenuFeatures" />
+          <Parameter name="Opt" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!ButtonFeature || Opt">
+        <Parameters>
+          <Parameter name="ButtonFeature" />
+          <Parameter name="Opt" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!ClipboardFeat || Opt">
+        <Parameters>
+          <Parameter name="ClipboardFeat" />
+          <Parameter name="Opt" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!RecordingFeat || Opt">
+        <Parameters>
+          <Parameter name="RecordingFeat" />
+          <Parameter name="Opt" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!Opt || OptionsMenuFeatures || ButtonFeature || ClipboardFeat || RecordingFeat">
+        <Parameters>
+          <Parameter name="Opt" />
+          <Parameter name="OptionsMenuFeatures" />
+          <Parameter name="ButtonFeature" />
+          <Parameter name="ClipboardFeat" />
+          <Parameter name="RecordingFeat" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!MOpt || OptionsMenuFeatures">
+        <Parameters>
+          <Parameter name="MOpt" />
+          <Parameter name="OptionsMenuFeatures" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!OptionsFeat || OptionsMenuFeatures">
+        <Parameters>
+          <Parameter name="OptionsFeat" />
+          <Parameter name="OptionsMenuFeatures" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!OptionsMenuFeatures || OptionsFeat">
+        <Parameters>
+          <Parameter name="OptionsMenuFeatures" />
+          <Parameter name="OptionsFeat" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!BOpt || ButtonFeature">
+        <Parameters>
+          <Parameter name="BOpt" />
+          <Parameter name="ButtonFeature" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!OpEncodingFeat || MOpt">
+        <Parameters>
+          <Parameter name="OpEncodingFeat" />
+          <Parameter name="MOpt" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!OpCompressionFeat || MOpt">
+        <Parameters>
+          <Parameter name="OpCompressionFeat" />
+          <Parameter name="MOpt" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!OpJPEGqualityFeat || MOpt">
+        <Parameters>
+          <Parameter name="OpJPEGqualityFeat" />
+          <Parameter name="MOpt" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!OpCursorShapeFeat || MOpt">
+        <Parameters>
+          <Parameter name="OpCursorShapeFeat" />
+          <Parameter name="MOpt" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!OpCopyRectFeat || MOpt">
+        <Parameters>
+          <Parameter name="OpCopyRectFeat" />
+          <Parameter name="MOpt" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!OpRestrictedColorsFeat || MOpt">
+        <Parameters>
+          <Parameter name="OpRestrictedColorsFeat" />
+          <Parameter name="MOpt" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!OpMouse23Feat || MOpt">
+        <Parameters>
+          <Parameter name="OpMouse23Feat" />
+          <Parameter name="MOpt" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!OpViewFeat || MOpt">
+        <Parameters>
+          <Parameter name="OpViewFeat" />
+          <Parameter name="MOpt" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!OpShareFeat || MOpt">
+        <Parameters>
+          <Parameter name="OpShareFeat" />
+          <Parameter name="MOpt" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!MOpt || OpEncodingFeat || OpCompressionFeat || OpJPEGqualityFeat || OpCursorShapeFeat || OpCopyRectFeat || OpRestrictedColorsFeat || OpMouse23Feat || OpViewFeat || OpShareFeat">
+        <Parameters>
+          <Parameter name="MOpt" />
+          <Parameter name="OpEncodingFeat" />
+          <Parameter name="OpCompressionFeat" />
+          <Parameter name="OpJPEGqualityFeat" />
+          <Parameter name="OpCursorShapeFeat" />
+          <Parameter name="OpCopyRectFeat" />
+          <Parameter name="OpRestrictedColorsFeat" />
+          <Parameter name="OpMouse23Feat" />
+          <Parameter name="OpViewFeat" />
+          <Parameter name="OpShareFeat" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!AboutButtonFeat || BOpt">
+        <Parameters>
+          <Parameter name="AboutButtonFeat" />
+          <Parameter name="BOpt" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!AltTabButtonFeat || BOpt">
+        <Parameters>
+          <Parameter name="AltTabButtonFeat" />
+          <Parameter name="BOpt" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!RefreshButtonFeat || BOpt">
+        <Parameters>
+          <Parameter name="RefreshButtonFeat" />
+          <Parameter name="BOpt" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!CtrlAltDelButtonFeat || BOpt">
+        <Parameters>
+          <Parameter name="CtrlAltDelButtonFeat" />
+          <Parameter name="BOpt" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!RecordButtonFeat || BOpt">
+        <Parameters>
+          <Parameter name="RecordButtonFeat" />
+          <Parameter name="BOpt" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!ClipboardButtonFeat || BOpt">
+        <Parameters>
+          <Parameter name="ClipboardButtonFeat" />
+          <Parameter name="BOpt" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!OptionsButtonFeat || BOpt">
+        <Parameters>
+          <Parameter name="OptionsButtonFeat" />
+          <Parameter name="BOpt" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!DisconnectButtonFeat || BOpt">
+        <Parameters>
+          <Parameter name="DisconnectButtonFeat" />
+          <Parameter name="BOpt" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!BOpt || AboutButtonFeat || AltTabButtonFeat || RefreshButtonFeat || CtrlAltDelButtonFeat || RecordButtonFeat || ClipboardButtonFeat || OptionsButtonFeat || DisconnectButtonFeat">
+        <Parameters>
+          <Parameter name="BOpt" />
+          <Parameter name="AboutButtonFeat" />
+          <Parameter name="AltTabButtonFeat" />
+          <Parameter name="RefreshButtonFeat" />
+          <Parameter name="CtrlAltDelButtonFeat" />
+          <Parameter name="RecordButtonFeat" />
+          <Parameter name="ClipboardButtonFeat" />
+          <Parameter name="OptionsButtonFeat" />
+          <Parameter name="DisconnectButtonFeat" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!RecordButtonFeat || RecordingFeat">
+        <Parameters>
+          <Parameter name="RecordButtonFeat" />
+          <Parameter name="RecordingFeat" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!OptionsButtonFeat || OptionsFeat">
+        <Parameters>
+          <Parameter name="OptionsButtonFeat" />
+          <Parameter name="OptionsFeat" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!ClipboardButtonFeat || ClipboardFeat">
+        <Parameters>
+          <Parameter name="ClipboardButtonFeat" />
+          <Parameter name="ClipboardFeat" />
+        </Parameters>
+      </Constraint>
+    </Constraints>
+  </System>

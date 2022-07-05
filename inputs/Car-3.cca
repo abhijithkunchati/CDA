@@ -1,0 +1,14 @@
+#SUCCESS,42600,i,../models/ACTS/transformed/Car.txt,s,,o,../inputs/Car-3.cca,c,3,random,42600,repeat,1
+parallel_parking,Automated_Driving_Controller,Car,enhanced_avoidance,Sensors,Standard_Avoidance,Collision_Avoidance_Braking,lateral_range_finder,forward_range_finder
+true,true,true,true,true,false,true,true,true
+false,true,true,false,true,true,true,false,false
+false,false,true,false,true,false,false,true,true
+false,true,true,false,true,true,true,true,true
+false,false,true,false,true,false,false,false,false
+false,true,true,false,true,true,true,false,true
+true,true,true,false,true,true,true,true,false
+false,true,true,true,true,false,true,false,true
+true,true,true,false,true,true,true,true,true
+false,true,true,true,true,false,true,true,true
+false,false,true,false,true,false,false,true,false
+false,false,true,false,true,false,false,false,true

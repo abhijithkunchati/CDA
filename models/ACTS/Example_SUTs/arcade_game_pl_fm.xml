@@ -1,0 +1,1625 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <System name="">
+    <Parameters>
+      <Parameter id="0" name="Save_Game" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="1" name="Wall" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="2" name="gutter_bowling" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="3" name="Play_Game" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="4" name="board_brickles" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="5" name="Install_Game" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="6" name="Class_Diagram" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="7" name="ball_bowling" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="8" name="play_bowling" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="9" name="menu_pong" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="10" name="left_wall_pong" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="11" name="Menu" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="12" name="floor_brickles" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="13" name="game_sprite" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="14" name="Board" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="15" name="lane_bowling" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="16" name="Game_Menu" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="17" name="Uninstall_Game" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="18" name="Point" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="19" name="top_paddle_pong" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="20" name="Size" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="21" name="bowling_game_menu" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="22" name="bottom_paddle_pong" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="23" name="alley_bowling" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="24" name="pin_bowling" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="25" name="puck_supply_brickles" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="26" name="pong_game_menu" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="27" name="menu_brickles" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="28" name="puck_core_assets" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="29" name="brick_brickles" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="30" name="board_pong" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="31" name="check_previous_best_score" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="32" name="Movable_Sprite" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="33" name="Paddle" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="34" name="floor_pong" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="35" name="play_pong" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="36" name="play_brickles" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="37" name="menu_bowling" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="38" name="right_wall_pong" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="39" name="Stationary_Sprite" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="40" name="rack_pins_bowling" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="41" name="Exit_Game" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="42" name="sprite_pair" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="43" name="Arcade_Game" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="44" name="dividing_line_pong" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="45" name="ceiling_pong" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="46" name="Initialization" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="47" name="right_brickles" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="48" name="brick_pile_brickles" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="49" name="Velocity" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="50" name="save_score" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="51" name="left_brickles" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="52" name="edge_bowling" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="53" name="Use_Cases" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="54" name="board_bowling" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="55" name="ceiling_brickles" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="56" name="List_Game" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="57" name="brickles_game_menu" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="58" name="Animation_Loop" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="59" name="score_board_pong" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+      <Parameter id="60" name="Rectangle" type="2">
+        <values>
+          <value>true</value>
+          <value>false</value>
+        </values>
+        <basechoices>
+          <basechoice>true</basechoice>
+          <basechoice>false</basechoice>
+        </basechoices>
+      </Parameter>
+    </Parameters>
+    <OutputParameters />
+    <Relations>
+      <Relation Strength="3" Default="false">
+        <Parameter name="Save_Game">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="Wall">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="gutter_bowling">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="Play_Game">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="board_brickles">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="Install_Game">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="Class_Diagram">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="ball_bowling">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="play_bowling">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="menu_pong">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="left_wall_pong">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="Menu">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="floor_brickles">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="game_sprite">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="Board">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="lane_bowling">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="Game_Menu">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="Uninstall_Game">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="Point">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="top_paddle_pong">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="Size">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="bowling_game_menu">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="bottom_paddle_pong">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="alley_bowling">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="pin_bowling">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="puck_supply_brickles">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="pong_game_menu">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="menu_brickles">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="puck_core_assets">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="brick_brickles">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="board_pong">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="check_previous_best_score">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="Movable_Sprite">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="Paddle">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="floor_pong">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="play_pong">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="play_brickles">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="menu_bowling">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="right_wall_pong">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="Stationary_Sprite">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="rack_pins_bowling">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="Exit_Game">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="sprite_pair">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="Arcade_Game">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="dividing_line_pong">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="ceiling_pong">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="Initialization">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="right_brickles">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="brick_pile_brickles">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="Velocity">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="save_score">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="left_brickles">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="edge_bowling">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="Use_Cases">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="board_bowling">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="ceiling_brickles">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="List_Game">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="brickles_game_menu">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="Animation_Loop">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="score_board_pong">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+        <Parameter name="Rectangle">
+          <value>true</value> 
+          <value>false</value> 
+        </Parameter>
+      </Relation>
+    </Relations>
+    <Constraints>
+      <Constraint text="Arcade_Game">
+        <Parameters>
+          <Parameter name="Arcade_Game" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!Use_Cases || Arcade_Game">
+        <Parameters>
+          <Parameter name="Use_Cases" />
+          <Parameter name="Arcade_Game" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!Arcade_Game || Use_Cases">
+        <Parameters>
+          <Parameter name="Arcade_Game" />
+          <Parameter name="Use_Cases" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!Class_Diagram || Arcade_Game">
+        <Parameters>
+          <Parameter name="Class_Diagram" />
+          <Parameter name="Arcade_Game" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!Arcade_Game || Class_Diagram">
+        <Parameters>
+          <Parameter name="Arcade_Game" />
+          <Parameter name="Class_Diagram" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!check_previous_best_score || Use_Cases">
+        <Parameters>
+          <Parameter name="check_previous_best_score" />
+          <Parameter name="Use_Cases" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!save_score || Use_Cases">
+        <Parameters>
+          <Parameter name="save_score" />
+          <Parameter name="Use_Cases" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!Save_Game || Use_Cases">
+        <Parameters>
+          <Parameter name="Save_Game" />
+          <Parameter name="Use_Cases" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!Use_Cases || Save_Game">
+        <Parameters>
+          <Parameter name="Use_Cases" />
+          <Parameter name="Save_Game" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!Exit_Game || Use_Cases">
+        <Parameters>
+          <Parameter name="Exit_Game" />
+          <Parameter name="Use_Cases" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!Use_Cases || Exit_Game">
+        <Parameters>
+          <Parameter name="Use_Cases" />
+          <Parameter name="Exit_Game" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!Install_Game || Use_Cases">
+        <Parameters>
+          <Parameter name="Install_Game" />
+          <Parameter name="Use_Cases" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!Use_Cases || Install_Game">
+        <Parameters>
+          <Parameter name="Use_Cases" />
+          <Parameter name="Install_Game" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!Uninstall_Game || Use_Cases">
+        <Parameters>
+          <Parameter name="Uninstall_Game" />
+          <Parameter name="Use_Cases" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!Use_Cases || Uninstall_Game">
+        <Parameters>
+          <Parameter name="Use_Cases" />
+          <Parameter name="Uninstall_Game" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!List_Game || Use_Cases">
+        <Parameters>
+          <Parameter name="List_Game" />
+          <Parameter name="Use_Cases" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!Use_Cases || List_Game">
+        <Parameters>
+          <Parameter name="Use_Cases" />
+          <Parameter name="List_Game" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!Play_Game || Use_Cases">
+        <Parameters>
+          <Parameter name="Play_Game" />
+          <Parameter name="Use_Cases" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!Use_Cases || Play_Game">
+        <Parameters>
+          <Parameter name="Use_Cases" />
+          <Parameter name="Play_Game" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!game_sprite || Class_Diagram">
+        <Parameters>
+          <Parameter name="game_sprite" />
+          <Parameter name="Class_Diagram" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!Class_Diagram || game_sprite">
+        <Parameters>
+          <Parameter name="Class_Diagram" />
+          <Parameter name="game_sprite" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!puck_supply_brickles || Class_Diagram">
+        <Parameters>
+          <Parameter name="puck_supply_brickles" />
+          <Parameter name="Class_Diagram" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!Board || Class_Diagram">
+        <Parameters>
+          <Parameter name="Board" />
+          <Parameter name="Class_Diagram" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!Class_Diagram || Board">
+        <Parameters>
+          <Parameter name="Class_Diagram" />
+          <Parameter name="Board" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!Menu || Class_Diagram">
+        <Parameters>
+          <Parameter name="Menu" />
+          <Parameter name="Class_Diagram" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!Class_Diagram || Menu">
+        <Parameters>
+          <Parameter name="Class_Diagram" />
+          <Parameter name="Menu" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!Game_Menu || Class_Diagram">
+        <Parameters>
+          <Parameter name="Game_Menu" />
+          <Parameter name="Class_Diagram" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!Class_Diagram || Game_Menu">
+        <Parameters>
+          <Parameter name="Class_Diagram" />
+          <Parameter name="Game_Menu" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!play_brickles || Play_Game">
+        <Parameters>
+          <Parameter name="play_brickles" />
+          <Parameter name="Play_Game" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!play_pong || Play_Game">
+        <Parameters>
+          <Parameter name="play_pong" />
+          <Parameter name="Play_Game" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!play_bowling || Play_Game">
+        <Parameters>
+          <Parameter name="play_bowling" />
+          <Parameter name="Play_Game" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!Play_Game || play_brickles || play_pong || play_bowling">
+        <Parameters>
+          <Parameter name="Play_Game" />
+          <Parameter name="play_brickles" />
+          <Parameter name="play_pong" />
+          <Parameter name="play_bowling" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!Initialization || Play_Game">
+        <Parameters>
+          <Parameter name="Initialization" />
+          <Parameter name="Play_Game" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!Play_Game || Initialization">
+        <Parameters>
+          <Parameter name="Play_Game" />
+          <Parameter name="Initialization" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!sprite_pair || game_sprite">
+        <Parameters>
+          <Parameter name="sprite_pair" />
+          <Parameter name="game_sprite" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!Rectangle || game_sprite">
+        <Parameters>
+          <Parameter name="Rectangle" />
+          <Parameter name="game_sprite" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!game_sprite || Rectangle">
+        <Parameters>
+          <Parameter name="game_sprite" />
+          <Parameter name="Rectangle" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!Movable_Sprite || game_sprite">
+        <Parameters>
+          <Parameter name="Movable_Sprite" />
+          <Parameter name="game_sprite" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!Stationary_Sprite || game_sprite">
+        <Parameters>
+          <Parameter name="Stationary_Sprite" />
+          <Parameter name="game_sprite" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!game_sprite || Movable_Sprite || Stationary_Sprite">
+        <Parameters>
+          <Parameter name="game_sprite" />
+          <Parameter name="Movable_Sprite" />
+          <Parameter name="Stationary_Sprite" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!board_pong || Board">
+        <Parameters>
+          <Parameter name="board_pong" />
+          <Parameter name="Board" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!board_brickles || Board">
+        <Parameters>
+          <Parameter name="board_brickles" />
+          <Parameter name="Board" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!board_bowling || Board">
+        <Parameters>
+          <Parameter name="board_bowling" />
+          <Parameter name="Board" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!Board || board_pong || board_brickles || board_bowling">
+        <Parameters>
+          <Parameter name="Board" />
+          <Parameter name="board_pong" />
+          <Parameter name="board_brickles" />
+          <Parameter name="board_bowling" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!menu_pong || Menu">
+        <Parameters>
+          <Parameter name="menu_pong" />
+          <Parameter name="Menu" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!menu_brickles || Menu">
+        <Parameters>
+          <Parameter name="menu_brickles" />
+          <Parameter name="Menu" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!menu_bowling || Menu">
+        <Parameters>
+          <Parameter name="menu_bowling" />
+          <Parameter name="Menu" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!Menu || menu_pong || menu_brickles || menu_bowling">
+        <Parameters>
+          <Parameter name="Menu" />
+          <Parameter name="menu_pong" />
+          <Parameter name="menu_brickles" />
+          <Parameter name="menu_bowling" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!pong_game_menu || Game_Menu">
+        <Parameters>
+          <Parameter name="pong_game_menu" />
+          <Parameter name="Game_Menu" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!brickles_game_menu || Game_Menu">
+        <Parameters>
+          <Parameter name="brickles_game_menu" />
+          <Parameter name="Game_Menu" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!bowling_game_menu || Game_Menu">
+        <Parameters>
+          <Parameter name="bowling_game_menu" />
+          <Parameter name="Game_Menu" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!Game_Menu || pong_game_menu || brickles_game_menu || bowling_game_menu">
+        <Parameters>
+          <Parameter name="Game_Menu" />
+          <Parameter name="pong_game_menu" />
+          <Parameter name="brickles_game_menu" />
+          <Parameter name="bowling_game_menu" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!Animation_Loop || Initialization">
+        <Parameters>
+          <Parameter name="Animation_Loop" />
+          <Parameter name="Initialization" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!Initialization || Animation_Loop">
+        <Parameters>
+          <Parameter name="Initialization" />
+          <Parameter name="Animation_Loop" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!Size || Rectangle">
+        <Parameters>
+          <Parameter name="Size" />
+          <Parameter name="Rectangle" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!Rectangle || Size">
+        <Parameters>
+          <Parameter name="Rectangle" />
+          <Parameter name="Size" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!Point || Rectangle">
+        <Parameters>
+          <Parameter name="Point" />
+          <Parameter name="Rectangle" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!Rectangle || Point">
+        <Parameters>
+          <Parameter name="Rectangle" />
+          <Parameter name="Point" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!Velocity || Movable_Sprite">
+        <Parameters>
+          <Parameter name="Velocity" />
+          <Parameter name="Movable_Sprite" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!Movable_Sprite || Velocity">
+        <Parameters>
+          <Parameter name="Movable_Sprite" />
+          <Parameter name="Velocity" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!Paddle || Movable_Sprite">
+        <Parameters>
+          <Parameter name="Paddle" />
+          <Parameter name="Movable_Sprite" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!puck_core_assets || Movable_Sprite">
+        <Parameters>
+          <Parameter name="puck_core_assets" />
+          <Parameter name="Movable_Sprite" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!ball_bowling || Movable_Sprite">
+        <Parameters>
+          <Parameter name="ball_bowling" />
+          <Parameter name="Movable_Sprite" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!pin_bowling || Movable_Sprite">
+        <Parameters>
+          <Parameter name="pin_bowling" />
+          <Parameter name="Movable_Sprite" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!Movable_Sprite || Paddle || puck_core_assets || ball_bowling || pin_bowling">
+        <Parameters>
+          <Parameter name="Movable_Sprite" />
+          <Parameter name="Paddle" />
+          <Parameter name="puck_core_assets" />
+          <Parameter name="ball_bowling" />
+          <Parameter name="pin_bowling" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!Wall || Stationary_Sprite">
+        <Parameters>
+          <Parameter name="Wall" />
+          <Parameter name="Stationary_Sprite" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!brick_brickles || Stationary_Sprite">
+        <Parameters>
+          <Parameter name="brick_brickles" />
+          <Parameter name="Stationary_Sprite" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!brick_pile_brickles || Stationary_Sprite">
+        <Parameters>
+          <Parameter name="brick_pile_brickles" />
+          <Parameter name="Stationary_Sprite" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!ceiling_brickles || Stationary_Sprite">
+        <Parameters>
+          <Parameter name="ceiling_brickles" />
+          <Parameter name="Stationary_Sprite" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!floor_brickles || Stationary_Sprite">
+        <Parameters>
+          <Parameter name="floor_brickles" />
+          <Parameter name="Stationary_Sprite" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!lane_bowling || Stationary_Sprite">
+        <Parameters>
+          <Parameter name="lane_bowling" />
+          <Parameter name="Stationary_Sprite" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!gutter_bowling || Stationary_Sprite">
+        <Parameters>
+          <Parameter name="gutter_bowling" />
+          <Parameter name="Stationary_Sprite" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!edge_bowling || Stationary_Sprite">
+        <Parameters>
+          <Parameter name="edge_bowling" />
+          <Parameter name="Stationary_Sprite" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!alley_bowling || Stationary_Sprite">
+        <Parameters>
+          <Parameter name="alley_bowling" />
+          <Parameter name="Stationary_Sprite" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!rack_pins_bowling || Stationary_Sprite">
+        <Parameters>
+          <Parameter name="rack_pins_bowling" />
+          <Parameter name="Stationary_Sprite" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!score_board_pong || Stationary_Sprite">
+        <Parameters>
+          <Parameter name="score_board_pong" />
+          <Parameter name="Stationary_Sprite" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!floor_pong || Stationary_Sprite">
+        <Parameters>
+          <Parameter name="floor_pong" />
+          <Parameter name="Stationary_Sprite" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!ceiling_pong || Stationary_Sprite">
+        <Parameters>
+          <Parameter name="ceiling_pong" />
+          <Parameter name="Stationary_Sprite" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!dividing_line_pong || Stationary_Sprite">
+        <Parameters>
+          <Parameter name="dividing_line_pong" />
+          <Parameter name="Stationary_Sprite" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!Stationary_Sprite || brick_brickles || brick_pile_brickles || ceiling_brickles || floor_brickles || lane_bowling || gutter_bowling || edge_bowling || alley_bowling || rack_pins_bowling || score_board_pong || floor_pong || ceiling_pong || dividing_line_pong">
+        <Parameters>
+          <Parameter name="Stationary_Sprite" />
+          <Parameter name="brick_brickles" />
+          <Parameter name="brick_pile_brickles" />
+          <Parameter name="ceiling_brickles" />
+          <Parameter name="floor_brickles" />
+          <Parameter name="lane_bowling" />
+          <Parameter name="gutter_bowling" />
+          <Parameter name="edge_bowling" />
+          <Parameter name="alley_bowling" />
+          <Parameter name="rack_pins_bowling" />
+          <Parameter name="score_board_pong" />
+          <Parameter name="floor_pong" />
+          <Parameter name="ceiling_pong" />
+          <Parameter name="dividing_line_pong" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!top_paddle_pong || Paddle">
+        <Parameters>
+          <Parameter name="top_paddle_pong" />
+          <Parameter name="Paddle" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!bottom_paddle_pong || Paddle">
+        <Parameters>
+          <Parameter name="bottom_paddle_pong" />
+          <Parameter name="Paddle" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!Paddle || top_paddle_pong || bottom_paddle_pong">
+        <Parameters>
+          <Parameter name="Paddle" />
+          <Parameter name="top_paddle_pong" />
+          <Parameter name="bottom_paddle_pong" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!left_wall_pong || Wall">
+        <Parameters>
+          <Parameter name="left_wall_pong" />
+          <Parameter name="Wall" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!right_wall_pong || Wall">
+        <Parameters>
+          <Parameter name="right_wall_pong" />
+          <Parameter name="Wall" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!left_brickles || Wall">
+        <Parameters>
+          <Parameter name="left_brickles" />
+          <Parameter name="Wall" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!right_brickles || Wall">
+        <Parameters>
+          <Parameter name="right_brickles" />
+          <Parameter name="Wall" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!Wall || left_wall_pong || right_wall_pong || left_brickles || right_brickles">
+        <Parameters>
+          <Parameter name="Wall" />
+          <Parameter name="left_wall_pong" />
+          <Parameter name="right_wall_pong" />
+          <Parameter name="left_brickles" />
+          <Parameter name="right_brickles" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!play_brickles || menu_brickles">
+        <Parameters>
+          <Parameter name="play_brickles" />
+          <Parameter name="menu_brickles" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="play_brickles || !menu_brickles">
+        <Parameters>
+          <Parameter name="play_brickles" />
+          <Parameter name="menu_brickles" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!play_pong || menu_pong">
+        <Parameters>
+          <Parameter name="play_pong" />
+          <Parameter name="menu_pong" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="play_pong || !menu_pong">
+        <Parameters>
+          <Parameter name="play_pong" />
+          <Parameter name="menu_pong" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!play_bowling || menu_bowling">
+        <Parameters>
+          <Parameter name="play_bowling" />
+          <Parameter name="menu_bowling" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="play_bowling || !menu_bowling">
+        <Parameters>
+          <Parameter name="play_bowling" />
+          <Parameter name="menu_bowling" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!top_paddle_pong || menu_pong">
+        <Parameters>
+          <Parameter name="top_paddle_pong" />
+          <Parameter name="menu_pong" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!bottom_paddle_pong || menu_pong">
+        <Parameters>
+          <Parameter name="bottom_paddle_pong" />
+          <Parameter name="menu_pong" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!left_wall_pong || menu_pong">
+        <Parameters>
+          <Parameter name="left_wall_pong" />
+          <Parameter name="menu_pong" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!right_wall_pong || menu_pong">
+        <Parameters>
+          <Parameter name="right_wall_pong" />
+          <Parameter name="menu_pong" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!score_board_pong || menu_pong">
+        <Parameters>
+          <Parameter name="score_board_pong" />
+          <Parameter name="menu_pong" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!floor_pong || menu_pong">
+        <Parameters>
+          <Parameter name="floor_pong" />
+          <Parameter name="menu_pong" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!ceiling_pong || menu_pong">
+        <Parameters>
+          <Parameter name="ceiling_pong" />
+          <Parameter name="menu_pong" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!dividing_line_pong || menu_pong">
+        <Parameters>
+          <Parameter name="dividing_line_pong" />
+          <Parameter name="menu_pong" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!board_pong || menu_pong">
+        <Parameters>
+          <Parameter name="board_pong" />
+          <Parameter name="menu_pong" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!pong_game_menu || menu_pong">
+        <Parameters>
+          <Parameter name="pong_game_menu" />
+          <Parameter name="menu_pong" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!board_bowling || menu_bowling">
+        <Parameters>
+          <Parameter name="board_bowling" />
+          <Parameter name="menu_bowling" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!ball_bowling || menu_bowling">
+        <Parameters>
+          <Parameter name="ball_bowling" />
+          <Parameter name="menu_bowling" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!pin_bowling || menu_bowling">
+        <Parameters>
+          <Parameter name="pin_bowling" />
+          <Parameter name="menu_bowling" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!lane_bowling || menu_bowling">
+        <Parameters>
+          <Parameter name="lane_bowling" />
+          <Parameter name="menu_bowling" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!gutter_bowling || menu_bowling">
+        <Parameters>
+          <Parameter name="gutter_bowling" />
+          <Parameter name="menu_bowling" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!edge_bowling || menu_bowling">
+        <Parameters>
+          <Parameter name="edge_bowling" />
+          <Parameter name="menu_bowling" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!alley_bowling || menu_bowling">
+        <Parameters>
+          <Parameter name="alley_bowling" />
+          <Parameter name="menu_bowling" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!rack_pins_bowling || menu_bowling">
+        <Parameters>
+          <Parameter name="rack_pins_bowling" />
+          <Parameter name="menu_bowling" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!bowling_game_menu || menu_bowling">
+        <Parameters>
+          <Parameter name="bowling_game_menu" />
+          <Parameter name="menu_bowling" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!brickles_game_menu || menu_brickles">
+        <Parameters>
+          <Parameter name="brickles_game_menu" />
+          <Parameter name="menu_brickles" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!board_brickles || menu_brickles">
+        <Parameters>
+          <Parameter name="board_brickles" />
+          <Parameter name="menu_brickles" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!left_brickles || menu_brickles">
+        <Parameters>
+          <Parameter name="left_brickles" />
+          <Parameter name="menu_brickles" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!right_brickles || menu_brickles">
+        <Parameters>
+          <Parameter name="right_brickles" />
+          <Parameter name="menu_brickles" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!brick_pile_brickles || menu_brickles">
+        <Parameters>
+          <Parameter name="brick_pile_brickles" />
+          <Parameter name="menu_brickles" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!brick_brickles || menu_brickles">
+        <Parameters>
+          <Parameter name="brick_brickles" />
+          <Parameter name="menu_brickles" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!ceiling_brickles || menu_brickles">
+        <Parameters>
+          <Parameter name="ceiling_brickles" />
+          <Parameter name="menu_brickles" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!floor_brickles || menu_brickles">
+        <Parameters>
+          <Parameter name="floor_brickles" />
+          <Parameter name="menu_brickles" />
+        </Parameters>
+      </Constraint>
+      <Constraint text="!puck_supply_brickles || menu_brickles">
+        <Parameters>
+          <Parameter name="puck_supply_brickles" />
+          <Parameter name="menu_brickles" />
+        </Parameters>
+      </Constraint>
+    </Constraints>
+  </System>
